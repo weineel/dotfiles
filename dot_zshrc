@@ -24,13 +24,14 @@ zinit light-mode for \
 
 ### zinit custom start
 
-# 迁移 oh-my-zsh lib 相当于默认加载的插件
-
-zi snippet OMZ::lib/clipboard.zsh
-zi snippet OMZ::lib/termsupport.zsh
-zi snippet OMZ::lib/history.zsh
-zi snippet OMZ::lib/key-bindings.zsh
-zi snippet OMZ::lib/completion.zsh
+# 迁移 oh-my-zsh lib 相当于oh-my-zsh 默认加载的插件
+# lib 目录: https://github.com/ohmyzsh/ohmyzsh/tree/master/lib
+zi snippet OMZL::clipboard.zsh
+zi snippet OMZL::termsupport.zsh
+zi snippet OMZL::history.zsh
+zi snippet OMZL::key-bindings.zsh
+zi snippet OMZL::completion.zsh
+zi snippet OMZL::git.zsh
 
 # Load starship theme
 # `starship` binary as command, from github release
@@ -43,6 +44,9 @@ eval "$(starship init zsh)"
 zinit light Aloxaf/fzf-tab
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
+# docker 简写: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
+zi ice as"completion"
+zi snippet OMZP::docker/_docker
 
 # oh-my-zsh 插件
 zi snippet OMZP::git
