@@ -1,0 +1,1233 @@
+: 1677133406:0;rm *.ext
+: 1677133406:0;rm *.exe
+: 1677133406:0;cd darwin_amd64_server
+: 1677133406:0;sudo ./nps install
+: 1677133406:0;sudo nps start
+: 1677133406:0;vim /var/log/nps.log
+: 1677133406:0;sudo /var/log/nps.log
+: 1677133406:0;sudo vim /var/log/nps.log
+: 1677133406:0;ps -aux nps
+: 1677133406:0;ps -a nps
+: 1677133406:0;ps -u nps
+: 1677133406:0;ps nps
+: 1677133406:0;ls /etc/nps/
+: 1677133406:0;ls -al /usr/local/bin/nps
+: 1677133406:0;sudo nps -h
+: 1677133406:0;sudo nps stop
+: 1677133406:0;sudo nps uninstall
+: 1677133406:0;sudo rm -rf /etc/nps
+: 1677133406:0;.
+: 1677133406:0;cd ..
+: 1677133406:0;ssh 192.168.16.117
+: 1677133406:0;git remote add weineel git@github.com:weineel/ohmyzsh.git
+: 1677133406:0;cat ../.ssh/id_rsa.pub
+: 1677133406:0;git fetch weineel master
+: 1677133406:0;git fetch -h
+: 1677133406:0;git fetch --deepen 5 weineel master
+: 1677133406:0;git log weineel/master
+: 1677133406:0;git cherry-pick c5fc9e5a8419e8a6ffe1764f7e9e1a96ee47da37
+: 1677133406:0;gi tlog
+: 1677133406:0;git config --global --edit
+: 1677133406:0;ls .oh-my-zsh/plugins/
+: 1677133406:0;ls .oh-my-zsh/plugins/history
+: 1677133406:0;vim .oh-my-zsh/plugins/history
+: 1677133406:0;vim .oh-my-zsh/plugins/history-substring-search/README.md
+: 1677133406:0;nvm list
+: 1677133406:0;nvm install Gallium
+: 1677133406:0;echo 'export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"' >> ~/.zshrc
+: 1677133406:0;echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"' >> ~/.zshrc
+: 1677133406:0;brew
+: 1677133406:0;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+: 1677133406:0;/bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/Homebrew/install@HEAD/install.sh)"\
+
+: 1677133406:0;echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/lijufeng/.zprofile
+: 1677133406:0;eval "$(/opt/homebrew/bin/brew shellenv)"
+: 1677133406:0;ls .zprofile
+: 1677133406:0;vim .zprofile
+: 1677133406:0;brew help
+: 1677133406:0;brew update
+: 1677133406:0;brew install n
+: 1677133406:0;n -h
+: 1677133406:0;vim .zsh
+: 1677133406:0;n ls
+: 1677133406:0;n lts
+: 1677133406:0;n ls-remote
+: 1677133406:0;n
+: 1677133406:0;sodu n
+: 1677133406:0;sudo n
+: 1677133406:0;sudo n laster
+: 1677133406:0;sudo n ls-remote
+: 1677133406:0;npm install --register=https://registry.npmmirror.com/ -g nrm
+: 1677133406:0;n uninstall
+: 1677133406:0;sudo n uninstall
+: 1677133406:0;node
+: 1677133406:0;nvm ls-remote
+: 1677133406:0;sudo n lts
+: 1677133406:0;sudo npm install --register=https://registry.npmmirror.com/ -g nrm
+: 1677133406:0;nrm ls
+: 1677133406:0;mkdir -r project/patsnap
+: 1677133406:0;mkdir -p project/patsnap
+: 1677133406:0;git clone git@git.patsnap.com:inno-enterprise/web/innoe-web.git
+: 1677133406:0;cd innoe-web
+: 1677133406:0;sudo npm i -g @antfu/ni
+: 1677133406:0;nps -h
+: 1677133406:0;nps -v
+: 1677133406:0;nps -version
+: 1677133406:0;nps uninstall
+: 1677133406:0;nps stop
+: 1677133406:0;which nps
+: 1677133406:0;ls -l /usr/local/bin/nps
+: 1677133406:0;rm /usr/local/bin/nps
+: 1677133406:0;rm -f /usr/local/bin/nps
+: 1677133406:0;sodo rm -f /usr/local/bin/nps
+: 1677133406:0;sudo rm -f /usr/local/bin/nps
+: 1677133406:0;np
+: 1677133406:0;nps
+: 1677133406:0;tail -f ~/Library/Application\ Support/Google/Chrome/chrome_debug.log
+: 1677133406:0;/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --enable-logging --v=1
+: 1677133406:0;node -v
+: 1677133406:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+: 1677133406:0;ls ./ssh/
+: 1677133406:0;cd .ssh
+: 1677133406:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1677133406:0;yarn 
+: 1677133406:0;brew install yarn
+: 1677133406:0;gco -b fix/IN-41331
+: 1677133406:0;git commit -m 'feat(core): ã€ƒ°SITã€ƒ±safari äººåƒ±ƒ¸èƒ¨æƒ€¼çƒºƒ¤ â€ƒ½åºƒ¯åƒ¯·â€ƒ¼åƒ¨ƒ·å®½åº¦è°ƒ£æƒµ´ï¼ƒ¬æƒ€·å¼ƒ¯ä¿ƒ½æƒ¬ç»ƒ¿ä¸€'
+: 1677133406:0;ã€‚ã€‚
+: 1677133406:0;git clone git@git.patsnap.com:inno-enterprise/web/innoe-mobile.git
+: 1677133406:0;nrm use taobao
+: 1677133406:0;yarn build
+: 1677133406:0;../innoe-mobile 
+: 1677133406:0;../innoe-web
+: 1677133406:0;cdoe .
+: 1677133406:0;j s
+: 1677133406:0;git-cz
+: 1677133406:0;yarn run git-cz
+: 1677133406:0;cd project/
+: 1677133406:0;mkdir weineel
+: 1677133406:0;cd weineel
+: 1677133406:0;git clone git@github.com:weineel/notebook.git
+: 1677133406:0;cd notebook
+: 1677133406:0;gb -d fix/IN-42456
+: 1677133406:0;gco -b fix/IN-42456
+: 1677133406:0;git commit -m 'feat(core): èƒ¨åƒ­ƒµäºƒ«ä»¶éƒ¥ƒ­ç½®ï¼ƒ¬ä»£çƒ°ƒ¦äººèƒ¨æƒ€¼ åƒ¯ƒ¶å€¼åƒ¯¯ä»¥åƒ®»ä»£çƒ°ƒ¦æƒ©€çƒºƒ¤å­ƒ·æ®µã€‚'
+: 1677133406:0;git commit -m 'feat(core): ã€ƒ°SITã€ƒ±å¥ƒ¶éƒ§ƒ±ç®ƒçƒ°ƒ¦-- å¥ƒ¶éƒ§ƒ±æƒ¸ƒ®ç»ƒ¦è§ƒ¦åƒ»¾å±ƒµç¤ºæƒµ°æƒ­®ä¸ƒ­æ­£çƒ®'
+: 1677133406:0;nr server
+: 1677133406:0;gst 
+: 1677133406:0;gco fix/IN-42553
+: 1677133406:0;gco fix/IN-42456
+: 1677133406:0;gb -m fix/IN-42456 IN-42553
+: 1677133406:0;git fetch feature/IN-37646
+: 1677133406:0;git fetch origin feature/IN-37646
+: 1677133406:0;git fetch origin feature/IN-37646-m10
+: 1677133406:0;git fetch origin feature/IN-37646-M10
+: 1677133406:0;~/project/patsnap/innoe-mobile
+: 1677133406:0;gco -b fix/IN-42514
+: 1677133406:0;git commit -m 'fix(core): IN-42514 ã€ƒ°SITã€ƒ±èƒ¨åƒ­ƒµäºƒ«ä»¶å¤ƒ¤ï¼ƒ¬é»ƒ¸è®¤å­ƒ¸åƒ¼¨å€¼çƒºƒ¤æƒ£ƒ¥åƒ¦µä¸ƒ«ï¼ƒ¬ï¼ƒ¬äººåƒ±ƒ¸å­ƒ·æ®µåƒ¯ƒ¶ä¸ƒ­åƒ¨°å€¼(æƒ¼€ç»ƒ¨å®ƒºä½ƒ­ï¼ƒºä¸ƒºåƒªƒå­ƒ·æ®µæƒ¸¯åƒ¯¯ä»¥åƒ¯ƒ¶åƒ¨°é»ƒ¸è®¤å€¼ï¼ƒ¬äºƒ«éƒ¹å­ƒ·æ®µåƒ¯ƒ¶å€¼ä¸ƒ­åƒ¨°)'
+: 1677133406:0;git commit -m 'feat: åƒ¨¤ç©ºé€»è¾ƒ±ä¿®æƒ´¹'
+: 1677133406:0;git commit -m 'feat(core): IN-42584 æƒµ°æƒ­®æƒ‚å¤ƒ­èµ°ä¸¤æ¬ƒï¼ƒ¬åƒ¥ƒ¨èµ°ä¸ƒ­è·¨ç§ƒ¿æƒ¨·çƒºƒ¤ï¼ƒ¬åƒ¦ƒ­èµ°è·¨ç§ƒ¿æƒ¨·çƒºƒ¤'
+: 1677133406:0;git commit -m 'feat(core): form-render æ¸²æƒ¿ƒ³é€»è¾ƒ±ä¿®æƒ´¹'
+: 1677133406:0;gco -b feature/IN-00000
+: 1677133406:0;git commit -m 'feat(core): ä¿®æƒ´¹ iql åƒªƒ€å¯ƒ¦æƒ¶¹å¼ƒ¯'
+: 1677133406:0;gco feature/IN-37646-M10
+: 1677133406:0;sst
+: 1677133406:0;git commit -m 'fix(login): å¿ƒ¸è®°å¯ƒ¦çƒ€è¾ƒ³åƒ¥¥æƒƒ¦çƒ»´æƒ®¥åƒ»ƒ¾è½¦ï¼ƒ¬ä¼ƒºåƒ¨·æƒ¶°éƒµéƒ½ƒ‚çƒºƒ¤éƒ·®éƒ‚ƒ¸'
+: 1677133406:0;git commit -m 'fix(core): å¿ƒ¸è®°å¯ƒ¦çƒ€è¾ƒ³åƒ¥¥æƒƒ¦çƒ»´æƒ®¥åƒ»ƒ¾è½¦ï¼ƒ¬ä¼ƒºåƒ¨·æƒ¶°éƒµéƒ½ƒ‚çƒºƒ¤éƒ·®éƒ‚ƒ¸'
+: 1677133406:0;goc commit -m 'feat(trademark): IN-42596 ã€ƒ°SITã€ƒ±ç‚¹åƒ§»åƒµƒ¦æƒ€ƒ§æ³¨éƒ´€æµç¨ƒ«æƒª¥éƒ´ƒ¹ï¼ƒ¨ä¸ƒ­çƒ¿¥éƒ³æƒ¸¯åƒ°¦åƒ²ƒ¬ç§»åƒª¨ç«¯æƒ¯ƒ°äº¤æƒ¼ƒ©åƒ¥³ï¼ƒ¬è¯·æƒ®ƒ²æƒ¿¥ï¼ƒ©'
+: 1677133406:0;git commit -m 'feat(trademark): IN-42596 ã€ƒ°SITã€ƒ±ç‚¹åƒ§»åƒµƒ¦æƒ€ƒ§æ³¨éƒ´€æµ ç¨ƒ«æƒª¥éƒ´ƒ¹ï¼ƒ¨ä¸ƒ­çƒ¿¥éƒ³æƒ¸¯åƒ°¦åƒ²ƒ¬ç§»åƒª¨ç«¯æƒ¯ƒ°äº¤æƒ¼ƒ©åƒ¥³ï¼ƒ¬è¯·æƒ®ƒ²æƒ¿¥ï¼ƒ©'
+: 1677133406:0;git commit -m 'feat(core): æ¸ƒ¥æ¥ƒºä¸ƒ­éƒ¼€è¦çƒºƒ¤æƒµ°æƒ­®æƒ‚å¤ƒ­ä»£çƒ€'
+: 1677133406:0;git commit -m 'fix(core): IN-42603 ã€ƒ°SITã€ƒ±ã€ƒ°safariã€ƒ±æµƒ¯è§ƒ¨åƒ¹¨ä¸ƒ«ï¼ƒ¬ä¸ƒ³åƒ¨©æƒ¶ƒ§æƒ£ä¸ºåƒ¬¹éƒ¥ƒ­çƒºƒ¤ç»ƒ³æƒ¾ƒ¼å±ƒµç¤ºä¸ƒ­åƒ¥¨'
+: 1677133406:0;cd project/weineel/notebook/
+: 1677133406:0;git commit -m 'feat: ç§»åƒª¨ç«¯æƒ¶ƒ§æƒ£'
+: 1677133406:0;git clone git@git.patsnap.com:jufeng.li/inno-lane.git
+: 1677133406:0;python3 -V
+: 1677133406:0;cd inno-lane
+: 1677133406:0;psd
+: 1677133406:0;cwd
+: 1677133406:0;lgsc
+: 1677133406:0;pip3 install pipenv
+: 1677133406:0;pip
+: 1677133406:0;python -V
+: 1677133406:0;brew install pipenv
+: 1677133406:0;pipenv -V
+: 1677133406:0;rm -rf /Users/lijufeng/.local/share/virtualenvs
+: 1677133406:0;ls /Users/lijufeng/.local/share/virtualenvs
+: 1677133406:0;/usr/bin/python3 -m pip install -U pytest
+: 1677133406:0;/Users/lijufeng/project/patsnap/inno-lane/.venv/bin/python -m pip install -U pytest
+: 1677133406:0;pip uninstall pytest
+: 1677133406:0;pipenv-setup -V
+: 1677133406:0;pipenv
+: 1677133406:0;pipenv --rm
+: 1677133406:0;pipenv install -h
+: 1677133406:0;pipenv install --dev
+: 1677133406:0;pipenv install -d
+: 1677133406:0;sudo pipenv install -d
+: 1677133406:0;pipenv shell
+: 1677133406:0;pip install pytest="~=6.2"
+: 1677133406:0;pip install pytest="6.2"
+: 1677133406:0;pip install pytest=="6.2"
+: 1677133406:0;pip install pytest-mock=="*"
+: 1677133406:0;pip install pytest-moc
+: 1677133406:0;pip install pytest-mock
+: 1677133406:0;cd project/patsnap
+: 1677133406:0;git clone git@git.patsnap.com:jufeng.li/inno-templates.git
+: 1677133406:0;pytest .
+: 1677133406:0;pipenv install
+: 1677133406:0;pipenv install jira
+: 1677133406:0;/Users/lijufeng/project/patsnap/inno-lane/.venv/bin/python /Users/lijufeng/project/patsnap/inno-lane/inno_lane/cli.py
+: 1677133406:0;vim ~/.netrc
+: 1677133406:0;rm ~/.netrc
+: 1677133406:0;python inno_lane/cli.py -r 2 -p IN-42822
+: 1677133406:0;python ./inno_lane/cli.py jira cst -r 2 -p IN-42822
+: 1677133406:0;git commit -m 'feat: æ·»åƒªƒ€jira å­ƒ°åƒ±½ä»¤ï¼ƒ¬å®ƒ¾çƒ®°åƒ¨ƒ»å»º jira å­ƒ°ä»»åƒªƒ'
+: 1677133406:0;python ./inno_lane/cli.py jira cst -r 1 -p IN-42636
+: 1677133406:0;python ./inno_lane/cli.py jira cst -r 1 -p IN-42813
+: 1677133406:0;git commit -m 'feat: æƒ»´æƒ¶° jira å­ƒ°åƒ±½ä»¤çƒºƒ¤éƒ¥ƒ­ç½®æƒ¶ƒ§æƒ£'
+: 1677133406:0;inno-lane
+: 1677133406:0;print $PYTHONPATH
+: 1677133406:0;python3 inno_lane/cli.py -h
+: 1677133406:0;vim ~/.zshrc 
+: 1677133406:0;pip3 show
+: 1677133406:0;pip list
+: 1677133406:0;print PATH
+: 1677133406:0;print $PATH
+: 1677133406:0;which pip3
+: 1677133406:0;which python
+: 1677133406:0;which python2
+: 1677133406:0;ll pip3
+: 1677133406:0;../Cellar/
+: 1677133406:0;ll python@3.10
+: 1677133406:0;cd python@3.10
+: 1677133406:0;cd 3.10.7
+: 1677133406:0;ll lib
+: 1677133406:0;cd lib
+: 1677133406:0;pop3 -V
+: 1677133406:0;ls /opt/homebrew/lib/python3.10
+: 1677133406:0;pip3 install -e ./inno-lane
+: 1677133406:0;/usr/local/bin/python3
+: 1677133406:0;ls /usr/local/bin/python3
+: 1677133406:0;which python3
+: 1677133406:0;ls /opt/homebrew/bin/python3
+: 1677133406:0;cd /opt/homebrew/bin/python3/
+: 1677133406:0;ll /opt/homebrew/bin/python3
+: 1677133406:0;ls /opt/homebrew/bin/Cellar/python@3.10/3.10.7/bin/python3
+: 1677133406:0;cd /opt/homebrew/bin
+: 1677133406:0;cd Cellar/python@3.10/3.10.7/bin
+: 1677133406:0;pip3 -h
+: 1677133406:0;/opt/homebrew/lib/python3.10/site-packages
+: 1677133406:0;ls pip/py.typed
+: 1677133406:0;vim pip/py.typed
+: 1677133406:0;ls inno-lane.egg-link
+: 1677133406:0;vim inno-lane.egg-link
+: 1677133406:0;echo $PYTHONPATH
+: 1677133406:0;python3 -m pip list
+: 1677133406:0;/Users/lijufeng/project/patsnap/inno-lane -v
+: 1677133406:0;python3 /Users/lijufeng/project/patsnap/inno-lane -v
+: 1677133406:0;brew install python3
+: 1677133406:0;ls /opt/homebrew/lib/python3.10/site-packages
+: 1677133406:0;/opt/homebrew/opt/python@3.10/libexec/bin
+: 1677133406:0;pip3 install pytest
+: 1677133406:0;pip3 install -U pytest
+: 1677133406:0;pytest -V
+: 1677133406:0;pip3 list
+: 1677133406:0;which pytest
+: 1677133406:0;/opt/homebrew/bin
+: 1677133406:0;ll inno-lane
+: 1677133406:0;./inno-lane -V
+: 1677133406:0;inno-lane -v
+: 1677133406:0;pip install -h
+: 1677133406:0;pip3 install -h
+: 1677133406:0;inno-lane -V
+: 1677133406:0;echo $PATH
+: 1677133406:0;inno-lane --help
+: 1677133406:0;inno-lane jira --help
+: 1677133406:0;~/project/patsnap/inno-lane
+: 1677133406:0;inno-lane jira cst --help
+: 1677133406:0;inno-lane jira cst -h
+: 1677133406:0;inno-lane jira cst -r 1 -p IN-42815
+: 1677133406:0;gco feature/IN-37646
+: 1677133406:0;lgsc feature/IN-42812
+: 1677133406:0;npm i dingtalk-design-cli@0.20.4 -g
+: 1677133406:0;npm i dingtalk-design-cli -g
+: 1677133406:0;yarn add global dingtalk-design-cli
+: 1677133406:0;ding -V
+: 1677133406:0;yarn add remove dingtalk-design-cli
+: 1677133406:0;sudo npm i dingtalk-design-cli -g
+: 1677133406:0;ding -v
+: 1677133406:0;ding dev web --targetH5Url http://192.168.16.117:8080/innoe-mobile/
+: 1677133406:0;sudo npm uninstall dingtalk-design-cli -g
+: 1677133406:0;git add inno_lane/
+: 1677133406:0;git commit -m 'feat(jira): å­ƒ°ä»»åƒªƒé»ƒ¸è®¤ åƒ®ƒ¿å§ƒ«éƒ‚ƒ¤ä¼° 1d'
+: 1677133406:0;v2ray start
+: 1677133406:0;brew unistall v2ray
+: 1677133406:0;brew install v2ray
+: 1677133406:0;vim /opt/homebrew/etc/v2ray/config.json
+: 1677133406:0;v2ray -V
+: 1677133406:0;v2ray -d
+: 1677133406:0;ifconfig | grep 192.168.
+: 1677133406:0;inno-lane jira cst -r 1 -p IN-43383
+: 1677133406:0;inno-lane jira cst -r 4 -p IN-43465
+: 1677133406:0;gco -b fix/IN-43662
+: 1677133406:0;git commit -m 'fix(core): IN-43662 ã€ƒ°ç§»åƒª¨ç«¯ã€ƒ±éƒ¹ƒ¤åƒ»¾ç»ƒ¤ä»¶éƒ¥ƒ­ç½®åƒ¼¨èƒ¨åƒ­ƒµä¸­ï¼ƒ¬æƒ¯ƒ°ç¤ºç§»åƒª¨ç«¯ä¸ƒ­æƒ´¯æƒ¬'
+: 1677133406:0;inno-lane jira cst -r 2 -p IN-43835
+: 1677133406:0;inno-lane jira cst -o 1 -r 1 -p IN-43835
+: 1677133406:0;git commit -m 'feat(jira): cst åƒ±½ä»¤ï¼ƒ¬æƒ´¯æƒ¬è®¾ç½®å­ƒ°ä»»åƒªƒçƒºƒ¤åƒ®ƒ¿å§ƒ«éƒ‚ƒ¤ä¼°ï¼ƒ¬é»ƒ¸è®¤ 0d'
+: 1677133406:0;openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'
+: 1677133406:0;sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z
+: 1677133406:0;sudo ifconfig en0 ether 9f:75:d6:1d:86:99
+: 1677133406:0;networksetup -detectnewhardwar
+: 1677133406:0;networksetup -detectnewhardware
+: 1677133406:0;
+: 1677133406:0;ifconfig
+: 1677133406:0;git commit -m 'feat: æƒ¶ƒ§ä»¶åƒ¨ƒ·èƒ¨åƒ¿ºæƒ¼¬ç»ƒ³æƒ¾ƒ¤'
+: 1677133406:0;git commit -m 'feat(document): æƒ¶ƒ§æƒ£ä¸ƒªä¼ƒ€ç»ƒ¤ä»¶ å­ƒ·æ®µåƒ¨ƒ·èƒ¨éƒ¥ƒ­ç½®çƒºƒ¤æƒ¼ºåƒ¨¶è·ƒ±é€ƒº'
+: 1677133406:0;git commit -m 'feat(core): æƒ¶ƒ§æƒ£ä¸ƒªä¼ƒ€ç»ƒ¤ä»¶ å­ƒ·æ®µåƒ¨ƒ·èƒ¨éƒ¥ƒ­ç½®çƒºƒ¤æƒ¼ºåƒ¨¶è·ƒ±é€ƒº'
+: 1677133406:0;lgsc 
+: 1677133406:0;lgsc nst-fix-IN-43846
+: 1677133406:0;git merge nst-fix-IN-43846
+: 1677133406:0;gco -b fix/IN-43561
+: 1677133406:0;git commit -m 'feat: IN-43561 å¤ƒ¤çƒ°ƒ¦æƒ¨ƒ°åƒªƒ¿åƒ°ƒ®åƒ¨ƒ·èƒ¨æ²ƒæƒ¼ƒ©åƒ¨·æƒ¶°'
+: 1677133406:0;git commit -m 'fix(core): IN-43888 é€ƒ©éƒ¹å­ƒ·æ®µå€¼ä¸º0æƒ·¶ï¼ƒ¬ä¸ºç©ºçƒºƒ¤æƒ½ƒä»¶åƒ¨¤æƒ¶­éƒ´ƒ¹è¯¯'
+: 1677133406:0;git add . 
+: 1677133406:0;git commit -m 'feat(core): æƒ¶ƒ§æƒ£ä¸ƒªä¼ƒ€ç»ƒ¤ä»¶ æƒ¶ƒ§æƒ£åƒ°ƒ­ç§°å­ƒ·æ®µ'
+: 1677133406:0;git reset --hard 935eec6be4
+: 1677133406:0;git commit -m 'feat(core): æƒ¶ƒ§æƒ£ä¸ƒªä¼ƒ€ç»ƒ¤ä»¶ åƒ‚ƒ¾åƒªƒ€å¿ƒ¥è¦å­ƒ·æ®µ'
+: 1677133406:0;git add . && git cz
+: 1677133406:0;gco fix/IN-43888
+: 1677133406:0;gb -d fix/IN-43888
+: 1677133406:0;gco gco master
+: 1677133406:0;gco -b fix/IN-43888
+: 1677133406:0;inno-lane jira cst -r 1 -p IN-43837
+: 1677133406:0;inno-lane jira cst -r 5 -p IN-43838
+: 1677133406:0;inno-lane jira cst -r 1 -p IN-43835
+: 1677133406:0;inno-lane jira cst -r 2 -p IN-43841
+: 1677133406:0;lgsc fix/IN-44316
+: 1677133406:0;gb -D fix/IN-44316
+: 1677133406:0;gco -b fix/IN-44316
+: 1677133406:0;git mrege featrue/IN_40505
+: 1677133406:0;git merge featrue/IN-40505
+: 1677133406:0;pnpm -v
+: 1677133406:0;brew install pnpm
+: 1677133406:0;cd project/patsnap/
+: 1677133406:0;mkdir mobile-tech-share
+: 1677133406:0;cd mobile-tech-share
+: 1677133406:0;rm -rf mobile-tech-share
+: 1677133406:0;npm init slidev
+: 1677133406:0;cd project/patsnap/mobile-tech-share
+: 1677133406:0;cd ~/project/patsnap/mobile-tech-share
+: 1677133406:0;nr dev
+: 1677133406:0;git init
+: 1677133406:0;git commit -m 'feat: å®ƒ¬æƒ¨ƒ° ç§»åƒª¨ç«¯åƒ¨ƒ¦äº« å¹»ç¯çƒ©ƒ§'
+: 1677133406:0;git remote add origin git@git.patsnap.com:jufeng.li/mobile-tech-share.git
+: 1677133406:0;pnpm
+: 1677133406:0;pnpm dev
+: 1677133406:0;git commit -m 'feat: æ·»åƒªƒ€æ³¨éƒ§ƒª'
+: 1677133406:0;gco -b feature/IN-40505--temp
+: 1677133406:0;git reset --hard 786faef6408dcfa2c904f49145c0498046d2760d
+: 1677133406:0;git cherry-pick 9ad3d74f705b43653fbed9dcfbed37abc9134791
+: 1677133406:0;git log feature/IN-40505--temp
+: 1677133406:0;git rebase feature/IN-40505--temp
+: 1677133406:0;gb -d feature/IN-40505--temp
+: 1677133406:0;gco -b feature/IN-43838
+: 1677133406:0;gpush
+: 1677133406:0;git merge feature/IN-43838
+: 1677133406:0;git mrege feature/IN-40505
+: 1677133406:0;git mreget --abory
+: 1677133406:0;git mreget --abort
+: 1677133406:0;gut merge --abort
+: 1677133406:0;ggpuull
+: 1677133406:0;inno-lane jira cst -r 4 -p IN-44769
+: 1677133406:0;git clone -b feature/IN-40505 origin
+: 1677133406:0;git clone -b feature/IN-40505 git@git.patsnap.com:inno-enterprise/web/innoe-web.git
+: 1677133406:0;git clone -b feature/IN-40505 git@git.patsnap.com:inno-enterprise/web/innoe-web.git innoe-web1
+: 1677133406:0;cd innoe-mobile
+: 1677133406:0;git clone git@git.patsnap.com:inno-enterprise/saas/tech-platform/innop-web-components.git
+: 1677133406:0;git clone git@git.patsnap.com:inno-enterprise/saas/enterprise/innoe-web-patent.git 
+: 1677133406:0;cd innoe-web-patent
+: 1677133406:0;cd innoe-web1
+: 1677133406:0;lgsc ci
+: 1677133406:0;ping 192.168.16.117
+: 1677133406:0;cd ../innoe-web
+: 1677133406:0;../innoe-web1
+: 1677133406:0;gco fix/IN-44957
+: 1677133406:0;~/project/patsnap/innoe-web1
+: 1677133406:0;git apply xxx.diff
+: 1677133406:0;gco -b fix/IN-45161
+: 1677133406:0;gco -b IN-00000
+: 1677133406:0;gb -d fix/IN-00000
+: 1677133406:0;gco -b fix/IN-44634
+: 1677133406:0;gco -b fix/IN-45221
+: 1677133406:0;gco -b IN-45291
+: 1677133406:0;gco -b fix/IN-45291
+: 1677133406:0;...
+: 1677133406:0;cd project/weineel/notebook
+: 1677133406:0;lgsc hotfix/ci
+: 1677133406:0;gco -b fix/IN-45503
+: 1677133406:0;far
+: 1677133406:0;gco -b fix/IN-45568
+: 1677133406:0;gco -b fix/IN-45573
+: 1677133406:0;gco -b fix/IN-45571
+: 1677133406:0;gco -b fix/IN-45509
+: 1677133406:0;gco -b fix/IN-45604
+: 1677133406:0;gco hotfix/ci
+: 1677133406:0;git rebase --continue
+: 1677133406:0;pnr s
+: 1677133406:0;touch sss.txt
+: 1677133406:0;yarn add global ts-node
+: 1677133406:0;yarn global add ts-node
+: 1677133406:0;ts-node -v
+: 1677133406:0;ts-node src/packages/components/business/src/components/Document/components/file-uploader/default-support-files.ts
+: 1677133406:0;yarn add @vue/cli-plugin-unit-jest/presets/typescript-and-babel
+: 1677133406:0;yarn add @vue/cli-plugin-unit-jest/presets/typescript-and-babel -W
+: 1677133406:0;vue add unit-jest
+: 1677133406:0;npx vue add unit-jest
+: 1677133406:0;npx jest -v
+: 1677133406:0;npx jest
+: 1677133406:0;yarn add @babel/preset-typescript -W
+: 1677133406:0;yarn test:unit
+: 1677133406:0;git status
+: 1677133406:0;cls
+: 1677133406:0;clear
+: 1677133406:0;git push
+: 1677133406:0;git push --set-upstream origin feature/IN-40505
+: 1677133406:0;ls ..
+: 1677133406:0;git mrege --abort
+: 1677133406:0;gco  
+: 1677133406:0;git merge feature/IN-40505
+: 1677133406:0;nr servegst
+: 1677133406:0;ggst
+: 1677133406:0;gcgco master
+: 1677133406:0;gco -b feature/IN-43843
+: 1677133406:0;git log feature/IN-40505
+: 1677133406:0;git push origin feature/IN-40505
+: 1677133406:0;git rebase master
+: 1677133406:0;lgsc feature/IN-40505
+: 1677133406:0;git cz 
+: 1677133406:0;gco feature/IN-43843
+: 1677133406:0;gsti
+: 1677133406:0;nr servre
+: 1677133406:0;gco -b fix/IN-45943
+: 1677133406:0;ggpusll
+: 1677133406:0;lgsc feature/IN-43843
+: 1677133406:0;git reflog
+: 1677133406:0;lgsc IN-41691
+: 1677133406:0;gco -b fix/IN-41691
+: 1677133406:0;gco -b fi/IN-41691
+: 1677133406:0;ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9\
+
+: 1677133406:0;ggpul
+: 1677133406:0;gco fix/IN-44444
+: 1677133406:0;gco -b fix/IN-44444
+: 1677133406:0;cd ~/project/patsnap/innoe-web
+: 1677133406:0;code
+: 1677133406:0;git restore .
+: 1677133406:0;lgsc feature/IN-43842
+: 1677133406:0;lgsc -b feature/IN-43842
+: 1677133406:0;gc -b feature/IN-43842
+: 1677133406:0;gco -b feature/IN-43842
+: 1677133406:0;gco -b fix/IN-46124
+: 1677133406:0;lgsc v7.21.9
+: 1677133406:0;gb -D feature/IN-40505
+: 1677133406:0;gco -b feature/IN-40505
+: 1677133406:0;gco fix/IN-46124
+: 1677133406:0;ggull
+: 1677133406:0;gco -b fix/IN-46256
+: 1677133406:0;cat << lll.txt\
+fee\
+EOF\
+\
+ff
+: 1677133406:0;cat > test.txt\
+fee\
+EOF\
+\
+ff
+: 1677133406:0;cat > text.txt
+: 1677133406:0;cat test.txt
+: 1677133406:0;ls test.txt
+: 1677133406:0;rm test.txt
+: 1677133406:0;cat > text.txt <<EOF\
+sss\
+fe\
+EOF
+: 1677133406:0;cat text.txt
+: 1677133406:0;cat > ss.txt <<EOF\
+fff\
+ddd\
+EOF
+: 1677133406:0;rm text.txt
+: 1677133406:0;cat > ss.txt <<EOB\
+fff\
+ddd\
+EOB
+: 1677133406:0;cat << EOB\
+ss\
+sss\
+EOB
+: 1677133406:0;cat < jest.config.js
+: 1677133406:0;cat ss.txt < jest.config.js
+: 1677133406:0;cat jest.config.js > ss.txt
+: 1677133406:0;cat > ss.txt <<EOF\
+fff\
+ddd\
+EOF\
+ffff\
+sssss
+: 1677133406:0;cat > ss.txt <<EOF\
+fff\
+ddd\
+EOF\
+ls\
+sssss
+: 1677133406:0;cat > ss.txt <<EOF\
+fff\
+ddd\
+EOF\
+ls\
+EOFsssss
+: 1677133406:0;cat > ss.txt <<EOF\
+fff\
+ddd\
+EOF\
+ls\
+EOF
+: 1677133406:0;cat ss.txt <<EOF\
+fff\
+ddd\
+EOF
+: 1677133406:0;cat > ss.txt <<EOF\
+init.sh\
+EOF
+: 1677133406:0;ls init.sh
+: 1677133406:0;cat < ss.txt
+: 1677133406:0;ls < ss.txt
+: 1677133406:0;rm ss.txt
+: 1677133406:0;yarn
+: 1677133406:0;yarnx webpack serve --static dist
+: 1677133406:0;yarn -h
+: 1677133406:0;yarn exec webpack serve --static dist
+: 1677133406:0;npx webpack serve --static dist
+: 1677133406:0;yarn dir
+: 1677133406:0;npx http-serve dist --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;echo $PROXY_SERVER
+: 1677133406:0;yarn static
+: 1677133406:0;gb -D fix/IN-00000
+: 1677133406:0;gco -b fix/IN-00000
+: 1677133406:0;gco -b fix/IN-46317
+: 1677133406:0;yarn static http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve dist --proxy
+: 1677133406:0;yarn static http://xzall.qa-st.innosnap.com -c-1
+: 1677133406:0;yarn static http://xzall.qa-st.innosnap.com -p 8081
+: 1677133406:0;npx http-serve . --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -c-1 --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -c -1 --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -c -1 --proxy http://xzall.qa-st.innosnap.com -o
+: 1677133406:0;npx http-serve . -c -1 -o /innoe-web --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -c -1 -o /innoe-web/ --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -c -1 -o  --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -o --proxy http://xzall.qa-st.innosnap.com
+: 1677133406:0;npx http-serve . -o --proxy http://xzall.qa-st.innosnap.com -c-1
+: 1677133406:0;curl http://192.168.16.4:8080/innoe-web/patent/cn-detail/1524117415133219\?X-Consumer-Sub-Company-Sid\=1000000000000001
+: 1677133406:0;npx http-serve ./innoe-web -o --proxy http://xzall.qa-st.innosnap.com -c-1
+: 1677133406:0;gb -D fix/IN-40505
+: 1677133406:0;gco -b fix/IN-40505
+: 1677133406:0;inno-lane -h
+: 1677133406:0;inno-lane gen -h
+: 1677133406:0;inno-lane git -h
+: 1677133406:0;cd project/patsnap/inno-lane
+: 1677133406:0;inno-lane jira -h
+: 1677133406:0;pipenv -h
+: 1677133406:0;/Users/lijufeng/project/patsnap/inno-lane/.venv/bin/python /Users/lijufeng/project/patsnap/inno-lane/inno_lane/modules/iql/__test__/test_decrypt.py
+: 1677133406:0;pipenv install pycrypto
+: 1677133406:0;pipenv install cryptography
+: 1677133406:0;pipenv uninstall rsa
+: 1677133406:0;pipenv install rsa
+: 1677133406:0;inno-lan iql decode -h
+: 1677133406:0;pipenv-setup -h
+: 1677133406:0;pip -v
+: 1677133406:0;pip install pipenv-setup
+: 1677133406:0;pipenv-setup --help
+: 1677133406:0;pip install vistir
+: 1677133406:0;pip uninstall vistir
+: 1677133406:0;pip -V
+: 1677133406:0;pip3 -V
+: 1677133406:0;pip3 install pipenv-setup
+: 1677133406:0;pipenv-setup sync
+: 1677133406:0;pip3 uninstall pipenv-setup
+: 1677133406:0;pip3 install -e .
+: 1677133406:0;inno-lane iql decode Ow2mAbgrV+/MlmvOL7Mis/twOAXGDZEUycRZE7muV4uDYQJG/gO6whLJ/BjENAg73aQ1lGkaUCk0uDzmBBOHHIrRxefYJ1Nb5mnXc7Lihv3y38AopBs2JtCYaqX5jf0dcXDHTyoz4OGSvExjQOP/w474Mjh+r/9KtCFXZLurAtw= -p 88
+: 1677133406:0;gco -b feature/iql-#1
+: 1677133406:0;inno-lane iql decode -h
+: 1677133406:0;inno-lane iql decode Ow2mAbgrV+/MlmvOL7Mis/twOAXGDZEUycRZE7muV4uDYQJG/gO6whLJ/BjENAg73aQ1lGkaUCk0uDzmBBOHHIrRxefYJ1Nb5mnXc7Lihv3y38AopBs2JtCYaqX5jf0dcXDHTyoz4OGSvExjQOP/w474Mjh+r/9KtCFXZLurAtw= 
+: 1677133406:0;kill -9 20390
+: 1677133406:0;vim ~/.innolanerc
+: 1677133406:0;gb -m feature/iql-#1 feature/iql-#3
+: 1677133406:0;inno-lane iql decode Ow2mAbgrV+/MlmvOL7Mis/twOAXGDZEUycRZE7muV4uDYQJG/gO6whLJ/BjENAg73aQ1lGkaUCk0uDzmBBOHHIrRxefYJ1Nb5mnXc7Lihv3y38AopBs2JtCYaqX5jf0dcXDHTyoz4OGSvExjQOP/w474Mjh+r/9KtCFXZLurAtw=
+: 1677133406:0;\
+sid > 0 ORDER BY updated_at DESC\
+
+: 1677133406:0;brew install auto-jump
+: 1677133406:0;git clone git@git.patsnap.com:hao.chen/nice-classification-crawler.git
+: 1677133406:0;cd nice-classification-crawler
+: 1677133406:0;source /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/activate
+: 1677133406:0;yarn add read-excel-file
+: 1677133406:0;yarn run excel
+: 1677133406:0;yarn remove read-excel-file
+: 1677133406:0;yarn add xlsx
+: 1677133406:0;arn run start
+: 1677133406:0;yarn run start
+: 1677133406:0;yarn excel
+: 1677133406:0;nr excel
+: 1677133406:0;git checkout 1e9d88d17d8df6ae01322c17b2377cf7849e5083
+: 1677133406:0;git checkout -b hotfix/v-search
+: 1677133406:0;gco -b fix/IN-46436
+: 1677133406:0;npx cz --retry
+: 1677133406:0;git cherry-pick c9b80cb4950d8a32d5f37ba07bfb2cfbe8a1fed8
+: 1677133406:0;gco -b feature/IN-39838
+: 1677133406:0;gco -b fix/IN-46437
+: 1677133406:0;git add src/setup/router-hooks.ts
+: 1677133406:0;npx cz 
+: 1677133406:0;lgsc hotfix/v7.24.2
+: 1677133406:0;git log fix/IN-46437
+: 1677133406:0;git cherry-pick 3a56ac34d9c38e13e0402d988b1da3b7a11740ca
+: 1677133406:0;brew install autojump
+: 1677133406:0;ls /opt/homebrew/etc/profile.d/autojump.sh
+: 1677133406:0;j -v
+: 1677133406:0;brew install fzf
+: 1677133406:0;fzf -h
+: 1677133406:0;/opt/homebrew/opt/fzf/install
+: 1677133406:0;brew install tmux
+: 1677133406:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1677133406:0;git delete-branch IN-46447
+: 1677133406:0;gb -d fix/IN-46447
+: 1677133406:0;git push --delete origin origin/fix/IN-46447
+: 1677133406:0;git push --delete origin fix/IN-46447
+: 1677133406:0;gb -D fix/IN-46447
+: 1677133406:0;gco -b fix/IN-46447
+: 1677133406:0;git cherry-pick fa162fff1fd7156f893757403dc0bbad2d2532f9
+: 1677133406:0;lgsc feature/IN-45881
+: 1677133406:0;git merge feature/IN-45881
+: 1677133406:0;gco -b feature/IN-45863
+: 1677133406:0;tmux -v
+: 1677133406:0;tmux --help
+: 1677133406:0;tmux --version
+: 1677133406:0;brew install exa
+: 1677133406:0;exa 
+: 1677133406:0;exa -l
+: 1677133406:0;exa -l | fzf
+: 1677133406:0;exa -h
+: 1677133406:0;exa --help
+: 1677133406:0;exa -R
+: 1677133406:0;exa -T
+: 1677133406:0;vim ~/.oh-my-zsh/plugins/extract/extract.plugin.zsh
+: 1677133406:0;cd .oh-my-zsh
+: 1677133406:0;git remote -v
+: 1677133406:0;git commit -m 'feat: æ·»åƒªƒ€ zsh-autosuggestion æƒ¯ƒ²ä»¶'
+: 1677133406:0;git push weineel master -f
+: 1677133406:0;cd custom/plugins
+: 1677133406:0;mkdir exa
+: 1677133406:0;mkdir wn-exa
+: 1677133406:0;rm exa
+: 1677133406:0;rm -r exa
+: 1677133406:0;ls example
+: 1677133406:0;ls weineel
+: 1677133406:0;exa -lbGF --git
+: 1677133406:0;exa -lbhHigUmuSa --time-style=long-iso --git --color-scale
+: 1677133406:0;exa -lbF --git
+: 1677133406:0;exa -lbF --git -a
+: 1677133406:0;l
+: 1677133406:0;vim wn-exa/wn-exa.plugin.zsh
+: 1677133406:0;git commit -m 'feat: æ·»åƒªƒ€ èƒ§ªå®ƒºä¹ƒ©æƒ¯ƒ²ä»¶ wn-exa æƒ¯ƒ²ä»¶ï¼ƒ¬å®ƒºåƒ¨¶åƒ¬ƒ¶çƒºƒ¤ ls'
+: 1677133406:0;git push weineel master
+: 1677133406:0;~
+: 1677133406:0;cd
+: 1677133406:0;git clone https://github.com/gpakosz/.tmux.git
+: 1677133406:0;ln -s -f .tmux/.tmux.conf
+: 1677133406:0;cp .tmux/.tmux.conf.local .
+: 1677133406:0;j innoe-web
+: 1677133406:0;cd project/patsnap/innoe-mobile
+: 1677133406:0;cd project/patsnap/innoe-web1
+: 1677133406:0;vim ~/.tmux.conf.local
+: 1677133406:0;tmux rename-session innoe-web
+: 1677133406:0;j innoe-web1
+: 1677133406:0;tmux new-session -s innoe-mobile
+: 1677133406:0;gco -b feature/IN-45824
+: 1677133406:0;gco -b feature/dev/IN-45824
+: 1677133406:0;git log reature/IN-45824
+: 1677133406:0;git log feature/IN-45824
+: 1677133406:0;git cherry-pick b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d 4efb30460ac6364c80c86b4b42b130629eff2eb0
+: 1677133406:0;v2ray
+: 1677133406:0;[200~bash <(curl -s -L https://git.io/v2ray.sh)~
+: 1677133406:0;bash <(curl -s -L https://git.io/v2ray.sh)
+: 1677133406:0;sudo bash <(curl -s -L https://git.io/v2ray.sh)
+: 1677133406:0;v2ray -v
+: 1677133406:0;v2ray --version
+: 1677133406:0;vim /etc/v2ray/config.json
+: 1677133406:0;brew uninstall v2ray
+: 1677133406:0;rm -rf /opt/homebrew/etc/v2ray
+: 1677133406:0;rm -rf /opt/homebrew/etc/v2ray/config.json\
+
+: 1677133406:0;docker -v
+: 1677133406:0;cat /proc/sys/kernel/random/uuid
+: 1677133406:0;docker run --name repo alpine/git clone https://github.com/docker/getting-started.git\
+docker cp repo:/git/getting-started/ .\
+
+: 1677133406:0;ls getting-started
+: 1677133406:0;docker cp repo:/git/getting-started/ .
+: 1677133406:0;rm -rf getting-started
+: 1677133406:0;mkdir .v2ray
+: 1677133406:0;cd .v2ray
+: 1677133406:0;vim config.json
+: 1677133406:0;docker run -v /etc/v2ray:.v2ray -p 16823:16823 v2ray/official:latest v2ray -config /etc/v2ray/config.json
+: 1677133406:0;docker run -v /etc/v2ray:~/.v2ray -p 16823:16823 v2ray/official:latest v2ray -config /etc/v2ray/config.json
+: 1677133406:0;docker run -v /etc/v2ray:$(pwd)/.v2ray -p 16823:16823 v2ray/official:latest v2ray -config /etc/v2ray/config.json
+: 1677133406:0;docker run -v /etc/v2ray:$(pwd)/.v2ray -p 16823:16823 -d v2ray/official:latest v2ray -config /etc/v2ray/config.json
+: 1677133406:0;gco feature/IN-45824)
+: 1677133406:0;git cherry-pick 90c1ccacb56f7083c38e6e0cae8b9b3feb20dd0e
+: 1677133406:0;gco feature/IN-43842
+: 1677133406:0;gco feature/IN-45824
+: 1677133406:0;git lgo
+: 1677133406:0;tree
+: 1677133406:0;tree -L
+: 1677133406:0;tree -a
+: 1677133406:0;nvim
+: 1677133406:0;nvm Downloads
+: 1677133406:0;cd project/patsnap/innoe-web
+: 1677133406:0;vim src/filters/index.ts
+: 1677133406:0;ls ~/.config/lvim/plugin
+: 1677133406:0;nvm 
+: 1677133406:0;nvm .
+: 1677133406:0;/Users/lijufeng/.local/bin/lvim .
+: 1677133406:0;brew uninstall nvim
+: 1677133406:0;LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh)
+: 1677133406:0;brew install neovim
+: 1677133406:0;nvim .
+: 1677133406:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/uninstall.sh)
+: 1677133406:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1677133406:0;/Users/lijufeng/.local/bin/lvim
+: 1677133406:0;[200~bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)~
+: 1677133406:0;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+: 1677133406:0;/Users/lijufeng/.local/bin/lvim ./zshrc
+: 1677133406:0;/Users/lijufeng/.local/bin/lvim ./.zshrc
+: 1677133406:0;mkdir -p ~/.local/share/fonts
+: 1677133406:0;cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+: 1677133406:0;mkdir -p ~/project/github
+: 1677133406:0;cd ~/project/github
+: 1677133406:0;git clone https://github.com/ronniedroid/getnf.git
+: 1677133406:0;cd getnf
+: 1677133406:0;./install.sh
+: 1677133406:0;getnf 
+: 1677133406:0;nerd
+: 1677133406:0;./getnf
+: 1677133406:0;lvim install.sh
+: 1677133406:0;lvim .zshrc
+: 1677133406:0;getnf
+: 1677133406:0;brew install fc-list
+: 1677133406:0;docker run -w /root -it --rm alpine:edge sh -uelic 'apk add git neovim ripgrep alpine-sdk bash --update && LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh) && /root/.local/bin/lvim'
+: 1677133406:0;fc-cache -f -v
+: 1677133406:0;mkdir -p ~/.local/share/fonts\
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+: 1677133406:0;brew tap homebrew/cask-fonts
+: 1677133406:0;brew install font-hack-nerd-font
+: 1677133406:0;ls ~/.local/share/fonts
+: 1677133406:0;rm -rf ~/.local/share/fonts
+: 1677133406:0;lvim .
+: 1677133406:0;brew install font-victor-mono-nerd-font
+: 1677133406:0;lvim src/App.vue
+: 1677133406:0;gco -b feature/IN-44988
+: 1677133406:0;gco -b fix/IN-46509
+: 1677133406:0;inno-lane iql decode ESuDNXcoKo8XvIEAknxDYpNFyyFxdu0+mu2SLl3iDUFCyxF0AOuMHsvKSpVTHcYaD75HuJWOir61Q0AMu0in4kc25FwawtB6uPoHN/APSp5q1wx+EP7r979giZaofgAhkKa+v24gTuFekvYMLSWj84kL8uEqviDb8FbvrYS8nVg=||hnNr/igBOVhuTADTmWaIYxA1hOSeSi/244yPRSYVsi6dtfFEhIErYMHCNDCOSLKex65TIT5kEkQegw2BDfQQj1B9JFIaPytS9JHYaAU7gAMG3q9UpSH4jhRh9jZrvF/ZKB3vhDAGZoDx4IsYEzBqpYZjoIa3Di463ai0qX8+6iQ=
+: 1677133406:0;inno-lane iql decode 'ESuDNXcoKo8XvIEAknxDYpNFyyFxdu0+mu2SLl3iDUFCyxF0AOuMHsvKSpVTHcYaD75HuJWOir61Q0AMu0in4kc25FwawtB6uPoHN/APSp5q1wx+EP7r979giZaofgAhkKa+v24gTuFekvYMLSWj84kL8uEqviDb8FbvrYS8nVg=||hnNr/igBOVhuTADTmWaIYxA1hOSeSi/244yPRSYVsi6dtfFEhIErYMHCNDCOSLKex65TIT5kEkQegw2BDfQQj1B9JFIaPytS9JHYaAU7gAMG3q9UpSH4jhRh9jZrvF/ZKB3vhDAGZoDx4IsYEzBqpYZjoIa3Di463ai0qX8+6iQ='
+: 1677133406:0;../nice-classification-crawler
+: 1677133406:0;git commit -m 'feat: åƒµƒ¦åƒ³æƒ¼ƒ­åƒªƒéƒ¹çƒ»®æƒ®ƒ²åºƒ¯â€ƒ¸
+: 1677133406:0;git commit -m 'feat: åƒµƒ¦åƒ³æƒ¼ƒ­åƒªƒéƒ¹çƒ»®æƒ®ƒ²åºƒ¯'
+: 1677133406:0;lgsc hotfix/v7.24.3
+: 1677133406:0;lgsc feature/IN-45824
+: 1677133406:0;git cherry-pick -i 691a00aea1a71a8954eb9e92f734150b40eb6aa1
+: 1677133406:0;git cherry-pick -i b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d
+: 1677133406:0;git cherry-pick -i 8da9d5e465716de0560dac7dd938cd7258d4ec3e..b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d
+: 1677133406:0;git cherry-pick -i 8da9d5e465716de0560dac7dd938cd7258d4ec3e...b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d
+: 1677133406:0;git rebase -i 8da9d5e465716de0560dac7dd938cd7258d4ec3e...b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d\
+
+: 1677133406:0;git rebase -i b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d\
+
+: 1677133406:0;lvim ~/.zshrc
+: 1677133406:0;git config --global core.editor "code --wait --new-window"
+: 1677133406:0;git rebase -i 691a00aea1a71a8954eb9e92f734150b40eb6aa1
+: 1677133406:0;git log feature/IN-45824 
+: 1677133406:0;git cherry-pick eab941f5435b5a079699cab3c5e661f2484f14f4
+: 1677133406:0;lgsc feature/IN-45863
+: 1677133406:0;git config --global core.editor "code --wait"
+: 1677133406:0;git config --global core.editor "lvim"
+: 1677133406:0;git rebase -i 893cb8bfb1c34c055c41dad178273fe4bc671c9c
+: 1677133406:0;gco hotfix/v7.24.3
+: 1677133406:0;git cherry-pick ed2586232364a1f9b82ff61eb88cc0f16551caaf
+: 1677133406:0;gs
+: 1677133406:0;gco -b fix/IN-46528
+: 1677133406:0;git rebase -i 11c0e85ca49926fdd8a712843c27c2d1d0276bf4
+: 1677133406:0;tmux attach
+: 1677133406:0;vim init.sh
+: 1677133406:0;lvim init.sh
+: 1677133406:0;rm -rf ~/.config/lvim.old
+: 1677133406:0;vim ~/.config/lvim/config.lua
+: 1677133406:0;lvim ~/.config/lvim/config.lua
+: 1677133406:0;tmux detach
+: 1677133406:0;tmux new-session -s home
+: 1677133406:0;git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+: 1677133406:0;fzf
+: 1677133406:0;git branch
+: 1677133406:0;git branch | fzf
+: 1677133406:0;git branch | fzf | gco
+: 1677133406:0;gco $(git branch | fzf )
+: 1677133406:0;git checkout $(git branch | fzf)
+: 1677133406:0;vim ~/.oh-my-zsh/custom/plugins/weineel/weineel.plugin.zsh
+: 1677133406:0;ls svgo-config.yml 
+: 1677133406:0;ll svgo-config.yml 
+: 1677133406:0;cd svgo-config.yml 
+: 1677133406:0;gcof
+: 1677133406:0;lgsc feature/IN-39838
+: 1677133406:0;gco feature/IN-39838
+: 1677133406:0;lgsc v7.24.3
+: 1677133406:0;gco -b fix/IN-46530
+: 1677133406:0;git cherry-pick 35c967ea63c09929ebad230698f514f5f7776e96
+: 1677133406:0;git cherry-pick --continue
+: 1677133406:0;git commit --amend
+: 1677133406:0;cd project/weineel
+: 1677133406:0;cd github
+: 1677133406:0;git clone git@github.com:tech-sprint/nodejs-sprint.git
+: 1677133406:0;cd nodejs-sprint
+: 1677133406:0;pnpm install
+: 1677133406:0;ni
+: 1677133406:0;ni nodemailer
+: 1677133406:0;node http/send-email.js
+: 1677133406:0;lvim
+: 1677133406:0;lvim ~/.tmux.conf.local
+: 1677133406:0;env
+: 1677133406:0;env bash
+: 1677133406:0;env | fzf
+: 1677133406:0;vim CHANGELOG.md
+: 1677133406:0;cd Downloads
+: 1677133406:0;mv email.html email.ftl
+: 1677133406:0;npx cz
+: 1677133406:0;pnpm setup
+: 1677133406:0;pnpm install -g commitizen
+: 1677133406:0;npm install -g cz-conventional-changelog
+: 1677133406:0;pnpm install -g cz-conventional-changelog
+: 1677133406:0;cat > ~/.czrc <<EOF\
+{ "path": "cz-conventional-changelog" }\
+EOF
+: 1677133406:0;cat tt.txt
+: 1677133406:0;rm ~/.czrc
+: 1677133406:0;cat ~/.czrc
+: 1677133406:0;gco -b fix/IN-46543
+: 1677133406:0;tmux
+: 1677133406:0;gco -b fix/IN-46623
+: 1677133406:0;inno-lane jira cst -r 2 -p IN-44990
+: 1677133406:0;gco fix/IN-46623
+: 1677133406:0;git add src/sdk/services/form/form-service.ts
+: 1677133406:0;git stash
+: 1677133406:0;gbda
+: 1677133406:0;git log feature/dev/IN-45824
+: 1677133406:0;gb -d feature/dev/IN-45824\
+
+: 1677133406:0;gb -D feature/dev/IN-45824
+: 1677133406:0;gb
+: 1677133406:0;git log fix/IN-46436
+: 1677133406:0;git commit --amend -C HEAD
+: 1677133406:0;git zc
+: 1677133406:0;source ~/.zshrc
+: 1677133406:0;source .zshrc
+: 1677133406:0;starship preset pastel-powerline > ~/.config/starship.toml
+: 1677133406:0;starship preset pastel-powerline > ~/.config/starship.tomlj
+: 1677133406:0;starship preset pastel-powerline
+: 1677133406:0;rm ~/.config/starship.tomlj
+: 1677133406:0;starship preset pastel-powerline > ~/.config/starship.toml\
+
+: 1677133406:0;vim ~/.config/starship.toml
+: 1677133406:0;starship preset nerd-font-symbols > ~/.config/starship.toml
+: 1677133406:0;cat ss.txt
+: 1677133406:0;cat > ~/.czrc <<EOF\
+{ "path": "cz-conventional-changelogâ€ƒ½ }\
+EOF
+: 1677133406:0;echo 'sss' > tt.txt
+: 1677133406:0;rm tt.txt
+: 1677133406:0;tmux kill-server
+: 1677133406:0;ls node_modules
+: 1677133406:0;ll node_modules
+: 1677133406:0;LL node_modules
+: 1677133406:0;ll -a node_modules
+: 1677133406:0;vim package.json
+: 1677133406:0;rm package.json
+: 1677133406:0;rm yarn.lock
+: 1677133406:0;rm -rf node_modules
+: 1677133406:0;yarn -v
+: 1677133406:0;tmux 
+: 1677133406:0;git stash list
+: 1677133406:0;gco -b fix/IN-45020
+: 1677133406:0;ls ~/.config/configstore/update-notifier-npm-check-updates.json
+: 1677133406:0;cat ~/.config/configstore/update-notifier-npm-check-updates.json
+: 1677133406:0;gco -b fix/dev/IN-45020
+: 1677133406:0;git cherry-pick 7c4a8c39f81bc283f66185a22e06985c713b5d00 1962d8387eabb968ad46041ef4003a976070ecee\
+
+: 1677133406:0;git cherry-pick --abort
+: 1677133406:0;gco fix/dev/IN-45020
+: 1677133406:0;git log fix/IN-45020
+: 1677133406:0;git cherry-pick 1962d8387eabb968ad46041ef4003a976070ecee
+: 1677133406:0;git cherry-pick 7c4a8c39f81bc283f66185a22e06985c713b5d00 
+: 1677133406:0;git diff
+: 1677133406:0;git stash 
+: 1677133406:0;gco -b fix/IN-43772
+: 1677133406:0;git stash pop
+: 1677133406:0;git log 
+: 1677133406:0;gco feature/IN-40505
+: 1677133406:0;git cherry-pick 492c587caab286aa6a1aadb8a5de91908bec7056
+: 1677133406:0;git add . && npx cz
+: 1677133406:0;sudo softwareupdate --install-rosetta --agree-to-license\
+
+: 1677133406:0;sudo softwareupdate --install-rosetta --agree-to-license
+: 1677133406:0;brew install chezmoi
+: 1677133406:0;which vim
+: 1677133406:0;chezmoi init
+: 1677133406:0;ls ~/.config
+: 1677133406:0;chezmoi add ~/.config
+: 1677133406:0;ls ~/.local/share/chezmoi
+: 1677133406:0;ls ~/.local/share/chezmoi/dot_config
+: 1677133406:0;ls ~/.local/share/chezmoi/dot_config/chezmoi
+: 1677133406:0;ls ~/.config/
+: 1677133406:0;brew install yadm
+: 1677133406:0;yadm init
+: 1677133406:0;yadm add ~/.zshrc
+: 1677133406:0;yadm add ~/.config
+: 1677133406:0;ls /Users/lijufeng/.local/share/yadm/repo.git/
+: 1677133406:0;ls /Users/lijufeng/.local/share/yadm/
+: 1677133406:0;git config --global init.defaultBranch main
+: 1677133406:0;vim ~/.gitconfig
+: 1677133406:0;brew unistall yadm
+: 1677133406:0;brew uninstall yadm
+: 1677133406:0;rm -rf ~/.config/yadm
+: 1677133406:0;rm ~/.local/share/yadm
+: 1677133406:0;rm -rf ~/.local/share/yadm
+: 1677133406:0;chezmo c
+: 1677133406:0;chezmo cd
+: 1677133406:0;chezmio cd
+: 1677133406:0;pwd
+: 1677133406:0;git remote add origin https://github.com/weineel/dotfiles.git
+: 1677133406:0;git branch -m master main
+: 1677133406:0;docker exec -it 3c0744675dd7f1b4921c1d7608064040cf9b0e3d598998864bc747c53806366c /bin/sh
+: 1677133406:0;docker run -it --name chezmoi_test alpine
+: 1677133406:0;docker run -it --name chezmoi_test alpine:dege
+: 1677133406:0;docker run -it --name chezmoi_test ubuntu
+: 1677133406:0;git commit -m 'init'
+: 1677133406:0;git reset HEAD
+: 1677133406:0;git reset HEAD^ -h
+: 1677133406:0;git reset HEAD^ --hard
+: 1677133406:0;rm -rf dot_config
+: 1677133406:0;git login
+: 1677133406:0;git remote set-url origin git@github.com:weineel/dotfiles.git
+: 1677133406:0;git push -u origin main
+: 1677133406:0;vim ~/.zshrc
+: 1677133406:0;chezmoi add ~/.zshrc
+: 1677133406:0;curl -fsLS get.chezmoi.io
+: 1677133406:0;chezmoi add ~/.config/lvim/config.lua
+: 1677133406:0;chezmoi add ~/.config/lvim/lazy-lock.json
+: 1677133406:0;ls dot_config/lvim/config.lua
+: 1677133406:0;chezmoi add ~/.config/starship.toml
+: 1677133406:0;chezmoi add ~/.config/chezmoi
+: 1677133406:0;chezmoi rm ~/.config/chezmoi/chezmoistate.boltdb
+: 1677133406:0;chezmoi status
+: 1677133406:0;rm dot_config/chezmoi/private_chezmoistate.boltdb
+: 1677133406:0;gst dot_config
+: 1677133406:0;gst dot_config/lvim
+: 1677133406:0;ls -a
+: 1677133406:0;cd .git
+: 1677133406:0;vim config
+: 1677133406:0;cd ~
+: 1677133406:0;vim .gitconfig
+: 1677133406:0;vim README.md
+: 1677133406:0;git add . && npx cz && ggpush
+: 1677133406:0;git reset HEAD^
+: 1677133406:0;gtpull
+: 1677133406:0;git add . && npx cz && lgcmr master
+: 1677133406:0;gg
+: 1677133406:0;git rebase --abort
+: 1677133406:0;lgsc feature/IN-40274-2
+: 1677133406:0;git merge feature/IN-40274-2
+: 1677133406:0;gco feature/IN-40274-2
+: 1677133406:0;git reset dbd808f07bd191784b6d86d46bd4593d2a8176b4
+: 1677133406:0;git checkout -- .
+: 1677133406:0;git checkout dbd808f07bd191784b6d86d46bd4593d2a8176b4
+: 1677133406:0;gco -b feature/IN-40274-3
+: 1677133406:0;git cherry-pick 93549b8db6c6efc47f10bb99410fe146cd80d155 387574f26fcee6b3587225a7bde52c16d8d596a4
+: 1677133406:0;git log feature/IN-40274-2
+: 1677133406:0;git git log
+: 1677133406:0;lgsc feature/IN-44988
+: 1677133406:0;git merge feature/IN-44988
+: 1677133406:0;git merge --abort
+: 1677133406:0;lgsc feature/IN-46821
+: 1677133406:0;gco dev
+: 1677133406:0;git merge feature/IN-46821
+: 1677133406:0;gic zc
+: 1677133406:0;git cz
+: 1677133406:0;lgcmr master
+: 1677133406:0;gco -b fix/IN-45126
+: 1677133406:0;gco feature/IN-44988
+: 1677133406:0;git cherry-pick 7225780e71f648391620cb6742091a87f9f7e50c 4bf34ae14da0ee9285d768247c5c8bf6230d9caf
+: 1677133406:0;gcogco master
+: 1677133406:0;git merge fix/IN-45126
+: 1677133406:0;gco -b fix/IN-46981
+: 1677133406:0;git merge fix/IN-46981
+: 1677133406:0;ggpull --rebase
+: 1677133406:0;gco master
+: 1677133406:0;gco -b feature/IN-gst
+: 1677133406:0;lgsc fix/IN-45020
+: 1677133406:0;gco fix/IN-45020
+: 1677133406:0;lgcmr dev
+: 1677133406:0;ping 192.168.15.18
+: 1677133406:0;ping 192.168.2.6:
+: 1677133406:0;192.168.2.6
+: 1677133406:0;ping 192.168.2.6
+: 1677133406:0;ping 192.168.2.4
+: 1677133406:0;cd ~/Documents
+: 1677133406:0;cd ~/Downloads
+: 1677133406:0;git diff > x.diff
+: 1677133406:0;gco -b feature/IN-46819
+: 1677133406:0;gb -d feature/IN-gst
+: 1677133406:0;lgsc master
+: 1677133406:0;gco -b fix/IN-47158
+: 1677133406:0;git apply ../innoe-web/x.diff
+: 1677133406:0;vim ~/.tmux/README.md
+: 1677133406:0;ll ~/.tmux.conf
+: 1677133406:0;ls ~/.tmux.conf
+: 1677133406:0;vim ~/.tmux.conf
+: 1677133406:0;cd ~/.tmux
+: 1677133406:0;cd -
+: 1677133406:0;vim .zsh_history
+: 1677133406:0;vim .tmux.conf.local
+: 1677133406:0;chezmoi add ~/.tmux.conf
+: 1677133406:0;chezmoi add ~/.tmux.conf.local
+: 1677133406:0;chezmoi cd
+: 1677133406:0;ls .tmux/.tmux.conf
+: 1677133406:0;cd .tmux
+: 1677133406:0;ll 
+: 1677133406:0;ll -a
+: 1677133406:0;chezmoi add ~/.tmux/.tmux.conf
+: 1677133406:0;chezmoi add ~/.tmux/README.md
+: 1677133406:0;..
+: 1677133406:0;lgsc dev
+: 1677133406:0;git merge master
+: 1677133406:0;git merge --continue
+: 1677133406:0;ln -s src/App.vue
+: 1677133406:0;ln src/assets/base64-images.ts
+: 1677133406:0;ll base64-images.ts
+: 1677133406:0;git lo
+: 1677133406:0;git add . && npx cz && ggpush && lgcmr master
+: 1677133406:0;git commit --amend -aC HEAD
+: 1677133406:0;lgsc hotfix/v7.advsearch
+: 1677133406:0;git log feature/IN-40274-3
+: 1677133406:0;git cherry-pick 0fcf99a6263363a89e94db5b1d0408293f376e87
+: 1677133406:0;git reset head^ --hard
+: 1677133406:0;gco feature/IN-40274-3
+: 1677133406:0;git reset head^
+: 1677133406:0;git add .
+: 1677133406:0;git cz --retry
+: 1677133406:0;ggf
+: 1677133406:0;gco hotfix/v7.advsearch
+: 1677133406:0;ggpull
+: 1677133406:0;git cherry-pick 4406f3833a816f62031b5cd722baf1298dee5923
+: 1677133406:0;git log
+: 1677133406:0;ggpush
+: 1677133406:0;code .
+: 1677133406:0;lgsc feature/IN-40274-3
+: 1677133406:0;gst
+: 1677133406:0;nr serve
+: 1677133406:0;/Users/lijufeng/Downloads/jetbra/éƒ§ƒ­ç½®èƒ¤ƒºæƒ¼¬/reset_jetbrains_eval_mac_linux.sh; exit
+: 1677133406:0;/Users/lijufeng/Downloads/jetbra/scripts/install.sh; exit
+: 1677133406:0;brew install starship
+: 1677133406:0;vim .config/starship.toml
+: 1677133406:0;exit
+: 1677133406:0;j innoe-mo
+: 1677133406:0;brew uninstall starship
+: 1677133406:0;mv .zshrc .zshrc.bak
+: 1677133406:0;uninstall_oh_my_zsh
+: 1677133406:0;bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+: 1677133406:0;ls
+: 1677133406:0;which ll
+: 1677133406:0;ll
+: 1677133406:0;lvim .zshrc.bac
+: 1677133406:0;lvim .zshrc.bat
+: 1677133406:0;lvim .zshrc.bak
+: 1677133406:0;nvim .zshrc.bak
+: 1677133406:0;nvim .zshrc
+: 1677133406:0;vim .zshrc
+: 1677133406:0;ls
+: 1677133406:0;vim .zshrc
+: 1677133406:0;j innoe-mo
+: 1677133406:0;vim .config/starship.toml
+: 1677133406:0;vim ~/.config/starship.toml
+: 1677133406:0;ls
+: 1677133406:0;cd -
+: 1677133406:0;gst
+: 1677133406:0;fzf -h
+: 1677133406:0;vim ~/.zshrc
+: 1677133406:0;zinit update
+: 1677133406:0;zinit update
+: 1677133406:0;vim ~/.zshrc
+: 1677133406:0;ll -a
+: 1677133406:0;vim .config
+: 1677133406:0;nvim .zshrc
+: 1677133406:0;nvim .zshrc
+: 1677133406:0;nvim .zshrc
+: 1677133027:0;vim ~/.zshrc
+: 1677133406:0;vim .zshrc
+: 1677133064:0;vim ~/.tmux/README.md
+: 1677133074:0;vim .zshrc
+: 1677133380:0;chezmoi add ~/.zshrc
+: 1677133389:0;chezmoi cd 
+: 1677133391:0;gst
+: 1677133406:0;exit
+: 1677133414:0;tmux
+: 1677134380:0;tmux kill-server
+: 1677134383:0;vim .zshrc
+: 1677135038:0;tmux
+: 1677135080:0;gst
+: 1677135089:0;chezmoi add ~/.zshrc
+: 1677135119:0;gst
+: 1677135122:0;git log
+: 1677135130:0;code .
+: 1677135151:0;chezmoi cd 
+: 1677135153:0;gst
+: 1677135155:0;git log
+: 1677135170:0;git add . && git cz
+: 1677135196:0;vim ~/.czrc
+: 1677135218:0;gst
+: 1677135222:0;git add . && git cz
+: 1677135273:0;chezmoi add ~/.czrc
+: 1677135274:0;gst
+: 1677135286:0;vim ~/.czrc
+: 1677135357:0;gst
+: 1677135361:0;git add . && git cz
+: 1677135391:0;ggpush
+: 1677135419:0;git log
+: 1677135443:0;vim ~/.zshrc
+: 1677135574:0;which ll
+: 1677136176:0;gst
+: 1677136185:0;chezmoi add ~/.zshrc
+: 1677136185:0;gst
+: 1677136189:0;git add . && git cz
+: 1677136226:0;ggpush
+: 1677136234:0;tmux kill-server
+: 1677136236:0;tmux
+: 1677136257:0;ggpush
+: 1677136264:0;exit
+: 1677136278:0;tmux kill-server
+: 1677136280:0;tmux
+: 1677136297:0;j innoe-web
+: 1677136302:0;ls
+: 1677136304:0;pwd
+: 1677136323:0;gst
+: 1677136331:0;git log
+: 1677136364:0;gco master
+: 1677136368:0;ggpull
+: 1677136375:0;gst
+: 1677136380:0;nr serve
+: 1677138076:0;gst
+: 1677138086:0;lgsc master
+: 1677138099:0;gco -b fix/IN-47136
+: 1677138101:0;gst
+: 1677138120:0;starship -v
+: 1677138145:0;nr serve
+: 1677138150:0;code .
+: 1677138358:0;gst
+: 1677139689:0;git add . && git cz
+: 1677139704:0;git add . && npx cz && ggpush && lgcmr master
+: 1677140539:0;gst
+: 1677140542:0;ls
+: 1677140554:0;j innoe-web
+: 1677140571:0;exit
+: 1677156464:0;gst
+: 1677157373:0;vim ~/.zshrc
+: 1677202365:0;which zi
+: 1677204389:0;brew uninstall fzf
+: 1677204407:0;fzf -h
+: 1677204416:0;vim ~/.zshrc
+: 1677204641:0;ls .fzf.zsh
+: 1677204661:0;fzf -h
+: 1677204686:0;vim .fzf.zsh
+: 1677204714:0;rm .fzf.bash
+: 1677204717:0;rm .fzf.zsh
+: 1677204738:0;vim ~/.zshrc
+: 1677204775:0;fzf -h
+: 1677204790:0;vim ~/.zshrc
+: 1677204845:0;ls .local/share/zinit/plugins/junegunn---fzf
+: 1677204852:0;ls -a .local/share/zinit/plugins/junegunn---fzf
+: 1677204859:0;which fzf
+: 1677204874:0;fzf -h
+: 1677205042:0;ls
+: 1677205172:0;ls .local/bin .local/share .local/state 
+: 1677205356:0;fzf -h
+: 1677205403:0;ls
+: 1677205438:0;vim ~/.zshrc
+: 1677205484:0;zinit update --parallel
+: 1677205500:0;ls
+: 1677205510:0;exit
+: 1677205512:0;ls
+: 1677206338:0;vim ~/.zshrc
+: 1677206655:0;zinit update
+: 1677206707:0;vim ~/.zshrc
+: 1677206725:0;fzf -h
+: 1677206745:0;vim ~/.zshrc
+: 1677206807:0;ls .local
+: 1677206813:0;ls .local/share
+: 1677206819:0;ls .local/share/zinit/plugins/junegunn---fzf
+: 1677206825:0;ls .local/share/zinit/plugins
+: 1677206884:0;vim ~/.zshrc
+: 1677206915:0;rm -rf .local/share/zinit/plugins/junegunn---fzf
+: 1677206973:0;vim ~/.zshrc
+: 1677207102:0;fzf -h
+: 1677207121:0;ls .local/share/zinit/plugins
+: 1677207128:0;ls .local/share/zinit/plugins/junegunn---fzf
+: 1677207474:0;ls .local/share/zinit/plugins/junegunn---fzf/bin
+: 1677207650:0;rm -rf .local/share/zinit/plugins/junegunn---fzf
+: 1677207653:0;vim ~/.zshrc
+: 1677207714:0;fzf -h
+: 1677207720:0;ls .local/share/zinit/plugins/junegunn---fzf/bin
+: 1677207723:0;ls .local/share/zinit/plugins/junegunn---fzf
+: 1677207737:0;fzf -h
+: 1677207870:0;rm -rf .local/share/zinit/plugins/junegunn---fzf
+: 1677207875:0;vim ~/.zshrc
+: 1677207951:0;fzf -h
+: 1677207975:0;vim ~/.zshrc
+: 1677208070:0;gst
+: 1677208091:0;vim ~/.zshrc
+: 1677208113:0;chezmoi add ~/.zshrc
+: 1677208119:0;chezmoi cd
+: 1677208120:0;gst
+: 1677208128:0;git add . && npx cz && ggpush
+: 1677208139:0;git add . && git cz && ggpush
+: 1677224186:0;ls
+: 1677224192:0;git log
+: 1677224377:0;vim .git/config
+: 1677224415:0;gst
+: 1677224429:0;git rebase -i --root
+: 1677224437:0;git log
+: 1677224449:0;git rebase -i --root
+: 1677225033:0;git commit --amend --author "weineel LiJF_wn@163.com"
+: 1677225069:0;vim .git/config
+: 1677225173:0;git commit --amend --author "weineel <LiJF_wn@163.com>"
+: 1677225184:0;gst
+: 1677225195:0;git rebase --continue
+: 1677225199:0;git log
+: 1677225223:0;git commit --amend --author "weineel <LiJF_wn@163.com>" && git rebase --continue
+: 1677225230:0;git log
+: 1677225238:0;git commit --amend --author "weineel <LiJF_wn@163.com>" && git rebase --continue
+: 1677225252:0;git commit --amend --author "weineel <LiJF_wn@163.com>" --on-edit && git rebase --continue
+: 1677225273:0;git commit --amend --author "weineel <LiJF_wn@163.com>" --no-edit && git rebase --continue
+: 1677225281:0;gst
+: 1677225283:0;git log
+: 1677225295:0;ggpush
+: 1677225300:0;ggf
+: 1677225456:0;exit
+: 1677225457:0;ls
+: 1677225459:0;ll -a
+: 1677225571:0;chezmoi add ~/.zsh_history
