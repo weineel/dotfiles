@@ -39,6 +39,16 @@ zinit ice as"command" from"gh-r"
 zinit light starship/starship
 eval "$(starship init zsh)"
 
+# install fzf
+zi ice \
+  from"github" \
+  depth"1" \
+  atclone"./install --key-bindings --completion --no-update-rc"
+  pick="bin/fzf"
+zi light junegunn/fzf
+# 绑定 fzf 快捷键
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # plugins
 # NOTE: fzf-tab needs to be loaded after compinit, but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
 zinit light Aloxaf/fzf-tab
@@ -91,9 +101,6 @@ export PIPENV_VENV_IN_PROJECT=1
 
 # autojump
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
-
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # pnpm
 export PNPM_HOME="/Users/lijufeng/Library/pnpm"
