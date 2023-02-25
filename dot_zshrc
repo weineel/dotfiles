@@ -28,9 +28,9 @@ zinit light-mode for \
 # lib 目录: https://github.com/ohmyzsh/ohmyzsh/tree/master/lib
 zi snippet OMZL::clipboard.zsh
 # zi snippet OMZL::termsupport.zsh
-zi snippet OMZL::history.zsh
-zi snippet OMZL::key-bindings.zsh
-zi snippet OMZL::completion.zsh
+# zi snippet OMZL::history.zsh
+# zi snippet OMZL::key-bindings.zsh
+# zi snippet OMZL::completion.zsh
 zi snippet OMZL::git.zsh
 
 # Load starship theme
