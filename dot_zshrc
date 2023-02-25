@@ -41,21 +41,34 @@ zinit ice as"command" from"gh-r" \
 zinit light starship/starship
 # eval "$(starship init zsh)"
 
-# install fzf
-zi ice \
-  from"github" \
-  depth"1" \
-  atclone"./install --key-bindings --completion --no-update-rc"
-  pick="bin/fzf"
-zi light junegunn/fzf
-# 绑定 fzf 快捷键
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# install and enable fzf
+zi for \
+  as'command' \
+  dl="$(print -c https://raw.githubusercontent.com/junegunn/fzf/master/{shell/{'key-bindings.zsh;','completion.zsh -> _fzf;'},man/{'man1/fzf.1 -> $ZPFX/share/man/man1/fzf.1;','man1/fzf-tmux.1 -> $ZPFX/share/man/man1/fzf-tmux.1;'}})" \
+  from'gh-r' \
+  null \
+  pick'fzf' \
+  src'key-bindings.zsh' \
+@junegunn/fzf
 
-# plugins
+# install exa
+zinit ice as"command" from"gh-r" \
+  atclone"cp -vf ./man/exa.1 $ZPFX/share/man/man1; cp -vf completions/exa.zsh _exa" \
+  atpull"%atclone" pick"bin/exa"
+zi light ogham/exa
+
+# 像 ls 一样使用 exa, https://github.com/weineel/zsh-exa
+# zi ice has"exa" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
+zi light weineel/zsh-exa
+
 # NOTE: fzf-tab needs to be loaded after compinit, but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
 zinit light Aloxaf/fzf-tab
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
+# 命令行输入使用 vi/vim 模式
+zinit ice depth=1
+zinit light jeffreytse/zsh-vi-mode
+
 # docker 简写: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
 zi ice as"completion"
 zi snippet OMZP::docker/_docker
@@ -66,7 +79,7 @@ zi snippet OMZP::git
 # oh-my-zsh 自定义插件
 WN_OMZ=https://github.com/weineel/ohmyzsh/blob/master
 
-zi snippet "$WN_OMZ/custom/plugins/wn-exa/wn-exa.plugin.zsh"
+# zi snippet "$WN_OMZ/custom/plugins/wn-exa/wn-exa.plugin.zsh"
 zi snippet "$WN_OMZ/custom/plugins/weineel/weineel.plugin.zsh"
 
 ### zinit custom end

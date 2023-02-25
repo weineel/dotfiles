@@ -1231,3 +1231,169 @@ EOF
 : 1677225457:0;ls
 : 1677225459:0;ll -a
 : 1677225571:0;chezmoi add ~/.zsh_history
+: 1677225572:0;gst
+: 1677225607:0;chezmoi cd 
+: 1677225607:0;gst
+: 1677225610:0;git add . && git cz && ggpush
+: 1677225631:0;git log
+: 1677225644:0;exit
+: 1677225649:0;gst
+: 1677228900:0;inno-lane jira cst -r 2 -p IN-47215
+: 1677228969:0;tmux detach
+: 1677228988:0;tmux new-session -s inno-lane
+: 1677228997:0;j inno-lane
+: 1677228999:0;ls
+: 1677229009:0;../inno-lane
+: 1677229017:0;..
+: 1677229045:0;cd project/patsnap/inno-lane
+: 1677229046:0;ls
+: 1677229049:0;git log
+: 1677229060:0;pwd
+: 1677229066:0;cd /Users/lijufeng/project/patsnap/inno-lane
+: 1677229076:0;..
+: 1677229176:0;vim ~/.zshrc
+: 1677229241:0;tmux kill-server
+: 1677138397:0;nr serve
+: 1677229247:0;tmux
+: 1677229278:0;../inno-lane
+: 1677229320:0;...
+: 1677229421:0;vim ~/.zshrc
+: 1677229439:0;ls
+: 1677229440:0;ll
+: 1677229472:0;vim ~/.zshrc
+: 1677229556:0;cd ../inno-lane
+: 1677229558:0;ls
+: 1677229578:0;gco master
+: 1677229580:0;gst
+: 1677229585:0;code .
+: 1677229616:0;gco master
+: 1677229617:0;ggpull
+: 1677229685:0;inno-lane jira cst -r 2 -p IN-47215
+: 1677229698:0;gst
+: 1677229714:0;git log
+: 1677229728:0;gco -b fix/#7
+: 1677229729:0;gst
+: 1677229734:0;git add . && git cz && ggpush
+: 1677229783:0;ggpush
+: 1677229840:0;git commit --amend -aC HEAD
+: 1677229842:0;git log
+: 1677229846:0;ggf
+: 1677229966:0;gco master
+: 1677229968:0;ggpull
+: 1677230025:0;which gbda
+: 1677230042:0;gbda
+: 1677230046:0;gb
+: 1677230088:0;inno-lane jira cst -r 3 -p IN-47215
+: 1677293092:0;vim ~/.zshrc
+: 1677293136:0;ls .local/share/zinit/plugins/starship---starship
+: 1677293140:0;ls .local/share/zinit/plugins/starship---starship/starship
+: 1677293261:0;starship completions zsh
+: 1677293567:0;gst
+: 1677293586:0;rm -rf  /Users/lijufeng/.local/share/zinit/plugins/starship---starship
+: 1677293589:0;exit
+: 1677293609:0;ls
+: 1677293641:0;exit
+: 1677293646:0;vim ~/.zshrc
+: 1677293655:0;chezmoi cd 
+: 1677293657:0;gst
+: 1677293670:0;chezmoi add ~/.zshrc
+: 1677293671:0;gst
+: 1677293675:0;git diff
+: 1677293684:0;git add . && git cz && ggpush
+: 1677293951:0;man exa
+: 1677293963:0;brew uninstall exa
+: 1677293972:0;man exa
+: 1677294217:0;vim ~/.zshrc
+: 1677294562:0;ll
+: 1677295231:0;vim ~/.zshrc
+: 1677295429:0;ls
+: 1677295433:0;exz
+: 1677295435:0;exa
+: 1677295441:0;vim ~/.zshrc
+: 1677295542:0;rm -rf  /Users/lijufeng/.local/share/zinit/plugins/weineel---zsh-exa
+: 1677295556:0;rm -rf  /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
+: 1677295586:0;ls
+: 1677295597:0;cd /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
+: 1677295598:0;ls
+: 1677295631:0;ls bin/fzf
+: 1677295637:0;vim ~/.zshrc
+: 1677295785:0;ls
+: 1677295804:0;vim ~/.zshrc
+: 1677301637:0;fzf -h
+: 1677301676:0;ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
+: 1677301689:0;ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf/bin/fzf
+: 1677301696:0;which ls
+: 1677301705:0;vim ~/.zshrc
+: 1677301747:0;chezmoi add ~/.zshrc
+: 1677301755:0;chezmoi cd 
+: 1677301764:0;chezmoi diff
+: 1677301813:0;gst
+: 1677301821:0;git diff
+: 1677301985:0;ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf/bin/fzf
+: 1677302073:0;vim ~/.zshrc
+: 1677302102:0;fzf -h
+: 1677302111:0;vim ~/.zshrc
+: 1677302315:0;fzf -h
+: 1677302321:0;which fzf
+: 1677302364:0;vim ~/.zshrc
+: 1677302578:0;cd /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
+: 1677302579:0;ls
+: 1677302581:0;ll
+: 1677302582:0;ls
+: 1677302602:0;gst
+: 1677302607:0;ls -a
+: 1677302617:0;./uninstall
+: 1677302635:0;ls
+: 1677302638:0;..
+: 1677302656:0;cd ..
+: 1677302662:0;rm -rf junegunn---fzf
+: 1677302663:0;ls
+: 1677302672:0;ls ogham---exa
+: 1677302915:0;man exa
+: 1677302922:0;exa -h
+: 1677303079:0;vim ~/.zshrc
+: 1677303250:0;fzf -h
+: 1677303257:0;which fzf
+: 1677303328:0;man fzf
+: 1677303345:0;vim ~/.zshrc
+: 1677303464:0;ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
+: 1677303497:0;cat /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf/_fzf
+: 1677303544:0;fzf -h
+: 1677303933:0;echo $ZINIT[MAN_DIR]
+: 1677304323:0;rm -rf /Users/lijufeng/.local/share/zinit/plugins/ogham---exa
+: 1677304367:0;man exa
+: 1677304401:0;rm -rf /Users/lijufeng/.local/share/zinit/plugins/ogham---exa
+: 1677304435:0;vim ~/.zshrc
+: 1677304526:0;man exa
+: 1677304546:0;vim ~/.zshrc
+: 1677304556:0;echo $ZINIT[MAN_DIR]
+: 1677304578:0;exit
+: 1677304602:0;exa
+: 1677304607:0;vim ~/.zshrc
+: 1677304721:0;cd project/weineel/
+: 1677304726:0;mkdir zsh-exa
+: 1677304728:0;cd zsh-exa
+: 1677304736:0;code .
+: 1677305238:0;rm -rf /Users/lijufeng/.local/share/zinit/plugins/ogham---exa
+: 1677305253:0;ll
+: 1677305266:0;ls
+: 1677305426:0;vim ~/.zshrc
+: 1677305508:0;ls 
+: 1677305573:0;ls
+: 1677305577:0;ll
+: 1677305588:0;chpwd_functions
+: 1677305602:0;vim ~/.zshrc
+: 1677305661:0;gst
+: 1677305719:0;rm -rf ~/project/weineel/zsh-exa
+: 1677305726:0;gst
+: 1677305773:0;vim ~/.zshrc
+: 1677306033:0;ls
+: 1677306133:0;cd project/weineel
+: 1677306200:0;ls
+: 1677306247:0;cd nteboo
+: 1677306361:0;gst
+: 1677306423:0;ls
+: 1677306531:0;chezmoi cd
+: 1677306546:0;chezmoi add ~/.zshrc
+: 1677306555:0;gst
+: 1677306570:0;chezmoi add ~/.zsh_history
