@@ -66,6 +66,7 @@ zinit light Aloxaf/fzf-tab
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
 # 命令行输入使用 vi/vim 模式
+ZVM_VI_EDITOR="lvim" # zsh-vi-mode 插件, vv 使用的编辑器改为 lvim
 zinit ice depth=1
 zinit light jeffreytse/zsh-vi-mode
 # 使用 zsh-z 而不是 autojump
