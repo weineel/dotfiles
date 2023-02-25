@@ -27,7 +27,7 @@ zinit light-mode for \
 # 迁移 oh-my-zsh lib 相当于oh-my-zsh 默认加载的插件
 # lib 目录: https://github.com/ohmyzsh/ohmyzsh/tree/master/lib
 zi snippet OMZL::clipboard.zsh
-zi snippet OMZL::termsupport.zsh
+# zi snippet OMZL::termsupport.zsh
 zi snippet OMZL::history.zsh
 zi snippet OMZL::key-bindings.zsh
 zi snippet OMZL::completion.zsh
@@ -35,9 +35,11 @@ zi snippet OMZL::git.zsh
 
 # Load starship theme
 # `starship` binary as command, from github release
-zinit ice as"command" from"gh-r"
+zinit ice as"command" from"gh-r" \
+  atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
+  atpull"%atclone" src"init.zsh"
 zinit light starship/starship
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # install fzf
 zi ice \
