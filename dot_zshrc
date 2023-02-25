@@ -68,6 +68,8 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 # 命令行输入使用 vi/vim 模式
 zinit ice depth=1
 zinit light jeffreytse/zsh-vi-mode
+# 使用 zsh-z 而不是 autojump
+zinit light agkozak/zsh-z
 
 # docker 简写: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
 zi ice as"completion"
@@ -76,11 +78,8 @@ zi snippet OMZP::docker/_docker
 # oh-my-zsh 插件
 zi snippet OMZP::git
 
-# oh-my-zsh 自定义插件
-WN_OMZ=https://github.com/weineel/ohmyzsh/blob/master
-
-# zi snippet "$WN_OMZ/custom/plugins/wn-exa/wn-exa.plugin.zsh"
-zi snippet "$WN_OMZ/custom/plugins/weineel/weineel.plugin.zsh"
+# 自定义, 维护在 github https://github.com/weineel/zsh-weineel
+zinit light weineel/zsh-weineel
 
 ### zinit custom end
 
