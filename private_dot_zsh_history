@@ -1,760 +1,3 @@
-cat > test.txt\
-fee\
-EOF\
-\
-ff
-cat > text.txt
-cat test.txt
-ls test.txt
-rm test.txt
-cat > text.txt <<EOF\
-sss\
-fe\
-EOF
-cat text.txt
-cat > ss.txt <<EOF\
-fff\
-ddd\
-EOF
-rm text.txt
-cat > ss.txt <<EOB\
-fff\
-ddd\
-EOB
-cat << EOB\
-ss\
-sss\
-EOB
-cat < jest.config.js
-cat ss.txt < jest.config.js
-cat jest.config.js > ss.txt
-cat > ss.txt <<EOF\
-fff\
-ddd\
-EOF\
-ffff\
-sssss
-cat > ss.txt <<EOF\
-fff\
-ddd\
-EOF\
-ls\
-sssss
-cat > ss.txt <<EOF\
-fff\
-ddd\
-EOF\
-ls\
-EOFsssss
-cat > ss.txt <<EOF\
-fff\
-ddd\
-EOF\
-ls\
-EOF
-cat ss.txt <<EOF\
-fff\
-ddd\
-EOF
-cat > ss.txt <<EOF\
-init.sh\
-EOF
-ls init.sh
-cat < ss.txt
-ls < ss.txt
-rm ss.txt
-yarn
-yarnx webpack serve --static dist
-yarn -h
-yarn exec webpack serve --static dist
-npx webpack serve --static dist
-yarn dir
-npx http-serve dist --proxy http://xzall.qa-st.innosnap.com
-echo $PROXY_SERVER
-yarn static
-gb -D fix/IN-00000
-gco -b fix/IN-00000
-gco -b fix/IN-46317
-yarn static http://xzall.qa-st.innosnap.com
-npx http-serve dist --proxy
-yarn static http://xzall.qa-st.innosnap.com -c-1
-yarn static http://xzall.qa-st.innosnap.com -p 8081
-npx http-serve . --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -c-1 --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -c -1 --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -c -1 --proxy http://xzall.qa-st.innosnap.com -o
-npx http-serve . -c -1 -o /innoe-web --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -c -1 -o /innoe-web/ --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -c -1 -o  --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -o --proxy http://xzall.qa-st.innosnap.com
-npx http-serve . -o --proxy http://xzall.qa-st.innosnap.com -c-1
-curl http://192.168.16.4:8080/innoe-web/patent/cn-detail/1524117415133219\?X-Consumer-Sub-Company-Sid\=1000000000000001
-npx http-serve ./innoe-web -o --proxy http://xzall.qa-st.innosnap.com -c-1
-gb -D fix/IN-40505
-gco -b fix/IN-40505
-inno-lane -h
-inno-lane gen -h
-inno-lane git -h
-cd project/patsnap/inno-lane
-inno-lane jira -h
-pipenv -h
-/Users/lijufeng/project/patsnap/inno-lane/.venv/bin/python /Users/lijufeng/project/patsnap/inno-lane/inno_lane/modules/iql/__test__/test_decrypt.py
-pipenv install pycrypto
-pipenv install cryptography
-pipenv uninstall rsa
-pipenv install rsa
-inno-lan iql decode -h
-pipenv-setup -h
-pip -v
-pip install pipenv-setup
-pipenv-setup --help
-pip install vistir
-pip uninstall vistir
-pip -V
-pip3 -V
-pip3 install pipenv-setup
-pipenv-setup sync
-pip3 uninstall pipenv-setup
-pip3 install -e .
-inno-lane iql decode Ow2mAbgrV+/MlmvOL7Mis/twOAXGDZEUycRZE7muV4uDYQJG/gO6whLJ/BjENAg73aQ1lGkaUCk0uDzmBBOHHIrRxefYJ1Nb5mnXc7Lihv3y38AopBs2JtCYaqX5jf0dcXDHTyoz4OGSvExjQOP/w474Mjh+r/9KtCFXZLurAtw= -p 88
-gco -b feature/iql-#1
-inno-lane iql decode -h
-inno-lane iql decode Ow2mAbgrV+/MlmvOL7Mis/twOAXGDZEUycRZE7muV4uDYQJG/gO6whLJ/BjENAg73aQ1lGkaUCk0uDzmBBOHHIrRxefYJ1Nb5mnXc7Lihv3y38AopBs2JtCYaqX5jf0dcXDHTyoz4OGSvExjQOP/w474Mjh+r/9KtCFXZLurAtw= 
-kill -9 20390
-vim ~/.innolanerc
-gb -m feature/iql-#1 feature/iql-#3
-inno-lane iql decode Ow2mAbgrV+/MlmvOL7Mis/twOAXGDZEUycRZE7muV4uDYQJG/gO6whLJ/BjENAg73aQ1lGkaUCk0uDzmBBOHHIrRxefYJ1Nb5mnXc7Lihv3y38AopBs2JtCYaqX5jf0dcXDHTyoz4OGSvExjQOP/w474Mjh+r/9KtCFXZLurAtw=
-\
-sid > 0 ORDER BY updated_at DESC\
-
-brew install auto-jump
-git clone git@git.patsnap.com:hao.chen/nice-classification-crawler.git
-cd nice-classification-crawler
-source /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/activate
-yarn add read-excel-file
-yarn run excel
-yarn remove read-excel-file
-yarn add xlsx
-arn run start
-yarn run start
-yarn excel
-nr excel
-git checkout 1e9d88d17d8df6ae01322c17b2377cf7849e5083
-git checkout -b hotfix/v-search
-gco -b fix/IN-46436
-npx cz --retry
-git cherry-pick c9b80cb4950d8a32d5f37ba07bfb2cfbe8a1fed8
-gco -b feature/IN-39838
-gco -b fix/IN-46437
-git add src/setup/router-hooks.ts
-npx cz 
-lgsc hotfix/v7.24.2
-git log fix/IN-46437
-git cherry-pick 3a56ac34d9c38e13e0402d988b1da3b7a11740ca
-brew install autojump
-ls /opt/homebrew/etc/profile.d/autojump.sh
-j -v
-brew install fzf
-fzf -h
-/opt/homebrew/opt/fzf/install
-brew install tmux
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git delete-branch IN-46447
-gb -d fix/IN-46447
-git push --delete origin origin/fix/IN-46447
-git push --delete origin fix/IN-46447
-gb -D fix/IN-46447
-gco -b fix/IN-46447
-git cherry-pick fa162fff1fd7156f893757403dc0bbad2d2532f9
-lgsc feature/IN-45881
-git merge feature/IN-45881
-gco -b feature/IN-45863
-tmux -v
-tmux --help
-tmux --version
-brew install exa
-exa 
-exa -l
-exa -l | fzf
-exa -h
-exa --help
-exa -R
-exa -T
-vim ~/.oh-my-zsh/plugins/extract/extract.plugin.zsh
-cd .oh-my-zsh
-git remote -v
-git commit -m 'feat: æ·»åƒªƒ€ zsh-autosuggestion æƒ¯ƒ²ä»¶'
-git push weineel master -f
-cd custom/plugins
-mkdir exa
-mkdir wn-exa
-rm exa
-rm -r exa
-ls example
-ls weineel
-exa -lbGF --git
-exa -lbhHigUmuSa --time-style=long-iso --git --color-scale
-exa -lbF --git
-exa -lbF --git -a
-l
-vim wn-exa/wn-exa.plugin.zsh
-git commit -m 'feat: æ·»åƒªƒ€ èƒ§ªå®ƒºä¹ƒ©æƒ¯ƒ²ä»¶ wn-exa æƒ¯ƒ²ä»¶ï¼ƒ¬å®ƒºåƒ¨¶åƒ¬ƒ¶çƒºƒ¤ ls'
-git push weineel master
-~
-cd
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
-j innoe-web
-cd project/patsnap/innoe-mobile
-cd project/patsnap/innoe-web1
-vim ~/.tmux.conf.local
-tmux rename-session innoe-web
-j innoe-web1
-tmux new-session -s innoe-mobile
-gco -b feature/IN-45824
-gco -b feature/dev/IN-45824
-git log reature/IN-45824
-git log feature/IN-45824
-git cherry-pick b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d 4efb30460ac6364c80c86b4b42b130629eff2eb0
-v2ray
-[200~bash <(curl -s -L https://git.io/v2ray.sh)~
-bash <(curl -s -L https://git.io/v2ray.sh)
-sudo bash <(curl -s -L https://git.io/v2ray.sh)
-v2ray -v
-v2ray --version
-vim /etc/v2ray/config.json
-brew uninstall v2ray
-rm -rf /opt/homebrew/etc/v2ray
-rm -rf /opt/homebrew/etc/v2ray/config.json\
-
-docker -v
-cat /proc/sys/kernel/random/uuid
-docker run --name repo alpine/git clone https://github.com/docker/getting-started.git\
-docker cp repo:/git/getting-started/ .\
-
-ls getting-started
-docker cp repo:/git/getting-started/ .
-rm -rf getting-started
-mkdir .v2ray
-cd .v2ray
-vim config.json
-docker run -v /etc/v2ray:.v2ray -p 16823:16823 v2ray/official:latest v2ray -config /etc/v2ray/config.json
-docker run -v /etc/v2ray:~/.v2ray -p 16823:16823 v2ray/official:latest v2ray -config /etc/v2ray/config.json
-docker run -v /etc/v2ray:$(pwd)/.v2ray -p 16823:16823 v2ray/official:latest v2ray -config /etc/v2ray/config.json
-docker run -v /etc/v2ray:$(pwd)/.v2ray -p 16823:16823 -d v2ray/official:latest v2ray -config /etc/v2ray/config.json
-gco feature/IN-45824)
-git cherry-pick 90c1ccacb56f7083c38e6e0cae8b9b3feb20dd0e
-gco feature/IN-43842
-gco feature/IN-45824
-git lgo
-tree
-tree -L
-tree -a
-nvim
-nvm Downloads
-cd project/patsnap/innoe-web
-vim src/filters/index.ts
-ls ~/.config/lvim/plugin
-nvm 
-nvm .
-/Users/lijufeng/.local/bin/lvim .
-brew uninstall nvim
-LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh)
-brew install neovim
-nvim .
-bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/uninstall.sh)
-bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
-/Users/lijufeng/.local/bin/lvim
-[200~bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)~
-bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
-/Users/lijufeng/.local/bin/lvim ./zshrc
-/Users/lijufeng/.local/bin/lvim ./.zshrc
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
-mkdir -p ~/project/github
-cd ~/project/github
-git clone https://github.com/ronniedroid/getnf.git
-cd getnf
-./install.sh
-getnf 
-nerd
-./getnf
-lvim install.sh
-lvim .zshrc
-getnf
-brew install fc-list
-docker run -w /root -it --rm alpine:edge sh -uelic 'apk add git neovim ripgrep alpine-sdk bash --update && LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh) && /root/.local/bin/lvim'
-fc-cache -f -v
-mkdir -p ~/.local/share/fonts\
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
-brew tap homebrew/cask-fonts
-brew install font-hack-nerd-font
-ls ~/.local/share/fonts
-rm -rf ~/.local/share/fonts
-lvim .
-brew install font-victor-mono-nerd-font
-lvim src/App.vue
-gco -b feature/IN-44988
-gco -b fix/IN-46509
-inno-lane iql decode ESuDNXcoKo8XvIEAknxDYpNFyyFxdu0+mu2SLl3iDUFCyxF0AOuMHsvKSpVTHcYaD75HuJWOir61Q0AMu0in4kc25FwawtB6uPoHN/APSp5q1wx+EP7r979giZaofgAhkKa+v24gTuFekvYMLSWj84kL8uEqviDb8FbvrYS8nVg=||hnNr/igBOVhuTADTmWaIYxA1hOSeSi/244yPRSYVsi6dtfFEhIErYMHCNDCOSLKex65TIT5kEkQegw2BDfQQj1B9JFIaPytS9JHYaAU7gAMG3q9UpSH4jhRh9jZrvF/ZKB3vhDAGZoDx4IsYEzBqpYZjoIa3Di463ai0qX8+6iQ=
-inno-lane iql decode 'ESuDNXcoKo8XvIEAknxDYpNFyyFxdu0+mu2SLl3iDUFCyxF0AOuMHsvKSpVTHcYaD75HuJWOir61Q0AMu0in4kc25FwawtB6uPoHN/APSp5q1wx+EP7r979giZaofgAhkKa+v24gTuFekvYMLSWj84kL8uEqviDb8FbvrYS8nVg=||hnNr/igBOVhuTADTmWaIYxA1hOSeSi/244yPRSYVsi6dtfFEhIErYMHCNDCOSLKex65TIT5kEkQegw2BDfQQj1B9JFIaPytS9JHYaAU7gAMG3q9UpSH4jhRh9jZrvF/ZKB3vhDAGZoDx4IsYEzBqpYZjoIa3Di463ai0qX8+6iQ='
-../nice-classification-crawler
-git commit -m 'feat: åƒµƒ¦åƒ³æƒ¼ƒ­åƒªƒéƒ¹çƒ»®æƒ®ƒ²åºƒ¯â€ƒ¸
-git commit -m 'feat: åƒµƒ¦åƒ³æƒ¼ƒ­åƒªƒéƒ¹çƒ»®æƒ®ƒ²åºƒ¯'
-lgsc hotfix/v7.24.3
-lgsc feature/IN-45824
-git cherry-pick -i 691a00aea1a71a8954eb9e92f734150b40eb6aa1
-git cherry-pick -i b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d
-git cherry-pick -i 8da9d5e465716de0560dac7dd938cd7258d4ec3e..b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d
-git cherry-pick -i 8da9d5e465716de0560dac7dd938cd7258d4ec3e...b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d
-git rebase -i 8da9d5e465716de0560dac7dd938cd7258d4ec3e...b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d\
-
-git rebase -i b142036110bcbb56cff5d4fb0dd6e4a73a56ce3d\
-
-lvim ~/.zshrc
-git config --global core.editor "code --wait --new-window"
-git rebase -i 691a00aea1a71a8954eb9e92f734150b40eb6aa1
-git log feature/IN-45824 
-git cherry-pick eab941f5435b5a079699cab3c5e661f2484f14f4
-lgsc feature/IN-45863
-git config --global core.editor "code --wait"
-git config --global core.editor "lvim"
-git rebase -i 893cb8bfb1c34c055c41dad178273fe4bc671c9c
-gco hotfix/v7.24.3
-git cherry-pick ed2586232364a1f9b82ff61eb88cc0f16551caaf
-gs
-gco -b fix/IN-46528
-git rebase -i 11c0e85ca49926fdd8a712843c27c2d1d0276bf4
-tmux attach
-vim init.sh
-lvim init.sh
-rm -rf ~/.config/lvim.old
-vim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-tmux detach
-tmux new-session -s home
-git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
-fzf
-git branch
-git branch | fzf
-git branch | fzf | gco
-gco $(git branch | fzf )
-git checkout $(git branch | fzf)
-vim ~/.oh-my-zsh/custom/plugins/weineel/weineel.plugin.zsh
-ls svgo-config.yml 
-ll svgo-config.yml 
-cd svgo-config.yml 
-gcof
-lgsc feature/IN-39838
-gco feature/IN-39838
-lgsc v7.24.3
-gco -b fix/IN-46530
-git cherry-pick 35c967ea63c09929ebad230698f514f5f7776e96
-git cherry-pick --continue
-git commit --amend
-cd project/weineel
-cd github
-git clone git@github.com:tech-sprint/nodejs-sprint.git
-cd nodejs-sprint
-pnpm install
-ni
-ni nodemailer
-node http/send-email.js
-lvim
-lvim ~/.tmux.conf.local
-env
-env bash
-env | fzf
-vim CHANGELOG.md
-cd Downloads
-mv email.html email.ftl
-npx cz
-pnpm setup
-pnpm install -g commitizen
-npm install -g cz-conventional-changelog
-pnpm install -g cz-conventional-changelog
-cat > ~/.czrc <<EOF\
-{ "path": "cz-conventional-changelog" }\
-EOF
-cat tt.txt
-rm ~/.czrc
-cat ~/.czrc
-gco -b fix/IN-46543
-tmux
-gco -b fix/IN-46623
-inno-lane jira cst -r 2 -p IN-44990
-gco fix/IN-46623
-git add src/sdk/services/form/form-service.ts
-git stash
-gbda
-git log feature/dev/IN-45824
-gb -d feature/dev/IN-45824\
-
-gb -D feature/dev/IN-45824
-gb
-git log fix/IN-46436
-git commit --amend -C HEAD
-git zc
-source ~/.zshrc
-source .zshrc
-starship preset pastel-powerline > ~/.config/starship.toml
-starship preset pastel-powerline > ~/.config/starship.tomlj
-starship preset pastel-powerline
-rm ~/.config/starship.tomlj
-starship preset pastel-powerline > ~/.config/starship.toml\
-
-vim ~/.config/starship.toml
-starship preset nerd-font-symbols > ~/.config/starship.toml
-cat ss.txt
-cat > ~/.czrc <<EOF\
-{ "path": "cz-conventional-changelogâ€ƒ½ }\
-EOF
-echo 'sss' > tt.txt
-rm tt.txt
-tmux kill-server
-ls node_modules
-ll node_modules
-LL node_modules
-ll -a node_modules
-vim package.json
-rm package.json
-rm yarn.lock
-rm -rf node_modules
-yarn -v
-tmux 
-git stash list
-gco -b fix/IN-45020
-ls ~/.config/configstore/update-notifier-npm-check-updates.json
-cat ~/.config/configstore/update-notifier-npm-check-updates.json
-gco -b fix/dev/IN-45020
-git cherry-pick 7c4a8c39f81bc283f66185a22e06985c713b5d00 1962d8387eabb968ad46041ef4003a976070ecee\
-
-git cherry-pick --abort
-gco fix/dev/IN-45020
-git log fix/IN-45020
-git cherry-pick 1962d8387eabb968ad46041ef4003a976070ecee
-git cherry-pick 7c4a8c39f81bc283f66185a22e06985c713b5d00 
-git diff
-git stash 
-gco -b fix/IN-43772
-git stash pop
-git log 
-gco feature/IN-40505
-git cherry-pick 492c587caab286aa6a1aadb8a5de91908bec7056
-git add . && npx cz
-sudo softwareupdate --install-rosetta --agree-to-license\
-
-sudo softwareupdate --install-rosetta --agree-to-license
-brew install chezmoi
-which vim
-chezmoi init
-ls ~/.config
-chezmoi add ~/.config
-ls ~/.local/share/chezmoi
-ls ~/.local/share/chezmoi/dot_config
-ls ~/.local/share/chezmoi/dot_config/chezmoi
-ls ~/.config/
-brew install yadm
-yadm init
-yadm add ~/.zshrc
-yadm add ~/.config
-ls /Users/lijufeng/.local/share/yadm/repo.git/
-ls /Users/lijufeng/.local/share/yadm/
-git config --global init.defaultBranch main
-vim ~/.gitconfig
-brew unistall yadm
-brew uninstall yadm
-rm -rf ~/.config/yadm
-rm ~/.local/share/yadm
-rm -rf ~/.local/share/yadm
-chezmo c
-chezmo cd
-chezmio cd
-pwd
-git remote add origin https://github.com/weineel/dotfiles.git
-git branch -m master main
-docker exec -it 3c0744675dd7f1b4921c1d7608064040cf9b0e3d598998864bc747c53806366c /bin/sh
-docker run -it --name chezmoi_test alpine
-docker run -it --name chezmoi_test alpine:dege
-docker run -it --name chezmoi_test ubuntu
-git commit -m 'init'
-git reset HEAD
-git reset HEAD^ -h
-git reset HEAD^ --hard
-rm -rf dot_config
-git login
-git remote set-url origin git@github.com:weineel/dotfiles.git
-git push -u origin main
-vim ~/.zshrc
-chezmoi add ~/.zshrc
-curl -fsLS get.chezmoi.io
-chezmoi add ~/.config/lvim/config.lua
-chezmoi add ~/.config/lvim/lazy-lock.json
-ls dot_config/lvim/config.lua
-chezmoi add ~/.config/starship.toml
-chezmoi add ~/.config/chezmoi
-chezmoi rm ~/.config/chezmoi/chezmoistate.boltdb
-chezmoi status
-rm dot_config/chezmoi/private_chezmoistate.boltdb
-gst dot_config
-gst dot_config/lvim
-ls -a
-cd .git
-vim config
-cd ~
-vim .gitconfig
-vim README.md
-git add . && npx cz && ggpush
-git reset HEAD^
-gtpull
-git add . && npx cz && lgcmr master
-gg
-git rebase --abort
-lgsc feature/IN-40274-2
-git merge feature/IN-40274-2
-gco feature/IN-40274-2
-git reset dbd808f07bd191784b6d86d46bd4593d2a8176b4
-git checkout -- .
-git checkout dbd808f07bd191784b6d86d46bd4593d2a8176b4
-gco -b feature/IN-40274-3
-git cherry-pick 93549b8db6c6efc47f10bb99410fe146cd80d155 387574f26fcee6b3587225a7bde52c16d8d596a4
-git log feature/IN-40274-2
-git git log
-lgsc feature/IN-44988
-git merge feature/IN-44988
-git merge --abort
-lgsc feature/IN-46821
-gco dev
-git merge feature/IN-46821
-gic zc
-git cz
-lgcmr master
-gco -b fix/IN-45126
-gco feature/IN-44988
-git cherry-pick 7225780e71f648391620cb6742091a87f9f7e50c 4bf34ae14da0ee9285d768247c5c8bf6230d9caf
-gcogco master
-git merge fix/IN-45126
-gco -b fix/IN-46981
-git merge fix/IN-46981
-ggpull --rebase
-gco master
-gco -b feature/IN-gst
-lgsc fix/IN-45020
-gco fix/IN-45020
-lgcmr dev
-ping 192.168.15.18
-ping 192.168.2.6:
-192.168.2.6
-ping 192.168.2.6
-ping 192.168.2.4
-cd ~/Documents
-cd ~/Downloads
-git diff > x.diff
-gco -b feature/IN-46819
-gb -d feature/IN-gst
-lgsc master
-gco -b fix/IN-47158
-git apply ../innoe-web/x.diff
-vim ~/.tmux/README.md
-ll ~/.tmux.conf
-ls ~/.tmux.conf
-vim ~/.tmux.conf
-cd ~/.tmux
-cd -
-vim .zsh_history
-vim .tmux.conf.local
-chezmoi add ~/.tmux.conf
-chezmoi add ~/.tmux.conf.local
-chezmoi cd
-ls .tmux/.tmux.conf
-cd .tmux
-ll 
-ll -a
-chezmoi add ~/.tmux/.tmux.conf
-chezmoi add ~/.tmux/README.md
-..
-lgsc dev
-git merge master
-git merge --continue
-ln -s src/App.vue
-ln src/assets/base64-images.ts
-ll base64-images.ts
-git lo
-git add . && npx cz && ggpush && lgcmr master
-git commit --amend -aC HEAD
-lgsc hotfix/v7.advsearch
-git log feature/IN-40274-3
-git cherry-pick 0fcf99a6263363a89e94db5b1d0408293f376e87
-git reset head^ --hard
-gco feature/IN-40274-3
-git reset head^
-git add .
-git cz --retry
-ggf
-gco hotfix/v7.advsearch
-ggpull
-git cherry-pick 4406f3833a816f62031b5cd722baf1298dee5923
-git log
-ggpush
-code .
-lgsc feature/IN-40274-3
-gst
-nr serve
-/Users/lijufeng/Downloads/jetbra/éƒ§ƒ­ç½®èƒ¤ƒºæƒ¼¬/reset_jetbrains_eval_mac_linux.sh; exit
-/Users/lijufeng/Downloads/jetbra/scripts/install.sh; exit
-brew install starship
-vim .config/starship.toml
-exit
-j innoe-mo
-brew uninstall starship
-mv .zshrc .zshrc.bak
-uninstall_oh_my_zsh
-bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
-ls
-which ll
-ll
-lvim .zshrc.bac
-lvim .zshrc.bat
-lvim .zshrc.bak
-nvim .zshrc.bak
-nvim .zshrc
-vim .zshrc
-ls
-vim .zshrc
-j innoe-mo
-vim .config/starship.toml
-vim ~/.config/starship.toml
-ls
-cd -
-gst
-fzf -h
-vim ~/.zshrc
-zinit update
-zinit update
-vim ~/.zshrc
-ll -a
-vim .config
-nvim .zshrc
-nvim .zshrc
-nvim .zshrc
-vim ~/.zshrc
-vim .zshrc
-vim ~/.tmux/README.md
-vim .zshrc
-chezmoi add ~/.zshrc
-chezmoi cd 
-gst
-exit
-tmux
-tmux kill-server
-vim .zshrc
-tmux
-gst
-chezmoi add ~/.zshrc
-gst
-git log
-code .
-chezmoi cd 
-gst
-git log
-git add . && git cz
-vim ~/.czrc
-gst
-git add . && git cz
-chezmoi add ~/.czrc
-gst
-vim ~/.czrc
-gst
-git add . && git cz
-ggpush
-git log
-vim ~/.zshrc
-which ll
-gst
-chezmoi add ~/.zshrc
-gst
-git add . && git cz
-ggpush
-tmux kill-server
-tmux
-ggpush
-exit
-tmux kill-server
-tmux
-j innoe-web
-ls
-pwd
-gst
-git log
-gco master
-ggpull
-gst
-nr serve
-gst
-lgsc master
-gco -b fix/IN-47136
-gst
-starship -v
-nr serve
-code .
-gst
-git add . && git cz
-git add . && npx cz && ggpush && lgcmr master
-gst
-ls
-j innoe-web
-exit
-gst
-vim ~/.zshrc
-which zi
-brew uninstall fzf
-fzf -h
-vim ~/.zshrc
-ls .fzf.zsh
-fzf -h
-vim .fzf.zsh
-rm .fzf.bash
-rm .fzf.zsh
-vim ~/.zshrc
-fzf -h
-vim ~/.zshrc
-ls .local/share/zinit/plugins/junegunn---fzf
-ls -a .local/share/zinit/plugins/junegunn---fzf
-which fzf
-fzf -h
-ls
-ls .local/bin .local/share .local/state 
-fzf -h
-ls
-vim ~/.zshrc
-zinit update --parallel
-ls
-exit
-ls
-vim ~/.zshrc
-zinit update
-vim ~/.zshrc
-fzf -h
-vim ~/.zshrc
-ls .local
-ls .local/share
-ls .local/share/zinit/plugins/junegunn---fzf
-ls .local/share/zinit/plugins
-vim ~/.zshrc
-rm -rf .local/share/zinit/plugins/junegunn---fzf
-vim ~/.zshrc
-fzf -h
-ls .local/share/zinit/plugins
-ls .local/share/zinit/plugins/junegunn---fzf
-ls .local/share/zinit/plugins/junegunn---fzf/bin
-rm -rf .local/share/zinit/plugins/junegunn---fzf
-vim ~/.zshrc
-fzf -h
-ls .local/share/zinit/plugins/junegunn---fzf/bin
-ls .local/share/zinit/plugins/junegunn---fzf
-fzf -h
-rm -rf .local/share/zinit/plugins/junegunn---fzf
 vim ~/.zshrc
 fzf -h
 vim ~/.zshrc
@@ -1074,3 +317,689 @@ j -v
 j -v
 vim ~/.zshrc
 l
+gst
+git diff
+git add . && git cz && ggpush
+exit
+l
+vim ~/.zshrc
+ls
+ll
+vim ~/.zshrc
+brew list 
+echo $EDITOR
+ls 
+gco -b fix/IN-46530
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+ls
+ls
+chezmoi add ~/.zshrc
+chezmoi add ~/.zsh_history
+chezmoi cd
+git log
+exit
+git log
+exit
+..
+cd project
+cd lijufent
+cd lijufeng 
+ls
+z innoe
+ls
+gst
+../innoe-web3
+../innoe-web2
+ls
+exit
+git remote -v
+git remote set-url origin --add git@gitee.com:weinee/dotfiles.git
+git remott -v
+git remote -v
+ggpush
+copyfile ~/.ssh/id_rsa.pub
+ggpush
+gst
+exit
+..
+cd lijufent
+cd lijufeng
+ls
+z innoe
+../
+../innoe-web2
+../patsnap/innoe-web2
+exit
+gst
+vim ~/.zshrc
+chezmoi add ~/.zshrc
+vim ~/.config/chezmoi/chezmoi.toml
+chezmoi add ~/.zshrc ~/.config/chezmoi/chezmoi.toml
+chezmoi cd
+j zsh
+z zsh
+ls
+vim zsh-weineel.plugin.zsh
+gst
+vim ~/.zshr
+vim ~/.zshrc
+gst
+git add . && git cz && ggpush
+git remote set-url origin --add git@gitee.com:weinee/zsh-weineel.git
+git remote -v
+zinit update weineel/zsh-weineel
+tmux kill-server
+gst
+gst
+git add . && git cz && ggpush
+gst
+gst
+tmux kill-window -t 5
+gst
+ggpull
+nr serve
+../
+ls
+..
+git clone git@git.patsnap.com:inno-enterprise/web/innoe-web.git innoe-web2
+cd innoe-web2
+vim ~/.zshrc
+code .
+lgsc dev
+~/
+...
+cd -
+~
+chezmoi cd
+gst
+gco -b feature/IN-41487
+chezmoi cd
+gst
+gst
+gst
+gst
+gst
+gst
+git log
+gst
+lgsc hotfix/v7.advsearch
+lgsc feature/IN-40274-3
+nr serve 
+nr serve
+lgsc 
+lgsc hotfix/v7.advsearch
+git log feature/IN-40274-3
+git cherry-pick 406d08f09c68a50ea30e5930bd79a2864fdb058d
+git log
+ggpush
+nr serve
+gst
+lgsc feature/IN-40274-3
+git add . && git cz && ggpush
+lgsc master
+gst
+ggpull
+code .
+gst
+ggpull
+lgsc hotfix/v7.advsearch
+gco master
+git merge hotfix/v7.advsearch
+git merge --abort
+lgsc feature/IN-40274-3
+gco master
+git merge  feature/IN-40274-3
+git merge --abort
+git merge hotfix/v7.advsearch
+git merge --abort
+ggpull
+lgsc feature/IN-40274-3
+git log
+git log
+git cherry-pick 51834f6cd77cf8c5b156733d57357031bad3ed74
+gst
+git cherry-pick --abort
+git log
+git cherry-pick afbb0595ab4c37a401b40766bfa359ba415c1bdd
+git log
+git cherry-pick 8fc63ae03e01937247bacb8a7d8421e29eb44963 ed8b8ad60be5009093c75b0a98daf047b24f9c1b 93cc51632a5e837d093a9a30d975d7c886fc8d0e
+git log
+git log
+git log
+git cherry-pick 51834f6cd77cf8c5b156733d57357031bad3ed74
+gco master
+git merge feature/IN-40274-3
+gst
+gst
+gst
+git merge --continue
+gst
+ggpush
+ggpull
+ggpush
+gst
+git log
+lgsc master
+nr serve
+gst
+gst
+gst
+gst
+git cz
+gst
+git reset head^
+gst
+gst
+gst
+gic cz
+git cz
+gst
+git cz
+git cz
+git log
+ggpush
+git log
+gst
+nr serve
+ls
+cd project/patsnap/inno-lane
+vim
+ls
+ls
+vim
+ls
+gst
+exit
+vim
+lvim +LvimUpdate +q
+lvim -v
+exit
+exit
+vim
+gst
+ls
+vim lerna.json
+vim src/filters/index.ts
+lvim src/filters/index.ts
+lvim src/filters/index.ts
+gst
+git add . && git cz && ggpush
+gst
+git commit --amend -aC HEAD
+ggf
+lgsc feature/IN-46580
+lgsc dev
+lgsc feature/IN-46580
+git log
+code .
+gst
+inno-lane jira cst -r 1 -p IN-47558
+inno-lane jira cst -r 8 -p IN-47403
+inno-lane jira cst -r 3 -p IN-47404
+ggpush
+ggpull
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+code .
+gst
+ls
+cd dist
+..
+cd src/packages/apps/common/cascader
+vim ~/.config/starship.toml
+...
+...
+..
+ls
+cd ~
+cd -
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+cd src/packages/apps/common/cascader
+pwd
+cd -
+chezmoi add ~/.config/starship.toml
+git log
+gst
+git add . && git cz && ggpush
+gst
+gst
+git add . && git cz && ggpush
+nr serv e
+nr serve
+gst
+git commit --amend -aC HEAD
+git log
+ggf
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git commit --amend -C HEAD
+gst
+ggf
+nr serve
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+gst
+git add . && git cz && ggpush
+gst
+git add .
+git cz --retry
+git log
+ggpush
+nr serve
+vim ~/.zshrc
+vim ~/.zshrc
+gst
+ggpull
+lgsc feature/IN-46582
+code .
+ni
+nr serve
+nr serve
+gst
+gir restore .
+git restore .
+gst
+gst
+nr serve
+git log
+gco -b feature/IN-gst
+gco master
+gb -d feature/IN-gst
+ggpull
+gco -b feature/IN-47557
+git log
+nr serve
+gst
+doce .
+code .
+gst
+git add . && git cz && ggpush
+git reset head^
+gst
+gst
+gst
+git add .
+git cz --retry
+git log
+ggf
+git reset head^
+gst
+git add . && git cz --retry
+ggpush
+ggf
+lgsclgsc master
+lgsc master
+ggpull
+git log
+gst
+gco -b feature/IN-47557
+gco -b feature/IN-47587
+git add . && git cz && ggpush
+gco -b  feature/IN-47557 
+gco   feature/IN-47557 
+gb -m  feature/IN-47557   feature/IN-47558
+ggpush
+git log
+git rebase -i head^
+gst
+git commit --amend 
+git rebase --continue
+git log
+ggpush
+git log
+ggpush
+git log
+git log
+gst
+nr serve
+code .
+git log
+code .
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+gst
+git cz
+gst
+ls
+vim ~/.zshrc
+nvim ~/.zshrc
+lvim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+exit
+vim ~/.zshrc
+vim ~/.zshrc
+tmux
+ls
+ls
+vim ~/.zshrc
+vim ~/.zshrc
+tmux
+git log
+gst
+nr serve
+code .
+...
+..
+cd project
+cd lijufeng
+cd project
+..
+which ...
+vim ~/.zshrc
+cd project/weineel
+ls
+mkdir zsh-weineel
+cd zsh-weineel
+code .
+git init
+gst
+git cz 
+git add .
+git cz
+git remote add origin git@github.com:weineel/zsh-weineel.git
+ggpush
+vim ~/.zshrc
+gst
+chezmoi add ~/.zshrc
+chezmoi cd
+tmux
+tmux kill-server
+tmux 
+tmux
+vim ~/.zshrc
+ls
+gst
+git add . && git cz && ggpush && lgcmr dev
+fzf | vim 
+ls
+fzf
+vim
+git log
+git log
+git log
+git commit --amend -aC HEAD
+git log
+gst
+git commit --amend -C HEAD
+gst
+ggpush
+git add . && git cz && ggpush
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+gst
+git add . && git cz && ggpush
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+cd project/weineel
+ls
+git clone git@github.com:weineel/dockerfiles.git
+\:new
+tmux attach
+code .
+cd dockerfiles
+ls
+code .
+zsh -b
+ls
+exit
+zsh -b
+exit
+zsh -v
+exit
+cd ubuntu-exp
+ls
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 ls
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 which zsh
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 which zsh
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 ls
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 ls -c ls
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 -c ls
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1 -c ls
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+gst
+git cz 
+ggpush
+gst
+gst
+git cz
+gst
+gst
+gst
+gst
+gst
+gst
+git add . && git cz && ggpush
+tmux kill-serve
+tmux
+tmux kill-session -tweineel\'s\ project
+tmux new-session -s weineel-project
+tmux detach
+tmux new-session -s weineel-project
+j dockerfi
+z dockerfile
+ls
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+which sh
+ls -al /bin/sh
+ls /bin/sh
+docker build -t=ubuntu-exp:0.0.1 .
+ls
+cd ubuntu-exp
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+vim ~/.zshrc
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker build -t=ubuntu-exp:0.0.1 .
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+ll
+chezmoi cd 
+ls
+code .
+gst
+gst
+git log
+nr serve
+gst
+ls
+git log
+code .
+git log
+ggpush
+lgcmr master
+nr serve
+gst
+git add . && git cz && ggpush
+lgcmr master
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+docker run -it --name ubuntu-exp --rm ubuntu-exp:0.0.1
+ll
+ls
+bash
+s
+ls
+nr serve
+nr serve
+nr serve
+nr serve
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+git log
+git commit --amend -aC HEAD
+ggpush
+ff
+ggf
+gst
+git cz
+gst
+git add . && git cz && ggpush
+gst
+i
+ls
+ll
+vim src/App.vue
+Library/Application\ Support/Code/logs/20230309T102622/window3/exthost/vscodevim.vim/Vim.log 
+vim ~/.tmux.conf.local
+vim ~/.tmux.conf
+cd 
+..
+cd
+vim ~/.zshrc
+vim ~/.tmux.conf
+ls
+chezmoi add ~/.tmux.conf.local
+chezmoi cd 
+code .
+gst
+git add . && git cz && ggpush
+exit
+vim ~/.zshrc
+echo $ZPFX
+tmux kill-serve
+tmux kill-server
+tmux kill-serve
+brew uninstall tmux
+mkdir .config/tmux
+mkdir .config/tmux
+mkdir -p .config/tmux
+mkdir -p .config/tmux
+mv .tmux.conf.local ~/.config/tmux
+ls .tmux*
+rm .tmux.conf
+rm -rf .tmux
+mv ~/.config/tmux/.tmux.conf.local ~/.config/tmux/tmux.conf.local
+chezmoi add ~/.config/tmux/tmux.conf.local
+chezmoi cd
+gst
+gst
+git add . && git cz && ggpush
+t
+exit
+ls ~/.config/tmux
+ll ~/.config/tmux
+ls
+ls ~/.local/share/tmux
+rm ~/.local/share/zinit/plugins/gpakosz---.tmux
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+ls ~/.local/share/tmux
+ls ~/.config/tmux/tmux.conf.local
+ls ~/.config/tmux/tmux.conf.local
+ls ~/.config/tmux/
+vim ~/.zshrc
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+ls
+ls /Users/lijufeng/.local/share/zinit/plugins/gpakosz---.tmux
+ll /Users/lijufeng/.local/share/zinit/plugins/gpakosz---.tmux
+ls ~/.config/tmux/
+ll ~/.config/tmux/
+vim ~/.zshrc
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+cd /Users/lijufeng/.local/share/zinit/plugins/gpakosz---.tmux
+ls
+gst
+ll
+ln -s "./.tmux.conf" "~/.config/tmux/tmux.conf"
+ln -s "/path/to/oh-my-tmux/.tmux.conf" "~/.config/tmux/tmux.conf"
+ln -s ./.tmux.conf ~/.config/tmux/tmux.conf
+ls ~/.config/tmux/
+rm ~/.config/tmux/tmux.conf
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+ls ~/.config/tmux/
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+vim ~/.zshrc
+tmux -v
+rm -rf ~/.local/share/zinit/plugins/tmux---tmux
+cd /Users/lijufeng/.local/share/zinit/plugins/tmux---tmux
+ls
+make
+rm -rf ~/.local/share/zinit/plugins/tmux---tmux
+readline
+automake
+cd 
+cd /Users/lijufeng/.local/share/zinit/plugins/tmux---tmux
+./configure && make
+brew install tmux
+tmux
+ls
+exit
+vim ~/.zshrc
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+rm -rf ~/.local/share/zinit/plugins/tmux---tmux
+rm -rf ~/.config/tmux
+vim ~/.tmux.conf.local
+chezmoi cd
+ggpush
+cd
+exit
+: 1678450179:0;ls
+: 1678450212:0;chezmoi add ~/.zsh_history
