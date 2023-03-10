@@ -51,6 +51,14 @@ zi for \
   src'key-bindings.zsh' \
 @junegunn/fzf
 
+# install oh my tmux, ~/.tmux.conf.local 会通过 chezmoi 创建
+zi for \
+  as"null" \
+  from'github' \
+  atclone'ln -s -f $PWD/.tmux.conf ~/.tmux.conf' \
+@gpakosz/.tmux
+  
+
 # install exa
 zinit ice as"command" from"gh-r" \
   atclone"cp -vf ./man/exa.1 $ZPFX/share/man/man1; cp -vf completions/exa.zsh _exa" \
@@ -89,6 +97,7 @@ zinit light weineel/zsh-weineel
 ##
 
 export PATH=~/.local/bin:$PATH
+export EDITOR="lvim"
 
 # alias
 # alias lvim=/Users/lijufeng/.local/bin/lvim
