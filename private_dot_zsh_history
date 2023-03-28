@@ -1,634 +1,3 @@
-vim ~/.zshrc
-fzf -h
-vim ~/.zshrc
-gst
-vim ~/.zshrc
-chezmoi add ~/.zshrc
-chezmoi cd
-gst
-git add . && npx cz && ggpush
-git add . && git cz && ggpush
-ls
-git log
-vim .git/config
-gst
-git rebase -i --root
-git log
-git rebase -i --root
-git commit --amend --author "weineel LiJF_wn@163.com"
-vim .git/config
-git commit --amend --author "weineel <LiJF_wn@163.com>"
-gst
-git rebase --continue
-git log
-git commit --amend --author "weineel <LiJF_wn@163.com>" && git rebase --continue
-git log
-git commit --amend --author "weineel <LiJF_wn@163.com>" && git rebase --continue
-git commit --amend --author "weineel <LiJF_wn@163.com>" --on-edit && git rebase --continue
-git commit --amend --author "weineel <LiJF_wn@163.com>" --no-edit && git rebase --continue
-gst
-git log
-ggpush
-ggf
-exit
-ls
-ll -a
-chezmoi add ~/.zsh_history
-gst
-chezmoi cd 
-gst
-git add . && git cz && ggpush
-git log
-exit
-gst
-inno-lane jira cst -r 2 -p IN-47215
-tmux detach
-tmux new-session -s inno-lane
-j inno-lane
-ls
-../inno-lane
-..
-cd project/patsnap/inno-lane
-ls
-git log
-pwd
-cd /Users/lijufeng/project/patsnap/inno-lane
-..
-vim ~/.zshrc
-tmux kill-server
-nr serve
-tmux
-../inno-lane
-...
-vim ~/.zshrc
-ls
-ll
-vim ~/.zshrc
-cd ../inno-lane
-ls
-gco master
-gst
-code .
-gco master
-ggpull
-inno-lane jira cst -r 2 -p IN-47215
-gst
-git log
-gco -b fix/#7
-gst
-git add . && git cz && ggpush
-ggpush
-git commit --amend -aC HEAD
-git log
-ggf
-gco master
-ggpull
-which gbda
-gbda
-gb
-inno-lane jira cst -r 3 -p IN-47215
-vim ~/.zshrc
-ls .local/share/zinit/plugins/starship---starship
-ls .local/share/zinit/plugins/starship---starship/starship
-starship completions zsh
-gst
-rm -rf  /Users/lijufeng/.local/share/zinit/plugins/starship---starship
-exit
-ls
-exit
-vim ~/.zshrc
-chezmoi cd 
-gst
-chezmoi add ~/.zshrc
-gst
-git diff
-git add . && git cz && ggpush
-man exa
-brew uninstall exa
-man exa
-vim ~/.zshrc
-ll
-vim ~/.zshrc
-ls
-exz
-exa
-vim ~/.zshrc
-rm -rf  /Users/lijufeng/.local/share/zinit/plugins/weineel---zsh-exa
-rm -rf  /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
-ls
-cd /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
-ls
-ls bin/fzf
-vim ~/.zshrc
-ls
-vim ~/.zshrc
-fzf -h
-ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
-ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf/bin/fzf
-which ls
-vim ~/.zshrc
-chezmoi add ~/.zshrc
-chezmoi cd 
-chezmoi diff
-gst
-git diff
-ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf/bin/fzf
-vim ~/.zshrc
-fzf -h
-vim ~/.zshrc
-fzf -h
-which fzf
-vim ~/.zshrc
-cd /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
-ls
-ll
-ls
-gst
-ls -a
-./uninstall
-ls
-..
-cd ..
-rm -rf junegunn---fzf
-ls
-ls ogham---exa
-man exa
-exa -h
-vim ~/.zshrc
-fzf -h
-which fzf
-man fzf
-vim ~/.zshrc
-ls /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf
-cat /Users/lijufeng/.local/share/zinit/plugins/junegunn---fzf/_fzf
-fzf -h
-echo $ZINIT[MAN_DIR]
-rm -rf /Users/lijufeng/.local/share/zinit/plugins/ogham---exa
-man exa
-rm -rf /Users/lijufeng/.local/share/zinit/plugins/ogham---exa
-vim ~/.zshrc
-man exa
-vim ~/.zshrc
-echo $ZINIT[MAN_DIR]
-exit
-exa
-vim ~/.zshrc
-cd project/weineel/
-mkdir zsh-exa
-cd zsh-exa
-code .
-rm -rf /Users/lijufeng/.local/share/zinit/plugins/ogham---exa
-ll
-ls
-vim ~/.zshrc
-ls 
-ls
-ll
-chpwd_functions
-vim ~/.zshrc
-gst
-rm -rf ~/project/weineel/zsh-exa
-gst
-vim ~/.zshrc
-ls
-cd project/weineel
-ls
-cd nteboo
-gst
-ls
-chezmoi cd
-chezmoi add ~/.zshrc
-gst
-chezmoi add ~/.zsh_history
-gst
-git add . && git cz && ggpush
-ggpush
-exit
-tmux kill-server
-exit
-tmux
-gst
-ggpull
-gst
-jc do
-ls
-cd docs
-..
-cd ..
-jc do
-cd ..
-j docs
-ls
-..
-ls
-cd ..
-ls
-j dist
-tmux kill-server
-vim ~/.zshrc
-jijife \\
-jisdfsdf \
-ls \
-project
-vim ~/.zshrc
-ls
-tmux
-gst
-git diff
-git diff
-git add . && git cz && ggpush
-t
-exit
-z project
-ls
-z p
-..
-cd ..
-z p
-cd ..
-gst
-../..
-which ..
-cd -1
-cd project
-cd -1
-..
-vim ~/.zshrc
-..
-..
-ls
-..
-which ...
-z zsh
-...
-..
-gst
-z zsh
-ls
-gst
-gst
-git add . && git cz && ggpush
-gst
-gst
-gst
-git add . && git cz && ggpush
-git commit --amend -aC HEAD
-ggf
-zinit update weineel/zsh-weineel
-...
-cd ../..
-which ...
-rm -rf /Users/lijufeng/.local/share/zinit/plugins/weineel---zsh-weineel
-..
-cd lijufeng
-cd pro
-zp
-z -c p
-cd weineel/zsh-weineel
-...
-vim ~/.zshrc.bak
-..
-..
-cd weineel/notebook
-..
-..
-z /Users/lijufeng/project/weineel/notebook
-..
-..
- zsh
-git log
-git diff
-git add . && git cz && ggpush
-exit
-exit
-code .
-chezmoi add ~/.zshrc
-chezmoi cd
-ls
-copyfile babel.config.js
-vim ~/.zshrc
-clipcopy
-clipcopy babel.config.js
-copydir
-clippaste
-which copyfile
-brew uninstall autojump
-j -v
-j -v
-vim ~/.zshrc
-l
-gst
-git diff
-git add . && git cz && ggpush
-exit
-l
-vim ~/.zshrc
-ls
-ll
-vim ~/.zshrc
-brew list 
-echo $EDITOR
-ls 
-gco -b fix/IN-46530
-vim ~/.zshrc
-vim ~/.zshrc
-vim ~/.zshrc
-vim ~/.zshrc
-ls
-ls
-chezmoi add ~/.zshrc
-chezmoi add ~/.zsh_history
-chezmoi cd
-git log
-exit
-git log
-exit
-..
-cd project
-cd lijufent
-cd lijufeng 
-ls
-z innoe
-ls
-gst
-../innoe-web3
-../innoe-web2
-ls
-exit
-git remote -v
-git remote set-url origin --add git@gitee.com:weinee/dotfiles.git
-git remott -v
-git remote -v
-ggpush
-copyfile ~/.ssh/id_rsa.pub
-ggpush
-gst
-exit
-..
-cd lijufent
-cd lijufeng
-ls
-z innoe
-../
-../innoe-web2
-../patsnap/innoe-web2
-exit
-gst
-vim ~/.zshrc
-chezmoi add ~/.zshrc
-vim ~/.config/chezmoi/chezmoi.toml
-chezmoi add ~/.zshrc ~/.config/chezmoi/chezmoi.toml
-chezmoi cd
-j zsh
-z zsh
-ls
-vim zsh-weineel.plugin.zsh
-gst
-vim ~/.zshr
-vim ~/.zshrc
-gst
-git add . && git cz && ggpush
-git remote set-url origin --add git@gitee.com:weinee/zsh-weineel.git
-git remote -v
-zinit update weineel/zsh-weineel
-tmux kill-server
-gst
-gst
-git add . && git cz && ggpush
-gst
-gst
-tmux kill-window -t 5
-gst
-ggpull
-nr serve
-../
-ls
-..
-git clone git@git.patsnap.com:inno-enterprise/web/innoe-web.git innoe-web2
-cd innoe-web2
-vim ~/.zshrc
-code .
-lgsc dev
-~/
-...
-cd -
-~
-chezmoi cd
-gst
-gco -b feature/IN-41487
-chezmoi cd
-gst
-gst
-gst
-gst
-gst
-gst
-git log
-gst
-lgsc hotfix/v7.advsearch
-lgsc feature/IN-40274-3
-nr serve 
-nr serve
-lgsc 
-lgsc hotfix/v7.advsearch
-git log feature/IN-40274-3
-git cherry-pick 406d08f09c68a50ea30e5930bd79a2864fdb058d
-git log
-ggpush
-nr serve
-gst
-lgsc feature/IN-40274-3
-git add . && git cz && ggpush
-lgsc master
-gst
-ggpull
-code .
-gst
-ggpull
-lgsc hotfix/v7.advsearch
-gco master
-git merge hotfix/v7.advsearch
-git merge --abort
-lgsc feature/IN-40274-3
-gco master
-git merge  feature/IN-40274-3
-git merge --abort
-git merge hotfix/v7.advsearch
-git merge --abort
-ggpull
-lgsc feature/IN-40274-3
-git log
-git log
-git cherry-pick 51834f6cd77cf8c5b156733d57357031bad3ed74
-gst
-git cherry-pick --abort
-git log
-git cherry-pick afbb0595ab4c37a401b40766bfa359ba415c1bdd
-git log
-git cherry-pick 8fc63ae03e01937247bacb8a7d8421e29eb44963 ed8b8ad60be5009093c75b0a98daf047b24f9c1b 93cc51632a5e837d093a9a30d975d7c886fc8d0e
-git log
-git log
-git log
-git cherry-pick 51834f6cd77cf8c5b156733d57357031bad3ed74
-gco master
-git merge feature/IN-40274-3
-gst
-gst
-gst
-git merge --continue
-gst
-ggpush
-ggpull
-ggpush
-gst
-git log
-lgsc master
-nr serve
-gst
-gst
-gst
-gst
-git cz
-gst
-git reset head^
-gst
-gst
-gst
-gic cz
-git cz
-gst
-git cz
-git cz
-git log
-ggpush
-git log
-gst
-nr serve
-ls
-cd project/patsnap/inno-lane
-vim
-ls
-ls
-vim
-ls
-gst
-exit
-vim
-lvim +LvimUpdate +q
-lvim -v
-exit
-exit
-vim
-gst
-ls
-vim lerna.json
-vim src/filters/index.ts
-lvim src/filters/index.ts
-lvim src/filters/index.ts
-gst
-git add . && git cz && ggpush
-gst
-git commit --amend -aC HEAD
-ggf
-lgsc feature/IN-46580
-lgsc dev
-lgsc feature/IN-46580
-git log
-code .
-gst
-inno-lane jira cst -r 1 -p IN-47558
-inno-lane jira cst -r 8 -p IN-47403
-inno-lane jira cst -r 3 -p IN-47404
-ggpush
-ggpull
-gst
-git log
-git commit --amend -aC HEAD
-ggf
-code .
-gst
-ls
-cd dist
-..
-cd src/packages/apps/common/cascader
-vim ~/.config/starship.toml
-...
-...
-..
-ls
-cd ~
-cd -
-vim ~/.config/starship.toml
-vim ~/.config/starship.toml
-cd src/packages/apps/common/cascader
-pwd
-cd -
-chezmoi add ~/.config/starship.toml
-git log
-gst
-git add . && git cz && ggpush
-gst
-gst
-git add . && git cz && ggpush
-nr serv e
-nr serve
-gst
-git commit --amend -aC HEAD
-git log
-ggf
-gst
-git commit --amend -aC HEAD
-ggf
-gst
-git commit --amend -C HEAD
-gst
-ggf
-nr serve
-vim ~/.config/starship.toml
-vim ~/.config/starship.toml
-vim ~/.config/starship.toml
-vim ~/.config/starship.toml
-gst
-git add . && git cz && ggpush
-gst
-git add .
-git cz --retry
-git log
-ggpush
-nr serve
-vim ~/.zshrc
-vim ~/.zshrc
-gst
-ggpull
-lgsc feature/IN-46582
-code .
-ni
-nr serve
-nr serve
-gst
-gir restore .
-git restore .
-gst
-gst
-nr serve
-git log
-gco -b feature/IN-gst
-gco master
-gb -d feature/IN-gst
-ggpull
-gco -b feature/IN-47557
-git log
-nr serve
-gst
-doce .
-code .
-gst
-git add . && git cz && ggpush
-git reset head^
-gst
-gst
-gst
-git add .
 git cz --retry
 git log
 ggf
@@ -1001,5 +370,729 @@ chezmoi cd
 ggpush
 cd
 exit
-: 1678450179:0;ls
-: 1678450212:0;chezmoi add ~/.zsh_history
+ls
+chezmoi add ~/.zsh_history
+chezmoi apply
+tmux
+exit
+ls
+rm -rf ~/.local/share/zinit/plugins/gpakosz---.tmux
+ls ~/.tmux.conf
+vim ~/.tmux.conf
+cat ~/.tmux.conf
+ls ~/.tmux.conf.local
+rm ~/.tmux.conf
+vim ~/.zshrc
+cat ~/.tmux.conf
+tmux
+chezmoi add ~/.zshrc
+chezmoi add ~/.config/lvim
+vim ~/.config/lvim/config.lua
+tmux attach
+nr serve
+git log
+lgsc master
+nr serve
+gst
+ggpush
+lgcmr dev
+gst
+git add . && git cz && ggpush
+gco master
+ggpull
+gco feature/IN-41487
+git log
+code .
+nr serve
+gst
+git log
+git log
+gco -b feature/IN-47558
+git add . && git cz && ggpush
+git commit --amend -aC HEAD
+ggf
+git log
+gst
+git log
+git log
+gst
+gst
+git cz
+ggpush
+lgcmr dev
+doce .
+code .
+nrserve
+nr serve
+git diff > xxx.diff
+git apply ../innoe-web/xxx.diff
+gst
+nr serve
+git log
+ggpull
+nr serve
+code .
+ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
+nr serve
+mr serve
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+gst
+git diff
+git add . && git cz && ggpush
+git log
+git log
+git log
+nr serve
+gst
+gst
+git cz && ggpush && lgcmr dev
+ls ~/.local/share/tmux
+ls ~/.local/share/tmux/resurrect
+ls ~/.local/share/tmux/resurrect/last
+cat ~/.local/share/tmux/resurrect/last
+inno-lane jira cst -r 2 -p IN-47220
+inno-lane jira cst -r 5 -p IN-46498
+inno-lane jira cst -r 3 -p IN-47402
+git log
+git log
+lgsc dev
+code .
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.zshrc
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim {l
+ll
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim src/App.vue
+vim src/App.vue
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+vim ~/.config/lvim/config.lua
+gst
+vim ~/.zshrc
+vim ~/.config/lvim/config.lua
+source ~/.zshrc
+vim ~/.config/lvim/config.lua
+vim ~/.zshrc
+vim ~/.zshrc
+chezmoi add ~/.config/lvim
+chezmoi add ~/.zshrc
+vim ~/.config/lvim/config.lua
+gst
+git cz
+git cz 
+git commit --amend -aC HEAD
+gst
+git commit --amend -C HEAD
+code .
+gst
+git add . && git cz && ggpush
+git log
+git add . && git cz && ggpush
+git commit --amend -C HEAD
+gst
+git add .
+git commit --amend -aC HEAD
+gst
+gst
+git add . && git cz && ggpush
+ggf
+gst
+nr serve
+gst
+lgsc master
+nr serve
+code .
+nr serve
+git log
+ggpush
+nr serve
+code .
+ggpull
+code .
+git log
+lgsc feature/IN-47587
+git log
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+ggpush
+lgcmr dev
+nr serve
+dkkk
+vim ~/.config/lvim/config.lua
+git log
+code .
+git log
+nr serve
+gst
+gst
+gst
+git log
+git add . && git cz && ggpush
+git reset head^
+git log
+git stash
+lgsc master
+gco feature/IN-41487
+git rebase master
+git rebase --continue
+git rebase --continue
+git add .
+git rebase --continue
+git stash pop
+git add .
+nr serve
+git log
+gco master
+git log
+git stash
+gst
+gco master
+gb -D feature/IN-41487 
+lgsc feature/IN-41487 
+git log
+git log master
+git rebase master
+git add .
+git rebase --continue
+git rebase --continue
+git log
+gst
+git rebase --continue
+git log
+gst
+git rebase --continue
+git log
+git log
+git show c953ae2b1fda7cb55a6d60c01f15db4e13272
+git reset head^
+gst
+nr serve
+gst
+git add ,
+git add .
+gst
+gst
+git log
+ggpush
+lgcmr master
+gst
+nr serve
+code .
+exit
+vim ~/.tmux.conf
+ls
+gst
+ls
+lgsc dev
+code .
+git stash pop
+gst
+gst
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+lgcmr master
+gst
+nr serve
+gst
+gst
+gst
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+ggf
+lgcmr dev
+llgsc dev
+lgsc dev
+git merge feature/IN-41487
+gst
+git add .
+git merge --continue
+nr serve
+ggpush
+i
+gco feature/IN-41487 
+ggpull
+gst
+git log
+ggpull
+gst
+gst
+gco master
+ggpull
+gco -b feature/IN-47673
+nr serve
+code .
+gst
+git log
+../innoe-web2
+ls
+git log
+vim
+gst
+git add . && git cz && ggpush
+lgcmr dev
+gst
+nr serve
+git log
+code .
+code .
+code .
+gst
+git add . && git cz && ggpush && lgcmr master
+gst
+git log
+ggpush
+lgcmr master
+..
+ls
+git clone git@git.patsnap.com:inno-enterprise/web/innoe-web.git innoe-web2
+git clone git@git.patsnap.com:inno-enterprise/web/innoe-web.git innoe-web3
+cd innoe-web3
+ls
+code .
+gst
+gst
+git log
+git log
+gst
+code .
+gst
+git add . && git cz && ggpush && lgcmr master
+git add . && git cz && ggpush && lgcmr master
+gst
+git log
+git add . && git cz && ggpush && lgcmr master
+git add . && git cz && ggpush && lgcmr master
+git log
+gst
+gst
+git add . && git cz && ggpush
+gst
+git add .
+git commit --amend -aC HEAD
+ggf
+git log
+gst
+ggpull
+gco -b feature/IN-47885
+gst
+gst
+git cz 
+ni
+gst
+git cz
+ggpush && lgcmr master
+gst
+gigit log
+git log
+gco -b feature/IN-41487-back
+gco -m feature/IN-41487-back feature/IN-41487-master
+gst
+git reset head^ --hard
+git log
+ggpush && lgcmr master
+gco -b feature/IN-41478
+git log
+ggpull
+gco feature/IN-41487 
+git log
+gb -D feature/IN-41478
+nr serve
+gst
+gst
+git commit --amend -aC HEAD
+git log
+ggf
+git commit --amend -C HEAD
+ggf
+gst
+gst
+gst
+git cz
+gst
+gst
+git add .
+gst
+git add .
+gst
+git add . && git cz && ggpush && lgcmr dev
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git commit --amend -aC HEAD
+ggf
+lgsc master
+lgsc feature/IN-46819
+git log
+git rebase master
+git log
+nr serve
+code .
+gst
+gst
+git add . && git cz && ggpush 
+git add . && git cz && ggpush 
+gst
+git log
+lgsc master
+gst
+nr serve
+code .
+nr serve
+gst
+gco -b fix/IN-48405
+git add . && git cz && ggpush && lgcmr master
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git log
+ggpush
+git log
+gst
+gco master
+ggpull
+nr serve
+gst
+gst
+git log
+gst
+git commit --amend -C HEAD
+git log
+gst
+gst
+gst
+git add . && git cz && ggpush 
+git log
+git add . && git cz && ggpush 
+git log
+ggf
+gst
+gst
+git add .
+gst
+git commit --amend -C HEAD
+git log
+ggf
+gst
+git log
+gst
+git log
+gst
+git loaggpull
+ggpull
+gco -b fix/IN-48438
+nr serve
+gst
+ggpull
+ggpull
+gst
+code .
+gst
+git log
+git add . && git cz && ggpush && lgcmr master
+gst
+gst
+git log
+gco master
+ggpull
+gco -b fix/IN-48456
+gst
+git add . && git cz && ggpush && lgcmr master
+gst
+code .
+gst
+git cz
+git cz
+ggpush
+lgcmr dev
+gst
+nr serve
+gst
+code .
+gst
+gst
+git log
+git add . && git cz && ggpush && lgcmr master
+code .
+gst
+git log
+code .
+gst
+gst
+git add . && git cz && ggpush && lgcmr dev
+git log
+git commit --amend -C HEAD
+gst
+git reset head^
+git log
+git cz --retry
+ggpush
+ggf
+lgcmr dev
+gst
+code .
+gst
+gst
+git log
+nr serve
+gst
+git add . && git cz && ggpush && lgcmr dev
+gst
+nr serve
+gst
+gco master
+ggpull
+gst
+gst
+lgsc master
+git add . && git cz
+gco master
+ggpull
+gst
+gco -b fix/IN-41487
+git add . && git cz
+ggpush && lgcmr master
+gco feature/IN-41487 
+gst
+git log
+ggpush
+nr serve
+gst
+gst
+git reset head^
+st
+gst
+git cz
+gst
+nr serve
+inr serve
+nr serve
+gst
+git log
+ggpull
+git log
+lgsc v7.26.9
+gst
+gst
+git cz
+gst
+ggpush
+ggf
+lgcmr dev
+gst
+gst
+git log
+git add . && git cz
+gst
+git cz
+ggpush
+lgcmr dev
+gst
+gst
+gst
+nr serve
+git log
+code .
+gst
+git add . && git cz
+lgcmr dev
+ggpush
+gst
+code .
+gst
+git add . && git cz && ggpush && lgcmr dev
+nr serve
+gst
+git add . && git cz && ggpush && lgcmr dev
+gst
+git cz
+gst
+gst
+git cz 
+gst
+ggpush
+gst
+gst
+git cz && ggpush && lgcmr dev
+gst
+lgcmr master
+gst
+gst
+gst
+lgsc master
+ggpull
+gco feature/IN-41487 
+git log
+git rebase master
+git log
+gst
+nr serve
+gst
+gst
+git log
+gst
+git cz
+ggpush && lgcmr master
+git log
+ggf
+lgcmr dev
+lgsc dev
+gst
+gst
+lgsc dev
+git merge feature/IN-41487
+git merge --abort
+gco feature/IN-41487
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+lgsc dev
+git merge feature/IN-41487
+gst
+git add .
+git merge --continue
+ggpush
+gco feature/IN-41487
+gst
+lgcmr master
+gco dev
+code .
+gst
+nr serve
+gco -b qa/not-limit-custom-fields
+gst
+git add . && git cz && ggpush && lgcmr dev
+gco feature/IN-41487
+nr serve
+git stash pop
+gst
+gst
+nr serve
+gst
+git log
+code .
+gst
+gst
+ls
+cd -
+cd ~
+ls
+cd Downloads
+: 1679901703:0;ls
+: 1679901734:0;vim Â≠É∑ÊÆµËøÅÁßªÁÉ∫É§Â≠É∑ÊÆµÊÉµ¥ÁÉ∞É¶.json
+: 1679904454:0;gst
+: 1679904599:0;gst
+: 1679904616:0;gst
+: 1679904618:0;nr serve
+: 1679907009:0;gst
+: 1679911952:0;gst
+: 1679911954:0;git cz
+: 1679912085:0;gst
+: 1679912091:0;git commit --amend -C HEAD
+: 1679912186:0;gst
+: 1679912189:0;ggpush
+: 1679912214:0;git log
+: 1679912364:0;gst
+: 1679912370:0;ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
+: 1679912382:1;gst
+: 1679912386:0;code .
+: 1679912434:0;nr serve
+: 1679912533:0;i
+: 1679912537:0;gco master
+: 1679912539:0;ggpull
+: 1679912542:0;nr serve
+: 1679913174:0;far
+: 1679913176:0;gst
+: 1679913189:0;gco feature/IN-46819 
+: 1679913190:0;gst
+: 1679913198:0;git add . && git cz && ggpush && lgcmr master
+: 1679913287:0;gst
+: 1679913392:0;gst
+: 1679913404:0;lgsc master
+: 1679913411:0;gco master
+: 1679913413:0;gst
+: 1679913438:0;gst
+: 1679913440:0;lg
+: 1679913446:0;lgsc master
+: 1679913450:0;gst
+: 1679913453:0;nr serve
+: 1679914050:0;code .
+: 1679914100:0;code .
+: 1679914118:0;nr serve
+: 1679914133:0;nr serve
+: 1679916645:0;gst
+: 1679916648:0;ggpush
+: 1679916652:0;lgcmr master
+: 1679917151:0;gst
+: 1679968470:0;t
+: 1679968471:0;gst
+: 1679968474:0;nr serve
+: 1679968733:0;gst
+: 1679968736:0;gst
+: 1679968742:0;gst
+: 1679968764:0;gst
+: 1679968771:0;lgsc v7.26.9
+: 1679969605:0;code .
+: 1679972077:0;gst
+: 1679972157:0;gst
+: 1679972161:0;git cz
+: 1679972227:0;ggpush && lgcmr master
+: 1679972415:0;ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
+: 1679972440:0;gst
+: 1679972462:0;gco -b feature/IN-41487-item-stage
+: 1679972464:0;gst
+: 1679972481:0;git add . && git cz
+: 1679972503:0;git add . && git cz
+: 1679972541:0;gco feature/IN-41487
+: 1679972543:0;gst
+: 1679972600:0;gst
+: 1679973073:0;nr serve
+: 1679980574:0;gst
+: 1679980654:0;gst
+: 1679980657:0;git cz
+: 1679980680:0;gst
+: 1679980682:0;git cz
+: 1679980713:0;gst
+: 1679980716:0;git cz
+: 1679980738:0;ggpush
+: 1679980743:0;lgcmr master
+: 1679980876:0;code .
+: 1679981046:0;gst
+: 1679981067:0;git add . && git cz && ggpush && lgcmr master
+: 1679985659:0;nr serve
+: 1679985796:0;nr serve
+: 1679987536:0;gst
+: 1679987723:0;gst
+: 1679987727:0;git add . && git cz && ggpush && lgcmr master
+: 1680003188:0;gst
+: 1680003189:0;git cz
+: 1680003271:0;gst
+: 1680003281:0;git add . && git cz
+: 1680004580:0;gst
+: 1680004673:0;gst
+: 1680004677:0;git add . && git cz
+: 1680004872:0;ggpush
+: 1680004876:0;lgcmr master
+: 1680005176:0;chezmoi add ~/.zshrc
+: 1680005200:0;chezmoi add ~/.config/lvim
+: 1680005215:0;chezmoi add ~/.zsh_history
