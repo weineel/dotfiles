@@ -1,0 +1,12 @@
+{{ if eq .chezmoi.os "darwin" }}
+# darwin
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install age
+{{ else if eq .chezmoi.os "linux" }}
+# linux
+# ubuntu
+apt install age -y
+{{ else }}
+# other operating system
+{{ end }}
+
