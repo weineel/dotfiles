@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = weineel
+email = lijufeng@patsnap.com
+
+[core]
+	editor = lvim
+[init]
+  defaultBranch = main
+# rebase 时使用 vscode
+[sequence]
+	editor = code --wait
