@@ -101,8 +101,6 @@ export PATH=~/.local/bin:$PATH
 export EDITOR="lvim"
 
 # alias
-# alias lvim=/Users/lijufeng/.local/bin/lvim
-alias vim=lvim
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
