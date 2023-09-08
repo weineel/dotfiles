@@ -165,6 +165,10 @@ lvim.plugins = {
     -- end
   },
   { "tpope/vim-repeat" },
+  {
+    'Exafunction/codeium.vim',
+    event = 'BufEnter'
+  }
 }
 
 -- -- Autocommands (`:help autocmd`) <https://neovim.io/doc/user/autocmd.html>
