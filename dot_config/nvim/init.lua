@@ -14,8 +14,18 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {}
 
 plugins = {
-  { "folke/flash.nvim", opts = {} },
+  {
+    "folke/flash.nvim",
+    opts = {
+      modes = {
+        char = {
+          jump_labels = true
+        }
+      }
+    }
+  },
 }
+
 if vim.g.vscode then
   -- VSCode extension
 else
