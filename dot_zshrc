@@ -137,6 +137,11 @@ export PNPM_HOME="/Users/lijufeng/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
+# rust
+export RUSTUP_DIST_SERVER="https://rsproxy.cn"
+export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+# rust end
+
 # inno-lane, 这种简单处理，会导致 shell 启动变慢
 eval "$(_INNO_LANE_COMPLETE=zsh_source inno-lane)"
 zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane.plugin.zsh
