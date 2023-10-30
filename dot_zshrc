@@ -148,3 +148,8 @@ export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 eval "$(_INNO_LANE_COMPLETE=zsh_source inno-lane)"
 zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane.plugin.zsh
 
+# 命令历史的条数
+HISTSIZE=1000000
+# 会保存到历史文件中的命令条数
+SAVEHIST=1000000
+
