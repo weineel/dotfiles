@@ -2,10 +2,10 @@
 [user]
 # Please adapt and uncomment the following lines:
 name = weineel
-email = lijufeng@patsnap.com
+email = LiJF_wn@163.com
 
 [core]
-	editor = lvim
+	editor = nvim
 [init]
   defaultBranch = main
 # rebase 时使用 vscode
