@@ -1,9 +1,9 @@
-{{ $username := promptString "username" -}}
-{{ $email := promptString "email" -}}
+{{ $username := promptString "username(weineel)" -}}
+{{ $email := promptString "email(LiJF_wn@163.com)" -}}
 
-{{ $hosttag := promptString "主机标签(ps、home、server...etc)" -}}
+{{ $hosttag := promptString "主机标签[ps、home、ali_server...etc]" -}}
 
 data:
-  username: {{ $username | quote }}
-  email: {{ $email | quote }}
+  username: {{ default $username "weineel" | quote }}
+  email: {{ default $email "LiJF_wn@163.com" | quote }}
   hosttag: {{ $hosttag | quote }}

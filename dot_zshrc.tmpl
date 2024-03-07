@@ -144,9 +144,11 @@ export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 # rust end
 
 # 命令历史的条数
+HISTFILE=~/.zsh_history #记录历史命令的文件
 HISTSIZE=1000000
 # 会保存到历史文件中的命令条数
 SAVEHIST=1000000
+setopt appendhistory
 
 # zellij is an alternative to tmux. https://github.com/zellij-org/zellij
 # zellij setup --generate-completion zsh > "$ZINIT[COMPLETIONS_DIR]/_zellij"
