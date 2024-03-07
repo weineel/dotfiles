@@ -1,11 +1,11 @@
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
-    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
-    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
-    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
-        print -P "%F{33} %F{34}Installation successful.%f%b" || \
-        print -P "%F{160} The clone has failed.%f%b"
+  print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
+  command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+  command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
+    print -P "%F{33} %F{34}Installation successful.%f%b" || \
+    print -P "%F{160} The clone has failed.%f%b"
 fi
 
 source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
@@ -15,10 +15,10 @@ autoload -Uz _zinit
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
 zinit light-mode for \
-    zdharma-continuum/zinit-annex-as-monitor \
-    zdharma-continuum/zinit-annex-bin-gem-node \
-    zdharma-continuum/zinit-annex-patch-dl \
-    zdharma-continuum/zinit-annex-rust
+  zdharma-continuum/zinit-annex-as-monitor \
+  zdharma-continuum/zinit-annex-bin-gem-node \
+  zdharma-continuum/zinit-annex-patch-dl \
+  zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
 
@@ -57,7 +57,6 @@ zi for \
   from'github' \
   atclone'ln -s -f $PWD/.tmux.conf ~/.tmux.conf' \
 @gpakosz/.tmux
-  
 
 # install exa
 # mac 的 arm cpu 下仍然需要使用 brew 手动安装 exa
@@ -93,15 +92,20 @@ zi snippet OMZP::git
 
 # zsh-history-substring-search - https://github.com/zsh-users/zsh-history-substring-search
 zinit wait lucid atload"bindkey '^[[A' history-substring-search-up;
-    bindkey '^[[B' history-substring-search-down;
-    bindkey '^P' history-substring-search-up;
-    bindkey '^N' history-substring-search-down" for \
-        zsh-users/zsh-history-substring-search
+  bindkey '^[[B' history-substring-search-down;
+  bindkey '^P' history-substring-search-up;
+  bindkey '^N' history-substring-search-down" for \
+  zsh-users/zsh-history-substring-search
 
 # 自定义, 维护在 github https://github.com/weineel/zsh-weineel
 zinit light weineel/zsh-weineel
 
 ### zinit custom end
+
+# https://github.com/zdharma-continuum/zinit#completions-2
+autoload -Uz compinit
+compinit
+zinit cdreplay -q
 
 ##
 ### custom
@@ -115,21 +119,16 @@ export EDITOR="nvim"
 alias vim="nvim"
 
 # nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # nvm node 镜像源
-export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/
+# export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/
 
 # n node 版本管理工具的镜像源
 # export NODE_MIRROR=https://mirrors.ustc.edu.cn/node/
 # export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
-
-# brew 镜像
-export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
-export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
-export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 
 # pipenv
 export PIPENV_VENV_IN_PROJECT=1
@@ -144,21 +143,47 @@ export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 # rust end
 
-# inno-lane, 这种简单处理，会导致 shell 启动变慢
-eval "$(_INNO_LANE_COMPLETE=zsh_source inno-lane)"
-zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane.plugin.zsh
-
 # 命令历史的条数
 HISTSIZE=1000000
 # 会保存到历史文件中的命令条数
 SAVEHIST=1000000
 
 # zellij is an alternative to tmux. https://github.com/zellij-org/zellij
-zellij setup --generate-completion zsh > "$ZINIT[COMPLETIONS_DIR]/_zellij"
-function open_zellij_session {
+# zellij setup --generate-completion zsh > "$ZINIT[COMPLETIONS_DIR]/_zellij"
+# function open_zellij_session {
   # sed 命令是为了去除 zellij ls 输出中的特殊字符（用于标识标准输出的字体颜色等）
   # xargs 规范化参数，去除前后的空白符等
   # cut 类似 spilt 函数
-  zellij attach "$(zellij ls | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | fzf | cut -d ' ' -f 1 | xargs)"
-}
+#   zellij attach "$(zellij ls | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | fzf | cut -d ' ' -f 1 | xargs)"
+# }
 
+###
+# 不同主机类型（或使用场景的配置）
+###
+{{- if eq .hosttag "ps" }}
+
+# inno-lane, 这种简单处理，会导致 shell 启动变慢
+eval "$(_INNO_LANE_COMPLETE=zsh_source inno-lane)"
+zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane.plugin.zsh
+
+{{- end }}
+
+###
+# 不同操作系统的配置
+###
+{{- if eq .chezmoi.os "darwin" }}
+
+# darwin (macOS)
+
+# brew 镜像
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
+
+{{- else if eq .chezmoi.os "linux" }}
+# linux
+
+{{- else }}
+# other operating system
+
+{{- end }}

@@ -1,0 +1,9 @@
+{{ $username := promptString "username" -}}
+{{ $email := promptString "email" -}}
+
+{{ $hosttag := promptString "主机标签(ps、home、server...etc)" -}}
+
+data:
+  username: {{ $username | quote }}
+  email: {{ $email | quote }}
+  hosttag: {{ $hosttag | quote }}
