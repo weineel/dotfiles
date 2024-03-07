@@ -77,7 +77,6 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 # 命令行输入使用 vi/vim 模式
 zinit ice depth=1
 zinit light jeffreytse/zsh-vi-mode
-ZVM_VI_EDITOR="nvim" # zsh-vi-mode 插件, vv 使用的编辑器改为 nvim
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jj
 
 # 使用 zsh-z 而不是 autojump
@@ -112,11 +111,6 @@ zinit cdreplay -q
 ##
 
 export PATH=~/.local/bin:$PATH
-export EDITOR="nvim"
-
-# alias
-
-alias vim="nvim"
 
 # nvm
 # export NVM_DIR="$HOME/.nvm"
@@ -168,6 +162,15 @@ setopt appendhistory
 eval "$(_INNO_LANE_COMPLETE=zsh_source inno-lane)"
 zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane.plugin.zsh
 
+{{- end }}
+
+{{- if eq .hosttag "ali_server" }}
+export EDITOR="vim"
+ZVM_VI_EDITOR="vim" # zsh-vi-mode 插件, vv 使用的编辑器改为 vim
+{{- else }}
+export EDITOR="nvim"
+alias vim="nvim"
+ZVM_VI_EDITOR="nvim" # zsh-vi-mode 插件, vv 使用的编辑器改为 nvim
 {{- end }}
 
 ###
