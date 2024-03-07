@@ -1,721 +1,4271 @@
 gst
-git cz
+git log
 gst
-ggpush
-ggf
-lgcmr ci
 gst
-git add .
 gst
-git add .
+git log
+lgcmr master
+lgsc master
+gco -b feature/IN-54770
 gst
-git add .
+code .
 gst
-git cz
+git add . && git cz && ggpush
 gst
-ggpush
+git log
+lgcmr master
+gst
+gst
+gst
+code .
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
 gst
 git log
 gst
+git log
+gst
+git log
+ggpull
+gco -b fix/IN-54767
+lgsc jianhe/release
+vim v.diff
+git apply v.diff
+rm v.diff
+code .
+gst
+git add src/packages/business/trademark/apps/settings/rules-settings/rule-remind/components/remind-edit.vue
+gst
+git cz
+lgcmr master
+ggpush
+gst
+gst
+git add src/packages/business/trademark/apps/settings/rules-settings/rule-remind/components/remind-edit.vue
+git commit --amend -C HEAD
+ggf
+gst
+gst
+gst
 git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+gst
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+gst
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+z innoe-web
+vim src/packages/business/competition-monitor/apps/indexing-management/base-indexing.tsx
+brew upgrade nvim
+gst
+ls
+gst
+gst
+git diff
+vim
+vim
+vim
+vim
+vim
+vim
+code .
+git fetch origin\
+git checkout -b 19-git-create-mr-mr-git-remote-origin origin/19-git-create-mr-mr-git-remote-origin
+git log
+git remove -v
+git remote -v
+lgcmr master
+lgcmr master
+ggpush
+lgcmr master
+lgcmr master
+lgcmr master
+lgcmr master
+lgcmr master
+lgcmr master
+lgcmr master
+gst
+lgcmr master
+gst
+gst
+gst
+git add inno_lane/modules/git/create_branch.py\
+
+gst
+git cz
+ggpush
+gco master
+ggpull
+git log
+git add . && git cz && ggpush
+inno-lane jira cst -r 2 -p IN-54139
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃�
+gst
+git add . && git cz && ggpush
+gst
+git log
+git log
+git reset head^ --hard
+ggf
+ggf
+git fetch origin\
+git checkout -b 17-jira-cst-summary origin/17-jira-cst-summary
+gst
+git log
+git cherry-pick ce505a42414cb632211ca9f595cbf3c947ba3a95
+git log
+git reset head^
+gst
+git add .
+git cz --retry
+gst
+vim ~/.zshrc
+vim ~/.zshrc
+gst
+ggpush
+lgcmr master
+lgcmr master
+vim ~/.zshrc
+gco master
+ggpull
+gco master
+ggpull
+git fetch origin\
+git checkout -b 18-jira-cst-assignee origin/18-jira-cst-assignee
+git log
+git rebase master
+git log
+ggpull
+pipenv
+pipenv install
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃�
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃�
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃�
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss@163.com
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss@163.com
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss@163.com
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss@163.com
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss@163.com
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss@163.com
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a sss
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a lijufeng
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a lijufeng
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃�
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a xiagnchi
+inno-lane jira cst -r 2 -p IN-54707 --prefix 〃�BE〃� -a xiangchi
+gst
+gst
+git add . && git cz && ggpush
+gco master
+ggpull
+ggpush
+echo $HISTSIZE
+vim ~/.zshrc
+echo $SAVEHIST
+vim ~/.zshrc
+chezmoi add ~/.zshrc
+gst
+gst
+nr serve
+gst
+gst
+gco -b feature/IN-54770
+gst
+git cz
+gst
+ggpush
+lgcmr master
+git stash
+gst
+git log
+lgsc IN-54144
+gco IN-54144
+gco feature/IN-54144
+git log
+git stash pop
+nr serve
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+lgcmr master
+gst
+lgcmr dev
+ggpush
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.config/nvim
+vim ~/.config/nvim
+vim ~/.config/nvim
+vim ~/.config/nvim/lua/plugin/editor.lua
+vim ~/.config/nvim/lua/plugin/editor.lua
+cwd
+pwd
+vim ~/.config/nvim/lua/plugin/editor.lua
+vim ~/.config/nvim/lua/plugin/editor.lua
+z innoe-web
+vim
+gst
+git log
+git add .
+git commit -C
+git commit -C head
+git log
+lgcmr master
+ggpush
+z innoe-lane
+z inno-lane
+ls
+vim
+vim .
+vim .
+echo $MASON
+$HOME/.local/share/nvim/mason/bin
+ls
+vim .
+ls
+ls
+gst
+ls
+which python3
+vim .
+pip3 install pynvim
+pip3 install pynvim
+which python3
+which pip3
+pynvim -v
+python3 -V
+brew upgrade python
+vim .
+ls
+pipenv install
+brew list
+brew upgrade pipenv
+pipenv install
+ls
+ll
+rm .venv
+rm -rf .venv
+pipenv install
+pipenv install --python 3.11.6
+ pipenv --rm 
+ll
+pipenv install --python 3.8
+pipenv install -h
+pipenv -h
+pipenv --python 3.8
+ll
+pipenv install
+code .
+pipenv install
+brew install pyenv
+pipenv install
+pipenv lock --pre 
+ls
+mv Pipfile.lock Pipfile.lock.back
+pipenv install
+ls
+ll
+ pipenv graph
+pipenv install --dev
+pipenv install --dev
+pipenv run pip install click
+pipenv install --dev
+pipenv run pip install gitdb
+pipenv install --dev
+pipenv run pip install gitpython==3.1.18 jinja2==3.0.1 jira==3.4.1 markupsafe==2.0.1 pydash==5.0.0 rsa==4.9 terminal-layout==3.0.0 click==8.0.1 gitdb==4.0.7 smmap==4.0.0
+pipenv run pip install pyyaml==5.4.1
+pipenv install --dev
+source /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/activate
+ /usr/bin/env /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/python /Users/lijufeng/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 57627 -- -m inno_lane git create-branch 
+pipenv run pip install pyyaml~=5.4
+pipenv run pip install pyyaml~=5.4.0
+pipenv run pip install pyyaml==5.4.0
+pipenv run pip install pyyaml==5.3.1
+pipenv run pip install pyyaml==5.3.1
+ cd /Users/lijufeng/project/patsnap/inno-lane ; /usr/bin/env /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/python /Users/lijufeng/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 59085 -- -m inno_lane git create-branch 
+vim .
+ls
+pip3 list
+pip -v
+lgsc
+which inno-lane
+brew lst
+brew list
+which inno-lane
+ll /opt/homebrew/bin/inno-lane
+vim /opt/homebrew/bin/inno-lane
+ls
+ll
+python3 -V
+pip3 list
+vim /opt/homebrew/bin/inno-lane
+pipenv lock
+vim .
+vim .
+lgcbf
+lgcbf
+lgcbf
+lgcbf
+git fetch origin\
+git checkout -b 16-git-create-branch-jira-issue origin/16-git-create-branch-jira-issue
+gst
+git add inno_lane/modules/git/create_branch.py\
+
+gst
+git cz
+git cz
+ggpush
+gco master
+ggpull
+ggpush
+gst
+git add .
+git commit --amend -C HEAD
+ggf
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+ll .venv/bin
+vim inno_lane/cli.py
+pipenv run pip install pynvim
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+code .
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+ls
+pipenv shell
+ . /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/activate
+ls
+python3 inno_lane/cli.py git create_branch
+python3 inno_lane/cli.py git -h
+python3 inno_lane/cli.py git -h
+python3 inno_lane/cli.py git create-branch
+exit
+exit
+vim inno_lane/cli.py
+node -v
+nvm ls
+vue -v
+yarn -v
+nvm install v17.19.1
+nvm install 17.19.1
+nvm install 17.19
+nvm install v17.19
+nvm ls-remote
+nvm install v17.9.1
+nvm -v
+nvm
+nvm alias default v17.9.1
+node -v
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+vim ~/.config/lvim/config.lua
+lvim .
+pip3 install click
+vim ./inno_lane/cli.py
+vim ./inno_lane/cli.py
+vim ./inno_lane/cli.py
+vim ./inno_lane/cli.py
+pip3 uninstall click
+vim ./inno_lane/cli.py
+vim ./inno_lane/cli.py
+brew install pyenv-virtualenv
+bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+vim ./inno_lane/cli.py
+pyenv which python
+exit
+python3 -V
+cd project/patsnap/inno-lane
+pip3 install -e .
+pip3 install pyyaml==5.3.1
+gst
+gst
+pyenv virtualenvs
+brew uninstall pyenv-virtualenv
+brew install pyenv-virtualenv
+z inno-lane
+pip3 install -e .
+pip3 install -e .
+lgcmr master
+brew uninstall pyenv-virtualenv
+pyenv virtualenv --help
+vim ./inno_lane/cli.py
+pip3 uninstall click
+vim ./inno_lane/cli.py
+vim ./inno_lane/cli.py
+pip3 install click
+pip3 install  click==8.0.1
+brew uninstall pyenv-virtualenv
+brew install pyenv-virtualenv
+pyenv virtualenv --help
+brew uninstall pyenv-virtualenv
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+npm install -g cspell
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+gst
+gst
+igst
+gst
+gco master
+git stash
+gco master
+ggpull
+lgcbf
+lgcbf
+gst
+git log
+git stash pop
+git add . && git cz && ggpush
+lgcmr master
+gst
+ggpull
+lgcbf
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+code .
+code .
+gst
+git add . && git cz && ggpush
+gst
+git log
+gco feature/IN-54144
+git log
+nr serve
+gst
+git log
+git log
+gst
+git cz
+git commit -C head
+git log
+gst
+lgcmr master
+ggpush
 gst
 git commit --amend -C HEAD
-git log
 ggf
-lgcmr ci
 gst
-git add .
+gst
+git stash
+gco master
+ggpull
+lgcbf
+git stash pop
+git add . && git cz && ggpush
+ggpush
+lgcmr master
+gst
+lgcbf
+gco master
+ggpull
+gst
+gst
+tmux detach
+tmux new-session -t fe-pharmsnap
+z patsnap
+ls
+git clone git@git.patsnap.com:pharmsnap/frontend/fe-pharmsnap.git
+code .
+cd fe-pharmsnap
+code .
+rz
+sz
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+gst
+gst
+code .
+inno-lane jira cst -r 8 -p IN-54829
+inno-lane jira cst -h
+inno-lane jira cst -r 12 -p IN-54678
+inno-lane jira cst -r 20 -p IN-54678 --prefix '〃�BE〃�' --assignee-email-name gujun
+gst
+ggpull
+gst
+lgcbf
+git add . && git cz && ggpush
+lgcmr master
+gst
 nr serve
 gst
 gst
 gst
+vim ~/.gitconfig
+vim ~/.gitconfig
+gst
+chezmoi add ~/.gitconfig
+chezmoi cd
+ls
+ggpull
+git log
+chezmoi update
+ggpush
+gi tlog
+git log
+chezmoi cd
+git log
+chezmoi diff
+chezmoi diff ~/.config/nvim
+chezmoi diff ~/.config/nvim/init.lua
+gst
+git remote -v
+git log
+git log
+git remote get-url origin
+git remote set-url origin git@git.patsnap.com:jufeng.li/inno-lane.git\
+
+gst
+git remote -v
+git remote rm origin git@github.com:weineel/inno-lane.git
+git remote rm origin
+git remote -v
+git remote add origin git@github.com:weineel/inno-lane.git
+git remote -v
+vim ~/.gitconfig
+gst
+gst
+gst
+code .
+gco master
+ggpull
+gst
+gst
+gco -b feature/IN-54829
+ggpush
+gst
+git log
+nr serve
+gst
+gst
+code .
+code .
+gst
+gst
+gst
+vim src/packages/components/business/src/components/ModelChangeLog/model-change-log.tsx
+vim ~/.config/nvim/
+vim ~/.config/nvim/init.lua
+gst
+vim inno_lane/cli.py
+vim inno_lane/cli.py
+gst
+gst
+gst
+git cz
+gst
+gst
+vim src/App.vue
+vim src/App.vue
+gst
+gst
+ni -W vue-infinite-loading
+gst
+git add . && git cz
+gst
+git cz
+gst
+gst
+gst
+gco master
+ggpull
+gco feature/IN-54829
+git rebase master
+git log
+ggpush
+gst
+nr serve
+gst
+git add . && git cz
+nr serve
+nr serve
+npx patch-package element-ui
+gst
+git log
+git commit --amend -aC HEAD
+ggpush
+git log
+code .
+gst
+git log
+gco hotfix/V7.34.1
+lgsc hotfix/V7.34.1
+lgsc hotfix/v7.34.1
+git log
+code .
+gst
+git fetch origin feature/IN-54144
+gco feature/IN-54144
+git stash
+gst
+gco feature/IN-54144
+ggpush
+gco feature/IN-54829
+git stash pop
+git fetch origin feature/IN-54144
+git log origin/feature/IN-54144
+git show 822dd6260ebad26395fce471c9e316420e46aba1
+git log origin/feature/IN-54144
+git show a503811b0dcdcd8a25be9b82c1dd7c9086c83eb4
+git cherry-pick a503811b0dcdcd8a25be9b82c1dd7c9086c83eb4
+gst
+gst
+code .
+git cherry-pick --abort
+gco master
+gb -D hotfix/v7.34.1
+lgsc hotfix/v7.34.1
+git log
+git cherry-pick a503811b0dcdcd8a25be9b82c1dd7c9086c83eb4
+git log origin/feature/IN-54144
+git show cf22d4771ce50cfcaf8e2aa3aed9751cf028e6f2
+git cherry-pick cf22d4771ce50cfcaf8e2aa3aed9751cf028e6f2
+gst
+gst
+gco hotfix/v7.34.1 
+lgsc hotfix/v7.34.1 
+git stash
+git stash
+lgsc hotfix/v7.34.1 
+git log
+ggpush
+ggpull
+git log
+git log fix/IN-54861
+git cherry-pick 2f7e51f52cdeb4ec40e10bd41fc481409d350e55
+git log
+ggpush
+gco feature/IN-54829
+git log
+git stash pop
+nr serve
+git stash pop
+gst
+gst
+vim src/App.vue
+gst
+git fetch origin master
+git log
+ggpull
+git log
+git cherry-pick 07ef7d0c05ce533cad90ab51006190447c7222b2
+git log
+git show 07ef7d0c05ce533cad90ab51006190447c7222b2
+ggpush
+vim src/App.vue
+gst
+gst
+git diff
+git diff > tt.diff
+gst
+gst
+git log
+gco master
+ggpull
+lgcbf
+gco -b fix/IN-55280
+ggpush
+git apply ../innoe-web/tt.diff
+gst
+git diff
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+vim src/App.vue
+gst
 git add .
+git add . && git cz && ggpush
+gst
+gst
+git log
+code .
+gst
+gst
+git add . && git cz
+git add . && git cz
+igco master
+gco master
+ggpull
+gco feature/IN-54829
+git log
+git rebase master
+gi tlog
+git log
+nr serve
+gst
+git add . && git cz
+gst
+nr serve
+gst
+gst
+git log
+git cz
+gst
+ggpush
+git log
+ggf
+gst
+tmux detach
+tmux new-session -t innop-cip
+z patsnap
+ls
+git clone git@git.patsnap.com:inno-enterprise/cloud/sdk/component/innop-cip.git
+cd innop-cip
+git log
+gst
+ni
+..
+rm -rf innop-cip
+git clone git@git.patsnap.com:inno-enterprise/cloud/web/innop-cip-web.git 
+cd innop-cip-web
+ni
+nr serve
+code .
+nr dev
+igst
+gst
+gco -b feature/IN-54664
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+lgcmr dev
+gst
+gst
+git reset head^
+git log
+ggf
+git cz --retry
+git add .
+git cz --retry
+ggf
+gst
+git log
+gst
+gst
+nr serve
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+gst
+git add . && git cz && ggpush
+gst
+git cz
+gst
+git add . && git cz && ggpush
+gst
+git cz
+git add . && git cz && ggpush
+lgcmr dev
+lgcmr dev
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+gst
+code .
 gst
 git add . && git cz && ggpush
 gst
 gst
-gst
-git add .
-git cz
-gst
-ggpush
-gst
+git add . && git cz && ggpush
+lgcmr dev
 gst
 git commit --amend -aC HEAD
-gst
 ggf
-yarn add @coders-tm/vue-number-format
-yarn add -W @coders-tm/vue-number-format
 gst
+git log
+lgcmr master
+gst
+gst
+git add . && git cz && ggpush
+git commit --amend
+git log
+git commit --amend
+ggf
+lgcmr master
+gst
+git add . && git cz && ggpush
+lgcmr master
+ls
+gst
+ggpull
+gst
+ni
+exit
 nr serve
-yarn remove @coders-tm/vue-number-format
-yarn remove -W @coders-tm/vue-number-format
-yarn add -W @coders-tm/vue-number-format@^2.19.0
-nr serve
+nr dev
+code .
+nr bi
+/Users/lijufeng/project/weineel/raycast-extensions/inno-lane
+ls
+code .
+git remote -v
+nr build
+nr dev
+nr dev
+gst
+nr dev
+igst
+gst
+git add . && git cz && ggpush
+z rayc
+code .
+gst
+nr dev
+ggf
+git commit --amend -aC HEAD
+ggf
+[A
+ggf
+gst
+code .
+gst
+gst
+mv src/packages/business/patent/apps/patent-management/schema/layout2config.ts ~/Downloads/layout2config.ts 
+gst
+gst
+gst
+gco master
+ggpull
+gst
+ni
+gst
+gco -b feature/IN-54678
+ggpush
+gco -b feature/IN-54678
+ggpush
 gst
 gst
 gi tlog
 git log
+nr serve
+git log
+code .
+ni
+nr serve
+gst
+code .
+gst
+gst
+code .
+gst
+git add src/packages/components/business/src/components/DetailLayout/widget/float-layer.vue
+gst
+git log
+gst
+gst
+git cz
+gst
+git log
+ggpush
+gst
+lgcmr master
+gst
+code .
+rm -rf ./node_modules/.cache
+nr serve
+gst
+git log
+gst
+git log
+gst
+gst
+gst
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+nr serve
+gst
+gst
+gst
+gst
+gst
+code .
+ggpush
+code .
+nr serve
+nr bi
+gst
+gst
+nr serve
+gst
+gst
+nr serve
+nr bi
+nr bi
+nr bi
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+gst
+gst
+git add .
+git cz --retry
+git log
+ggpush
+nr svg
+nr svg
+nr svg 22333
+nr svg -ee 34
+nr svg 234
+nr svg src/packages/apps/component/copilot/assets/icons
+nr svg src/packages/apps/component/copilot/assets/icons
+nr svg src/packages/apps/component/copilot/assets/icons
+gst
+gst
+gco master
 ggpull
-git commit --amend -C HEAD
+gco -b feature/IN-54678
+code .
+nr svg
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+ggf
+lgcmr master
+gst
+git commit --amend -aC HEAD
+ggf
+nr svg src/packages/apps/component/copilot/assets/icons
+gst
+ggpull
+lgcbf
+gst
+code .
+git log
+gco feature/IN-54829
+ggf
+gst
+gst
+gco feature/IN-54678
+ggpush
+ggf
+gco -b feature/IN-54678-svg
+ggpush
+lgcmr master
+gco feature/IN-54829
+git log
+code .
+ggpush
+ggf
+gst
+gst
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+nr serve
+gst
+ni
+gst
+z inno-lane
+z inno-web
+z innoe-web
+gst
+tmux kill-serve
+tmux
+gst
+nr serve
+ni
+nr serve
+git log
+nr serve
+yarn serve
+code .
+ni
+yarn serve
+yarn serve
+code .
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+gst
+gst
+gst
+code .
+nr serve
+code .
+gst
+git log
+nr serve
+nr serve
+gst
+git log
+git commit --amend
+gst
+git log
+ggpush
+git log
+gst
+git log
+ggf
+igst
+gst
+lgcmr master
+nr serve
+gst
+git log
+ggpush
+nr vi
+nr bi
+gst
+gst
+git add . && git cz && ggpush
+git log
+gst
+gst
+git log
+git cz 
+git add . && git cz && ggpush
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+git log
+nr serve
+code .
+gst
+code .
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+gst
+git commit --amend -aC HEAD
+ggf
+nr serve
+gst
+gst
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+gst
+git log
+git commit --amend -aC HEAD
+ggf
+gst
+git add . && git cz && ggpush
+gst
 gst
 git add .
 gst
-gco -b feature/ps-number-input
+git log
+nr svg src/packages/apps/component/copilot/assets/icons
+gst
+gst
+gst
+git add .
+gst
+nr svg src/packages/apps/component/copilot/assets/icons
+gst
+gst
+gst
+gst
+git cz
+ggpush
+vim src/App.vue
+z /Users/lijufeng/project/weineel/wenjinnn_config
+code .
+vim src/App.vue
+vim src/App.vue
+vim src/App.vue
+vim src/App.vue
+vim src/App.vue
+vim src/App.vue
+vim src/App.vue
+vim src/main.ts
+vim src/main.ts
+vim src/main.ts
+vim src/main.ts
+vim src/main.ts
+vim src/main.ts
+gst
+ggpush
+gst
+z config
+code .
+gst
+gst
+git add . && git cz && ggpush
+gst
+	gst
+gst
+git add . && git cz && ggpush
+z config
+ls
+code .
+ping 192.168.17.101
+curl http://192.168.17.101:8288//innoe-copilot/model/copilot/do/executeTask
+curl --request POST http://192.168.17.101:8288//innoe-copilot/model/copilot/do/executeTask
+gst
+git log
+ggpush
+lgsc hotfix/v7.34.5
+git cherry-pick 435fff87a27037869f3bd7da55c02a48d73932ee
+git log
+ggpush
+gst
+nr serve
+nr serve
+gst
+gst
+git cz
+gst
+git add . && git cz && ggpush
+lgsc master
+lgcbf
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+code .
+gst
+git commit --amend -aC HEAD
+ggf
+code .
+gst
+gst
+git cz
+gst
+nr svg src/packages/apps/component/copilot/assets/icons
+nr svg src/packages/apps/component/copilot/assets/icons
+gst
+git add . && git cz && ggpush
+git log
+gst
+git commit --amend -C HEAD
+git log
+gst
+ggf
+gst
+ggpush
+gst
+gst
+gst
+gst
+git stash
+gst
+gst
+gst
+gst
+git stash pop
+gst
+git stash
+gst
+ggpush
+lgcmr dev
+gst
+code .
+gst
+git log
+gst
+git commit --amend -aC HEAD
+gst
+ggpush
+ggf
+lgcmr dev
+gst
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+git add . 
+git cz
+gst
+git stash pop
+gst
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+gitgst
+gst
+gst
 gst
 git cz
 gst
 nr serve
 gst
-nr serve
-nr serve
-nr serve
-nr serve
 gst
 gst
-git add .
+git cz
 gst
-gst
-git add .
-gst
-nr serve
-nr serve
+ni
+ni
 nr serve
 gst
-gst
-git add .
-gst
-git add .
-gst
-git add .
-gst
-gst
-git add .
-gst
-nr serve
-nr serve
-gst
-git add .
+git cz
+git log
+git commit --amend
+git commit --amend
 gst
 git log
-git commit --amend -C HEAD
-git stash
+gst
+git add . && git cz && ggpush
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git add . && git cz && ggpush
+ggpush
+gst
 git log
 gst
-git reset head^
 gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
 gst
+git add . && git cz && ggpush
 git log
+ggpush
+gst
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz
+gst
+git commit --amend -aC HEAD
+gst
 gst
 git add . && git cz
 gst
 git log
+gst
 git log
+git add . && git cz
 git log
+git add . && git cz
+gst
+gst
+git add . && git cz
+gst
+code .
+vim .config/nvim/init.lua
+gst
+gst
+git add .config/nvim/lua/plugin/editor.lua
+git cz
+ggpush
+gst
+ggpush
+lgcmr dev
+gst
+git log
+ggpush
+lgcmr dev
+gst
+gst
+git cz
+gst
+gst
+exit
+gst
+gst
+gst
+ggpush
+gst
+git add src/packages/components/base/src/components/ScrollView/scroll-view.tsx
+git commit --amend -C HEAD
+ggf
+gst
+git log
+gst
+gst
+gst
+git add . && git cz && ggpush
+lgcmr dev
+gst
+gst
+lgcmr master
+gst
+lgcmr master
+gst
+git add src/packages/apps/component/copilot/components/copilot-dialog.tsx
+gst
+git cz
+gst
+lgcmr master
+ggpush
+gst
+gst
+git cz && ggpush
+gst
+lgcmr master
+gst
+gst
 git log
 gco master
 ggpull
-gco -b feature/number-and-amount-input
-git cherry-pick b93b6d00a438e6c34366f9da0dc13d26e3d34cc5
+lgcbf
+nr serve
+gst
+code .
+ni
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+git cz
+gst
+git cz
+gst
+gst
+git stash
+gst
+git stash pop
+ggpush
+lgcmr master
+gst
+git stash
+gst
+gst
+git commit --amend -C HEAD
+gst
+ggpush
+ggf
+gst
+git commit --amend -C HEAD
+ggf
+gst
+git stash pop
+gst
+gst
+gst
+git commit --amend -C HEAD
+ggf
+gst
+gst
+gst
+git log
+lgsc hotfix/v7.34.6
+git log
+git cherry-pick 819c5cd627fdd5f247190e4c0f06c88af81d1a18
+git log
+gco fix/IN-55397
+git log
+lgsc hotfix/v7.34.6
+gst
+gco hotfix/v7.34.6
+git log
+ggpull --rebase
+git cherry-pick e185404b7c763816f601d71bc4d1e8645d9aeb2d
+git log
+ggpush
+git show head^
+git show head
+gst
+git add .
+gst
+git add . && git cz && ggpush
+gst
+gst
+gst
+code .
+gst
+git add .
+gst
+git cz
+git cz
+gst
+git log
+gst
+gst
+gst
+git commit --amend -aC HEAD
+ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git stash
+gst
+git add . && git cz && ggpush
+gst
+git log
+git commit --amend -aC HEAD
+gst
+git commit --amend -aC HEAD
+git commit --amend -aC HEAD
+ggpush
+ggf
+git stash pop
+gst
+git cz
+gst
+gst
+git add .
+git cz
+ggpush
+lgcmr master
+git log
+ggpush
+lgcmr dev
+gst
+gst
+git add src/packages/apps/component/copilot/store.ts
+git cz
+ggpush
+gst
+git add . && git cz && ggpush
+gst
+gst
+gst
+lgcmr dev
+gst
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git commit --amend -aC HEAD
+ggf
+lgcmr dev
+gst
+gst
+git add . && git cz && ggpush
+gst
+git cz
+lgcmr dev
+gst
+gst
+gst
+git log
+gst
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+git commit --amend -aC HEAD
+ggf
+lgcmr master
+cat .innolanerc
+nr serve
+nr serve
+nr bi
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+lgcmr dev
+gst
+gst
+gst
+git add . && git cz && ggpush
+git log
+gst
+git reset head^
+gst
+git add . && git cz && ggpush
+ggf
+git log
+lgcmr master
+lgcmr dev
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+gst
+git cz
+nr svg src/packages/apps/component/copilot/assets/icons
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+lgcmr master
 gst
 ggpush
 lgcmr master
 gst
 gst
-gco feature/IN-52992
-git cherry-pick b93b6d00a438e6c34366f9da0dc13d26e3d34cc5
+gst
+lgcmr master
+ggpush
+lgsc master
+ggpull
 git log
-gst
-git log
-gst
-gst
-git stash pop
-gst
-gst
+ni
 nr serve
-nr serve
+code .
 gst
 gst
-git add . && git cz
+git add . && git cz && ggpush
+lgcbf
+git add . && git cz && ggpush
+gst
+lgcmr master
 ggpush
 gst
-gst
-ggpull --rebase
-gst
-git add .
-git rebase --continue
-gst
-gst
-git log
-ggpush
-gst
-git log
-nr serve
-gst
-gst
-git log
-gst
-gst
-ggpull --rebase
-git log
-lgcmr ci
-nr serve
-gst
-gst
-gst
-git cz
-gst
-ggpush
-nr serve
-nr serve
-tmux
-tmux kill-serve
-git -v
-xcode-select --install
+vim ~/.zshrc
+bash <(curl -L zellij.dev/launch)
+ls
+ll
+ls
+ls
+vim ~/.zshrc
+ls
+bash <(curl -L zellij.dev/launch)
+ls
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+cd Downloads
+ls
+./zellij -h
+brew install zellij
+zelllij -h
+zellij -h
+zellij
+zellij ls
+zellij attach didactic-bee
+ls
+ls
+zellij ls
+zellij attach tenacious-jellyfish
+exit
+zellij ls
+zellij k ssss
+zellij k ssss
+zellij ls
+zellij -h
+zellij d ssss
+zellij -h
+zellij ls
+zellij ka
+zellij ls
+zellij da
+zellij innoe-web
+zellij a innoe-web
+zellij -s innoe-web
+ls
+ls
 z innoe-web
 ls
-nr serve
-xcode-select --install
-xcode-select --install
-xcode-select --install
+exit
+exit
+ls
+ls
+ls
+git log
+gco master
+ggpull
+mkdir ~/.config/zellij\
+zellij setup --dump-config > ~/.config/zellij/config.kdl\
+
+ls ~/.config/zellij/config.kdl
+vim /Users/lijufeng/.config/zellij/config.kdl
+zellij ls
+zellij
+exit
+zellij
+zellij ls
+zellij innoe-web
+zellij a innoe-web
+exit
+exit
+exit
+exit
+exit
 gst
-gst
-gst
+ls
+vim ~/.tmux.conf.local
+exit
+exit
+zellij a innoe-web
+ls
+zellij a innoe-web
+vim ~/.zshrc
+zellij ls
+vim ~/.zshrc
+tail -n 1 ~/.zshrc
+zellij a innoe-web
+zellij setup --generate-completion zsh
+zinit csearch
+echo $COMPLETIONS_DIR
+echo $ZINIT
+echo $ZINIT[COMPLETIONS_DIR]
+echo ZINIT[COMPLETIONS_DIR]
+echo $ZINIT[COMPLETIONS_DIR]
+echo COMPLETIONS_DIR
+echo $ZINIT[COMPLETIONS_DIR]
+ls $ZINIT[COMPLETIONS_DIR]
+ll $ZINIT[COMPLETIONS_DIR]
+ls /Users/lijufeng/.local/share/zinit/plugins/zdharma-continuum---fast-syntax-highlighting/_fast-theme
+ll /Users/lijufeng/.local/share/zinit/plugins/zdharma-continuum---fast-syntax-highlighting/_fast-theme
+compinit
+zellij a innoe-web
+zellij ls
+zellij d splendid-tiger curious-sitar rusty-elephant gregarious-salamander
+zellij delete-session splendid-tiger 
+zellij delete-session --force splendid-tiger 
+zellij delete-session --force curious-sitar
+zellij delete-session --force rusty-elephant
+zellij delete-session --force gregarious-salamander
+zellij ls
+zellij delete-session --force splendid-tiger
+zellij ls
+fzf $(zellij ls) | zellij
+fzf $(zellij ls) | zellij a
+zellij ls | fzf | zellij a
+zellij a innoe-web
+zellij a innoe-web
+zellij ls | fzf | zellij a
+brew search sk
+zellij ls | fzf | zellij a
+zellij ls | fzf | zellij a
+zellij ls
+zellij ls | fzf | cut -d ' ' -f 1
+zellij ls | fzf | cut -d ' ' -f 1 | zellij a
+zellij ls | fzf | cut -d ' ' -f 1 | zellij a 
+zellij ls
+zellij ls | fzf | cut -d ' ' -f 1
+zellij ls | fzf | cut -d ' ' -f 1 | zellij a 
+zellij ls
+zellij a innoe-web
+zellij ls | fzf | cut -d ' ' -f 1 | zellij a 
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1)"
+zellij ls
+zellij a innoe-web1
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1)"
+zellij attach $(zellij ls | fzf | cut -d ' ' -f 1)
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1)"
+zellij attach innoe-web
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1 | echo)"
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1)"
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1 | xargs)"
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1 | xargs)"
+zellij ls
+zellij ls
+zellij attach "$(zellij ls | fzf | cut -d ' ' -f 1 | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | xargs)"
+zellij attach "$(zellij ls | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | fzf | cut -d ' ' -f 1 | xargs)"
+vim ~/.zshrc
+open_zellij_session
 tmux
+tmux
+exit
+tmux attach -tinnoe-web
+gst
+tmux kill-serve
+open_zellij_session
+ls
+vim ~/.config/zellij/config.kdl
+open_zellij_session
+vim ~/.config/zellij/config.kdl
+open_zellij_session
+open_zellij_session
+vim ~/.config/zellij/config.kdl
+vim ~/.config/zellij/config.kdl
+open_zellij_session
+vim ~/.config/zellij/config.kdl
+open_zellij_session
+open_zellij_session
+open_zellij_session
+open_zellij_session
+open_zellij_session
+open_zellij_session
+open_zellij_session
 gst
 nr serve
+ls
+sed -h
+ls
+ll
+open_zellij_session
+EXIT
+exit
+ls project/patsnap/fe-pharmsnap
+ls project/patsnap/innoe-insights-web
+zellij -s innoe-insights-web
 gst
+z innoe-insights-web
+ls
+z innoe-insights-web
+nr bi
+gst
+ggpull
 nr serve
+zellij -s sprinty
+ls
+z sprinty
+z /Users/lijufeng/project/weineel
+ls
+cargo new --bin rust-sprint
+cd rust-sprint
+ls
+vim .
+ls
+vim ~/.config/zellij/config.kdl
+zellij a sprinty
+zellij a sprint
+zellij a sprint
+vim /Users/lijufeng/.config/zellij/config.kdl
+zellij a sprint
+vim /Users/lijufeng/.config/zellij/config.kdl
+zellij a sprint
+vim /Users/lijufeng/.config/zellij/config.kdl
+zellij a sprint
+zellij ls
+zellij a sprint
+zellij ls
+chezmoi add ~/.config/zellij/config.kdl
+zellij ls
+zellij kill-session sprint
+zellij a sprint
+ls
+vim src/main.rs
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+ls
+ls
+cargo build & cargo run
+cargo run
+ll
+ls target
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
 gst
-git add .
+code ~/.config/nvim
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
+exit
+exit
+lgjcst -p IN-55498 -r 3
+chezmoi add ~/.zshrc
+vim ~/.zshrc
+ll
+ll
+ls -l
+ls
+ls ~/.config/starship.toml
+brew list
+which starship
+vim ~/.zshrc
+starship preset tokyo-night -o ~/.config/starship.toml
+ls
+z innoe-web
+ls
+ls
+ls
+ll
+pwd
+starship preset pastel-powerline -o ~/.config/starship.toml\
+
+ls
+ll
+starship preset tokyo-night -o ~/.config/starship.toml
+ls
+ls
 gst
-git add .
+chezmoi add ~/.config/starship.toml
+vim ~/.config/starship.toml
+ls
+vim ~/.config/starship.toml
+ls
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+ls
+vim ~/.config/starship.toml
+vim ~/.config/starship.toml
+ls
+vim ~/.config/starship.toml
+ls
+chezmoi add ~/.config/starship.toml
+ls
+ll
+ll
+ll
 gst
-git cz
-ggpush
 gst
-git add .
+cargo build & cargo run
+cargo build & cargo run
+cargo build & cargo run
 gst
-git add .
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+ls
 gst
-git add .
-gst
-git cz
-gst
-git add .
-gst
-gst
-gst
-git add .
-gst
-git add . && git cz
-ggpush
-gst
+lgcb
+lgcbt
+gi tlog
 git log
 gst
-git cz
-gst
-nr serve
-gst
-ggpush
-gst
+gco master
+ggpull
 git stash
-ggpull --rebase
+ggpull
+gco feature/IN-55466
+git rebase master
 git log
-git log
-gst
-ggpush
 git stash pop
 nr serve
-git log
-git log
-git show 9b605c9297bd767cda789baa7e3b0826a34f69c7
+gst
+git add . && git cz && ggpush
+git add . && git cz
 git reset head^
-igst
 gst
-gi tlog
+gst
+git add .
+git cz --retry
 git log
-gi tlog
+gst
+vim ~/.config/zellij/config.kdl
+vim ~/.config/zellij/config.kdl
+vim ~/.config/zellij/config.kdl
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+ls
+ls
+ls
+ls 
+cd
+..
+z rust
+ls
+zellij a sprint
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+zellij a sprint
+chezmoi add ~/.config/zellij/config.kdl
+code .
+ /Users/lijufeng/.vscode/extensions/vadimcn.vscode-lldb-1.10.0/adapter/codelldb terminal-agent --connect=49573 
+ /Users/lijufeng/.vscode/extensions/vadimcn.vscode-lldb-1.10.0/adapter/codelldb terminal-agent --connect=49700 
+code .
+z innoe-mobile
+code .
+yarn svg
+nr serve
+gst
+git  log
+git commit --amend -aC HEAD
+gst
+ggpush
+gst
+nr serve
+nr serve
+nr serve
+gst
+gst
+git commit --amend -C HEAD
+gst
+git add . && git cz && ggpush
+ggf
+gst
+gst
+lgcmr dev
+git log
+lgcmr master
+nr serve
+nr serve
+gst
+gst
+nr serve
+nr serve
+gst
+nr serve
+../innoe-web1
+ls
+gst
+lgcmr master
+lgsc master
+gst
+gst
 git log
 gst
+nr serve
+code .
+vim ~/.config/nvim/plugin/keymaps.vim
+ls
 gst
+gst
+gst
+lgsc feature/IN-55459
+npx patch-package element-ui
+gst
+npx patch-package element-ui
+npx patch-package element-ui
+gst
+gst
+git add . && git cz && ggpush
+gco feature/IN-55466
+git log
+gst
+git log
+ggpush
+brew upgrade stripe/stripe-cli/stripe
+gst
+gst
+gst
+code .
+gst
+gco -b feature/IN-55498
+gco master
+gb -d feature/IN-55498
+ggpull
+gco -b feature/IN-55498
+ggpush
+gst
+nr serve
+gst
+ls
+ls
+code .
+gst
+gst
+git cz
+ls
+vim ~/.zshrc
+echo $PATH
+vim ~/.zshrc
+vim ~/.zshrc
+which yarn
+yarn -v
+/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/orbstack-open-terminal_0A709C38.sh; exit
+vim ~/.config/zellij/config.kdl
+zellij a sprint
+vim ~/.config/zellij/config.kdl
+zellij a innoe-web
+ls
+ll
+gst
+gst
+git cz
+ggpush
+lgcmr dev
+gst
+../innoe-web2
+gco master
+ggpull
+gst
+gco -b fix/IN-55427
+ggpush
+nr serve
+gst
+ni
+nr serve
+code .
+gst
+code .
+code .
+nr serve
+nr serve
+gst
+git add . && git cz && ggpush
+lgcmr dev
+lgcmr master
+ls
+ls
+nr serve
+git log
+ls
+gst
+nr serve
+code .
+vim ~/.config/nvim/lua/plugin/editor.lua
+gst
+gst
+git commit --amend -C HEAD
+ggf
+gst
+gst
+nr serve
+gst
+git log
+lgcmr master
+nr serve
+gst
+git log
+git log
+ls
+git log
+gst
+lgsc hotfix/v7.35.5
+git log
+git cherry-pick 3b69bc4acfb382cdc329c1caa7582652e2b290d4
+git log
+ggpush
+gst
+gst
+ls
+gst
+ls
+ls
+zellij a innoe-web
+ls
+gst
+git fetch origin\
+git checkout -b feature/IN-54791 origin/feature/IN-54791
+gco master
+ggpull
+git merge feature/IN-54791
+code .
+git merge --abort
+gco feature/IN-54791
+gst
+git log
+exit
+gst
+cd ../innoe-web3
+gst
+git log
+cd ../innoe-web2
+gst
+git log
+git log
+ni
+git log
+gco master
+ggpull
+ni
+nr serve
+code .
+gst
+git log
+lgcbt
+gco -b feature/IN-55476
+gst
+ggpush
+ls
+ll
+ggpull
+git log
+gco master
+ggpull
+git merge feature/IN-54791
+code .
+gst
+git merge --continue
+ggpush
+gst
+gst
+git cz
+gst
+git log
+git log
+ggpush
+gst
+git add . && git cz && ggpush
+gst
+git log
+git reset head^
+gst
+gst
+git add . && git cz
+git add . && git cz
+gst
+git reset head^
 gst
 git cz --retry
 gst
-ggf
-gst
-git log
-gst
-gst
-git cz
-gst
-ggpush
-gst
-gst
+z innoe-web3
 gst
 git add . && git cz
-gco feature/number-and-amount-input
-git log feature/IN-52992
-git cherry-pick cb20bea78c0e784efb6701991e634e60b7516ad2
+tmux
+gst
 git log
-ggpush
-gco feature/IN-52992
+gst
+git log
+gb
+gco feature/refactor-currernt-user
+git log
+git log
+gst
+git log
+gst
+git log
+gst
+exit
+gst
+git log
+exit
+gst
 git log
 nr serve
+gst
+gst
+git log
+ggpush
+git log
+ggf
+lgcmr dev
+code .
+gst
+git log
+nr serve
+code .
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+gst
+git log
+ggpush
+lgcmr master
+gst
+code .
 gst
 git commit --amend -aC HEAD
-gst
+git log
 ggf
-gst
-git cz
-gst
-git stash
-gco feature/number-and-amount-input
-git log
-git log  feature/IN-52992 
-git cherry-pick 4e38e4b2352337e0232988103e510a4c9345ae89
-git log
-ggpush
-gco  feature/IN-52992 
-gst
-git stash pop
+lgcmr master
+ggpull
+lgsc feature/IN-54791
+ni
 nr serve
+gst
+lgsc feature/IN-55299
+gst
+code .
+nr bi
+code .
+nr serve
+code .
+gst
+nr serve
+gst
+code .
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+lgcmr dev
 gst
 git add .
 gst
-git add . && git cz
-gst
-gst
-git add . && git cz
-ggpush
-gst
-ggpush
-gst
 git log
-git commit --amend -aC HEAD
-gst
-ggf
-lgcmr ci
-gst
-git pull --rebase
-gst
-git log
-gco ci
 ggpull
-gb -D  feature/IN-52992 
-lgsc  feature/IN-52992 
+gst
+gco master
+ggpull
+gco feature/IN-54791 
+gst
 git log
 nr serve
+nr bi
+ggpull
+ggpull
+nr serve
+nr bi
+pwd
+nr bi
+nr serve
+ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
+nr bi
+nr serve
+gst
+code .
+nr serve
+gst
 gst
 git add . && git cz && ggpush
-lgcmr ci
+lgcmr master
+lgcmr dev
+gst
+gst
+git add . && git cz && ggpush
+gst
+gst
+nr serve
+nr bi
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+code .
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+lgcmr master
+gst
+gst
+gco -b feature/IN-54791-wn
 gst
 git add . && git cz && ggpush
 gst
 git log
-gst
-git cz
+git reset head^
 gst
 git log
+gco feature/IN-54791
 gst
+gb -d feature/IN-54791-wn
 gst
+nr serve
+gst
+tmux
+gst
+nr serve
+gst
+git log
+code .
 gst
 git cz 
 gst
 gst
-git add .
-git cz
+nr serve
+nr bi
 gst
+nr svg src/packages/business/report/assets/icons
+nr svg src/packages/business/report/assets/icons
+gst
+gsr
+gst
+git add . && git cz && ggpush
+ggpull --rebase
+gi tlog
+git log
 ggpush
 gst
 git add . && git cz && ggpush
 gst
-lgcmr ci
+ggpush
+lgcmr master
 gst
 gst
 git add . && git cz && ggpush
+lgcmr master
+nr bi
+nr bi
+nr bi
+nr bi
+nr bi
+nr bi
+gst
+nr bi
+gst
+nr bi
+nr bi
+nr bi
+nr bi
+nr bi
+nr bi
+gst
+git add . && git cz && ggpush
+ggpull --rebase
+gst
+nr bi
+gst
+git rebase --continue
+ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+exit
+..
+..
+ls
+mkdir geektime-downloader4node
+ls
+rm geektime-downloader4node
+rm -r geektime-downloader4node
+rm geektime-downloader-nodejs
+mkdir geektime-downloader-nodejs
+cd geektime-downloader-nodejs
+pnpm -v
+pnpm init
+ls
+ni puppeteer
+pnpm add puppeteer
+...
+ls
+rustup -h
+rustup -h update
+rustup update
 gst
 gst
-git cz
 nr serve
 gst
+git commit --amend -aC HEAD
 gst
-gst
-git add . && git cz && ggpush
 git log
-lgc ci
-lgsc ci
-gi tlog
-git log
-ggpull
-gco feature/IN-52992
-ggpull
-git log
-git rebase ci
-git log
-nr serve
-gst
-gst
-gst
-git add . && git cz && ggpush
-git add . && git cz && ggpush
-git log
-gst
 ggf
 gst
-lgcmr ci
+ls
 gst
-git add . && git cz && ggpush
+rustup -h
+gst
+gst
+gst
+git log
+git log
+ggpush
+ggpull --rebase
+git stash
+ggpull --rebase
 git log
 gst
+git stash pop
+gst
+git add . && git cz && ggpush
+gst
+gst
+git log
+ggpush
+lgcmr master
+gst
+gst
+gst
+lgsc feature/IN-55459
+gst
+git log
+ni
+rm -rf ./node_modules
+ni
+nr serve
+code .
+gst
+code .
+eslint --init
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+git reset head^
+gst
+git cz --r
+git cz --retry
+ggf
+gst
+gst
+gst
+git init
+ls
+rm -rf /Users/lijufeng/project/weineel/geektime-downloader-nodejs/~/Library/Application Support/Google
+gst
+pwd 
+gst
+gst
+git add . && git cz && ggpush
+git remote add origin https://gitee.com/weinee/geektime-downloader-nodejs.git
+ggpush
+gst
+git remote add origin https://gitee.com/weineel/geektime-downloader-nodejs.git
+git remote set-url origin https://gitee.com/weineel/geektime-downloader-nodejs.git
+ggpush
+git remote set-url origin git@gitee.com:weineel/geektime-downloader-nodejs.git
+ggpush
+gst
+ni markdown-pdf
+gst
+git log
+gst
+nr serve
+git cz
+gst
+gst
+git cz
+gst
+git cz
+gst
+ggpush
+lgcmr master
+pnpm remove markdown-pdf
+ni md-to-pdf
+gst
+gst
+gst
+git cz
+gst
+gst
+git commit --amend
+gst
+nr serve
+git add . && git cz && ggpush
+gst
+git cz
+gst
+git reset head^
+gst
+git cz --retry
+gst
+gst
+gst
+lgcmr master
+ggpush
+gst
+gst
+code .
+gst
+gst
+gst
+pnpm remove puppeteer
+gst
+git add .
 gst
 gi tlog
 git log
-ggpush
-git log
-gst
-ggpull --rebase
-git log
-nr serve
-gco master
-ggpull
-code .
-nr serve
-ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
-nr serve
-gst
-gst
-nr serve
-gst
-git c
-git cz
-gst
-ggpush
-gst
-git add .
-gst
 git cz
 ggpush
-lgcmr ci
-gst
-git add .
 gst
 gst
-gst
-gst
-gst
-gst
-git cz
-gst
-git add . 
-git cz
-gst
-git log
-gst
-gco feature/number-and-amount-input
-git cherry-pick 13a68b1e36e3f9fea1cbc0a065106fadf491152e
-git log
-ggpush
-gco feature/IN-52992
-gst
-nr serve
-ls
-cd ../../../weineel
-ls
-../github
-ls
-git clone git@github.com:weineel/vue-number-format.git
-cd vue-number-format
 code .
 gst
-git add . 
-git commit --amend -aC HEAD
+nr serve
 gst
-git log
-git log
-ggpull --rebase
+gst
+gst
 gst
 git add .
-git rebase --continue
-gst
+git cz
 git log
-gco -b feature/IN-52992-share-node-out-fields
-gb -D  feature/IN-52992 
-gco -b feature/IN-52992
+git log
+gst
+git cz
+gst
+ggpush
+ggpull --rebase
+git log
+ggpush
+lgcmr master
+gst
+nr serve
+ni pdf-lib
+gst
+git add . && git cz && ggpush
+gst
 gi tlog
 git log
-gco  feature/IN-52992-share-node-out-fields
-gst
-gb -D  feature/IN-52992 
-gco feature/IN-52992
-git log
-nr serve
 gst
 gst
+./
+node ./
+gst
+git commit --amend -aC HEAD
+ggf
+ggf
+node ./
 gst
 git add . && git cz && ggpush
+ni commander
+cd Downloads
+ls
+cd Rust\ 语言仃�僥�郷�僨�它�惨��
+ls
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md -s join-sep
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md -
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md
+ni pdf-compress
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep
 gst
-ggpush
-lgcmr ci
-gco feature/IN-52992-share-node-out-fields
-gbda
-lgsc ci
-gbda
-lgsc feature/IN-52992
+git add . && git cz && ggpush
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep
+cd Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+ls
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -s join-sep 01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md
+gst
+git log
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+..
+rm -rf geektime-downloader-nodejs
+git clone git clone git@github.com:weineel/md2pdf.git
+git clone git@github.com:weineel/md2pdf.git
+cd md2pdf
+code .
+gst
+cd ~/Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+ls
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -v
+ni
+ni
+node /Users/lijufeng/project/weineel/geektime-downloader-nodejs -v
+node /Users/lijufeng/project/weineel/md2pdf -v
+node /Users/lijufeng/project/weineel/md2pdf -v
+node /Users/lijufeng/project/weineel/md2pdf -V
+gst
+gst
+git add . && git cz
+gst
+node /Users/lijufeng/project/weineel/md2pdf -s join-sep 2-02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md
+gst
+gst
+gst
+gst
+ni zlib-sync
+node /Users/lijufeng/project/weineel/md2pdf -s join-sep 2-02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md
+node /Users/lijufeng/project/weineel/md2pdf -s join-sep 2-02ｃ�惩�惼��惽��＃�七�＃�＃�Rust惸�如佃�箃�烰��稃�広�中烺��赃�溃�烺��＃�.md 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md
+pnpm remove zlib-sync
+ni @ironsoftware/ironpdf
+pnpm remove @ironsoftware/ironpdf
+brew search ghostscript
+/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/orbstack-open-terminal_EF69AB25.sh; exit
+brew install ghostscript
+/Volumes/PDF\ Squeezer\ 4.4.1\ MAS/Open\ Gatekeeper\ friendly ; exit;
+/Volumes/PDF\ Squeezer\ 4.4.1\ MAS/Open\ Gatekeeper\ friendly ; exit;
+gst
+gi tlog
+git log
+cd ~/Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+../Go\ 语言惀�心�\ 36\ 讲
+ls
+node /Users/lijufeng/project/weineel/md2pdf -s join-sep
+gst
+gh -h
+gs -h
+..
+ls
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.3 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output1.pdf Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output1.pdf Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output2.pdf Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=0.8 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output2.pdf Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+git commit --amend -aC HEAD
+ggf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output_4 Rust\ 语言仃�僥�郷�僨�它�惨��.pdf
+g's'tgst
+gst
+git commit --amend -C HEAD
+ggf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output_4 Rust\ 语言仃�僥�郷�僨�它�惨��/Rust\ 语言仃�僥�郷�僨�它�惨��/0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.pdf
 gco master
 ggpull
-lgda
-gbda
-gb
-gco feature/IN-52992-share-node-out-fields
 gst
+ll
+node /Users/lijufeng/project/weineel/md2pdf -h
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+ll
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+pwd
+pwd
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+gst
+gst
+node /Users/lijufeng/project/weineel/md2pdf concat
+ni shelljs
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+ls Users/lijufeng/project/weineel/md2pdf/test-files/
+ls Users/lijufeng/project/weineel/md2pdf/test-files
+ls Users/lijufeng/project/weineel/md2pdf
+ls Users/lijufeng/project/weineel/md2pdf/test-files/
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+cd test-files
+node ../src/main.js concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+ls
+ll
+ls Rust\ 语言仃�僥�郷�僨�它�惨��
+ll Rust\ 语言仃�僥�郷�僨�它�惨��
+..
+ls
+cd Rust\ 语言仃�僥�郷�僨�它�惨��
+cd Rust\ 语言仃�僥�郷�僨�它�惨��
+ls
+cd Rust\ 语言仃�僥�郷�僨�它�惨��
+ll
+node /Users/lijufeng/project/weineel/md2pdf convert
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+gst
+gst
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+gst
+..
+node /Users/lijufeng/project/weineel/md2pdf concat
+tmux
+code .
+code .
+cargo install mdbook
+mdbook -h
+cd Downloads
+mdbook init rust-lean
+code rust-lean
+mdbook build
+mdbook watch
+mdbook build
+mdbook build
+mdbook build
+python3 -V
+code .
+brew install pandoc
+pandoc -h
+ls
+cd Rust\ 语言仃�僥�郷�僨�它�惨��
+ls
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+brew install pdflatex
+pandoc -f markdown -t html 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+brew search LaTeX
+brew cask install basictex
+brew install --cast basictex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+brew install --cast basictex
+brew cast install basictex
+brew cask install basictex
+brew install --cast basictex
+brew install  basictex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+brew search basictex
+brew install --cast basictex
+brew install --cask basictex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+brew uninstall --cask basictex
+brew install --cask basictex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+tlmgr -h
+brew uninstall --cask basictex
+tlmgr -h
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+cd Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf
+iconv -t utf-8 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md | pandoc -f markdown -t pdf | iconv -f utf-8
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex
+fc-list :lang=zh
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC'
+vim my.latex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --template=my.latex
+vim my.latex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --template=my.latex
+vim my.latex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --template=my.latex
+vim my.latex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --template=my.latex
+rm my.latex
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "geometry=margin=1.2in"
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "geometry=margin-left=0"
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=0"
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=0in"
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=1in"
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in"
+pandoc -f markdown -t pdf 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in"
+pandoc -f markdown -t pdf 0-开篃�诃�ｃ�惫�惪�Rust浪潮＃�迃�惮�惻�惾�胧�烺��缃�稃�佃�骃�.md -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in"
+pandoc -f markdown -t pdf -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md
+pandoc -f markdown -t pdf -o 01.pdf --pdf-engine=xelatex -V CJKmainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md
+vim template.latex
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+sudo tlmgr install xeCJK
+sudo tlmgr install titling
+sudo tlmgr install gpg
+brew install gpg
+sudo tlmgr install xeCJK
+sudo tlmgr install titling
+tlmgr update --self
+sudo tlmgr update --self
+sudo tlmgr install xeCJK
+sudo tlmgr install titling
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+sudo tlmgr install lastpage
+vim template.latex
+sudo tlmgr install xeCJK
+vim template.latex
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+vim template.latex
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+vim template.latex
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+vim template.latex
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+vim template.latex
+pandoc -o 01.pdf --pdf-engine=xelatex -V mainfont='PingFang SC' -V sansfont=Arial --variable papersize=A4 --variable "margin-left=1in" --variable "margin-right=0in" 1-01ｃ�快逃�僥�郷�＃�Rust中惼��僳�亃�佃�七�徃�七�亃�解烺��僿�烁�语泃�＃�.md --template=template.latex
+cd Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+rm template.latex
+gst
+gst	
+ggpull
+git show head^
+git diff head^
 nr serve
+code .
+inno-lane jira cst -r 12 -p IN-56009
+inno-lane jira cst -r 2 -p IN-55449
+code .
+inno-lane jira cst -r 12 -p IN-55452
+inno-lane jira cst -r 3 -p IN-55979
+gco master
+ggpull
+gco -b feature/IN-55447
+gst
+ggpull
+git diff head^
+gco -b feature/IN-54707
+gco -b feature/IN-56009
+gb -d feature/IN-54707
+ggpush
+git log
+ggpush
+source /Users/lijufeng/project/patsnap/inno-lane/.venv/bin/activate
+g's't
+gst
+gi tlog
+git log
+ggpull
+gst
+git add . && git cz
+ggpush
+tmux detach
+tmux new-session -t innoe-cloud
+ls
+z /Users/lijufeng/project
+cd patsnap
+ls
+git clone git@git.patsnap.com:inno-enterprise/cloud/platform/innoe-platform.git
+cd innoe-platform
+ls
+code .
+mvn -v
+$ curl -s https://get.sdkman.io | bash
+curl -s https://get.sdkman.io | bash
+gst
+ls
+sdk -h
+sdk help
+sdk list
+sdk current
+sdk help
+sdk list
+java -v
+java -V
+java -version
+java -h
+which java
+/usr/bin/java ; exit;
+java -h
+sdk install java 8
+sdk list jave
+sdk list java
+sdk install java 8.0.392
+sdk list java
+sdk install java 8.0.392-amzn
+sdk list maven
+sdk install maven 3.9.6
+mvn -v
+mvn -v
+mvn -v
+tmux detach
+tmux kill-serve
+tmux
+mvn -v
+mvn --version
+java -v
+java -V
+java --version
+java -v
+javac -v
+javac -V
+javac -version
+mvn --version
+..
+git clone git@git.patsnap.com:inno-enterprise/cloud/cbb/app/innoe-api-gateway.git
+cd innoe-api-gateway
+ls
+code .
+code .
+mvn -h
+mvn install
+~/
+ls
+ll
+cd .m2
+ls
+ll
+..
+which mvn
+/Users/lijufeng/.sdkman/candidates/maven/3.9.6/bin/mvn ; exit;
+cd /Users/lijufeng/.sdkman/candidates/maven/current
+ls
+ls conf
+vim conf/settings.xml
+cd ~
+ls
+vim .m2/settings.xml
+z innoe-api-gateway
+ls
+mvn install
+mvn clean install
+vim ~/.m2/settings.xml
+mvn clean install
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:61291 -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+brew search idea
+brew install --cask intellij-idea-ce
+mvn clean install
+which mvn
+code .
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_22j0jhp6fx5zesy1d453lvq0z.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:49809 -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_22j0jhp6fx5zesy1d453lvq0z.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-parent/pom.xml"
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-api-entity/pom.xml"
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-core/pom.xml"
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service/pom.xml"
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:50327 -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_22j0jhp6fx5zesy1d453lvq0z.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+mvn clean -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service/pom.xml"
+mvn install -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+mvn validate -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+mvn compile -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+mvn verify -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+mvn deploy -f "/Users/lijufeng/project/patsnap/innoe-api-gateway/pom.xml"
+mkdir -r /opt/logs/apps
+mkdir -p /opt/logs/apps
+sudo mkdir -p /opt/logs/apps
+chmod u+7 /opt/logs/apps
+chmod 777 /opt/logs/apps
+sudo chmod 777 /opt/logs/apps
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:57840 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57838 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59164 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dspring.profiles.active=dev -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:60288 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59164 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59164 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59164 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+cd ~/project/patsnap
+ls
+mkdir java-configs
+cp ~/Downloads/application-dev.properties java-configs
+ls java-configs
+pwd
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:63573 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=63571 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication 
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:63735 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=63733 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication --spring.profiles.active=dev --innoe.server.port=8080 
+ cd /Users/lijufeng/project/patsnap ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:52119 -Dspring.jmx.enabled=true -Dmanagement.endpoints.jmx.exposure.include=\* -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Djava.rmi.server.hostname=localhost -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication --spring.profiles.active=dev --innoe.server.port=8080 
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -Dspring.jmx.enabled=true -Dmanagement.endpoints.jmx.exposure.include=\* -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Djava.rmi.server.hostname=localhost -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication --spring.profiles.active=dev --innoe.server.port=8080 
+ cd /Users/lijufeng/project/patsnap ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:54339 -Dspring.jmx.enabled=true -Dmanagement.endpoints.jmx.exposure.include=\* -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Djava.rmi.server.hostname=localhost -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication --spring.profiles.active=dev --innoe.server.port=8080 
+ cd /Users/lijufeng/project/patsnap/innoe-api-gateway/innoe-api-gateway-service ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:55198 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=63733 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication --spring.profiles.active=dev --innoe.server.port=8080 
+gst
+code .
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:60266 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=60259 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=cloud-patent -Dmanagement.endpoints.jmx.exposure.include=\* -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_1zo5s0ix8nothw3al007k9is8.jar com.patsnap.innoe.cloud.patent.CloudPatentApplication 
+code .
+ls ../fe-pharmsnap
+ls ../
+ls ../java-configs
+pwd
+ /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:61249 -Dspring.jmx.enabled=true -Dmanagement.endpoints.jmx.exposure.include=\* -Dspring.application.admin.enabled=true -Dspring.boot.project.name=innoe-api-gateway-service -Djava.rmi.server.hostname=localhost -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_39oylqglofx05f32pitxhiucq.jar com.patsnap.innoe.gateway.InnoeApiGatewayApplication --spring.profiles.active=dev --innoe.server.port=8080 
+ cd /Users/lijufeng/project/patsnap/java-configs ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:61602 -Dspring.jmx.enabled=true -Dmanagement.endpoints.jmx.exposure.include=\* -Dspring.application.admin.enabled=true -Dspring.boot.project.name=cloud-patent -Djava.rmi.server.hostname=localhost -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_1zo5s0ix8nothw3al007k9is8.jar com.patsnap.innoe.cloud.patent.CloudPatentApplication --spring.profiles.active=dev --innoe.server.port=8080 
+ls /opt/logs
+sudo chmod 777 /opt/logs
+ cd /Users/lijufeng/project/patsnap/java-configs ; /usr/bin/env /Users/lijufeng/.sdkman/candidates/java/8.0.392-amzn/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:61854 -Dspring.jmx.enabled=true -Dmanagement.endpoints.jmx.exposure.include=\* -Dspring.application.admin.enabled=true -Dspring.boot.project.name=cloud-patent -Djava.rmi.server.hostname=localhost -cp /var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/cp_1zo5s0ix8nothw3al007k9is8.jar com.patsnap.innoe.cloud.patent.CloudPatentApplication --spring.profiles.active=dev --innoe.server.port=8080 
+exit
+exit
 gst
 git add .
-gst
-gst
-git log
-git commit --amend -aC HEAD
-gst
-gs
-gst
-git commit --amend -aC HEAD
-gco 
-gco feature/IN-52992
-nr serve
-gst
-git add . && git cz && ggpush
-gst
-ggpush
-lgcmr ci
-nr serve
-gst
-gco feature/IN-52992-share-node-out-fields
-git rebase feature/IN-52992
-gst log
-git log
-gst
-gco feature/IN-52992
-gst
-git merge feature/IN-52992-share-node-out-fields
-git lgo
-git log
-nr serve
-gst
-gbda
-gst
-git log
-git log
-gst
-git log
-git log
-ggpush
-lgcmr ci
-gst
-gst
+gc
 gst
 git cz
-ggpull
+git log
+gst
+git remote add origin git@github.com:tech-sprint/rust-sprint.git
+ggpush
+tmux
+exit
+tmux a
+gst
+code .
+gst
 nr serve
+gst
+cd project/github
+git clone git@github.com:YiNNx/cmd-wrapped.git\
+cd cmd-wrapped\
+# for the past year\
+cargo run\
+# or for any specific year\
+cargo run -- 2022
+git clone git@github.com:YiNNx/cmd-wrapped.git
+cd cmd-wrapped
+cargo run
+cargo run 2023
+vim ~/.zsh_history
+echo $HISTFILE
+cat $HISTFILE | tail - 20
+cat $HISTFILE | tail -10
+。。
+..
+rm -rf cmd-wrapped
 code .
 gst
 gst
+cd Downloads
+vim open_url.sh
+vim url_list.txt
+chmod u+x open_url.sh
+./open_url.sh
+gst
+git add . && git cz
+ggpush
+code .
+ggpush
+ggpull
+pnpm remove pdf-lib
+ni pdfkit
+ni
+gst
+..
+cd test-pdf
+ls
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat -h
+node /Users/lijufeng/project/weineel/md2pdf concat --sort-split-key '-'
+node /Users/lijufeng/project/weineel/md2pdf concat --sort-split-key --no-compression '-'
+node /Users/lijufeng/project/weineel/md2pdf concat --sort-split-key '-' --no-compression
+node /Users/lijufeng/project/weineel/md2pdf concat --sort-split-key '-' --no-compression
+node /Users/lijufeng/project/weineel/md2pdf concat --sort-split-key '-' --no-compression
+..
+..
+cd ..
+cd ~/Downloads
+gst
+git add . && git cz
+gst
+git add . && git cz
+gst
+git log
+git log
+git commit --amend -C HEAD
+gst
+git add .
+git commit --amend -C HEAD
+cd Go\ 语言惀�心�\ 36\ 讲
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf concat
+cd ../郧��学僩��端
+ls
+node /Users/lijufeng/project/weineel/md2pdf convert
+gst
+ggpush
+node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf concat --no-compression
+ls ~/.config
+ls ~/.config/configstore
+ls ~/.config/raycast
+ls ~/.config/raycast/extensions
+ls ~/.config/raycast/config.json
+vim ~/.config/raycast/config.json
+gst
+git add . && git cz
+gst
+git log
+gco -b feature/IN-56010
+gb -D feature/IN-55447
+gst
+git commit --amend
+igst
+gst
+git log
+git reset head^
+gst
 git cz
 gst
 ggpush
-nr serve
+gst
+git add . && git cz
+gst
+git add .
+git cz
+git add . && git cz
+gst
+git log
+git reset head^
+gst
+gst
+git stash
+git reset head^
+gst
+git log
+git stash pop
+gst
+gst
+gst
+git log
+gst
+git stash pop
+gst
+gst
+git log
+gst
+ggpush
+lgcmr master
+gco amster
+gco master
+gst
+gst
+gco feature/IN-55459 
+git log
 gst
 git stash
 gst
-ggpull --rebase
-git log
+gco master
+ggpull
+ni
+git stash pop
+gst
+gco -b feature/refactor-column-render
+git add . && git cz
+gst
+git commit
+gst
 git log
 ggpush
+lgcmr master
+gst
+gco master
+ggpull
+ggpull
+lgcmr master
+gco -b feature/IN-55994
+ggpush
+nr serve
+gst
+code .
+gst
+lgsc feature/refactor-column-render
+gst
+git log
+git commit --amend
+ggf
+gco feature/IN-56009 
 gst
 gst
+git add . && git cz
+gst
+ggpush
+gst
+ggpush
+lgcmr dev
+gst
+git commit --amend -aC HEAD
+gst
+git log
+ggf
+gst
+lgcmr master
+gst
+git add . && git cz && ggpush
+git commit --amend
+ggf
+lgcmr dev
+gst
+git add . && git cz && ggpush
+lgcmr master
+cd Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+ls
+node /Users/lijufeng/project/weineel/md2pdf convert -h
+node /Users/lijufeng/project/weineel/md2pdf convert -h
+node /Users/lijufeng/project/weineel/md2pdf convert
+code .
+ggpull
+ggpull
+vim .git/config
+cat ~/.gitconfig
+g's'tgst
+gst
+git add . && git cz && ggpush
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf concat --no-compression
+gst
+gco master
+ggpull
+gco feature/IN-56009 
+git rebase master
+git log
+gst
+nr serve
+cd ~/Downloads/Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
+ls
+node /Users/lijufeng/project/weineel/md2pdf convert
+code .
+gst
+gst
+git add . && git cz && ggpush
+code .
+gst
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+lgcmr master
+nr serve
+node /Users/lijufeng/project/weineel/md2pdf concat --no-compression
+gst
+tmux detach
+gst
+tmux new-session -t innoe-cloud
+z patsnap
+ls
+git clone git@git.patsnap.com:inno-enterprise/cloud/business/innoe-patent.git
+cd innoe-patent
+code .
+gst
+code .
+gst
+code .
+nr serve
+code .
+ni patch-package
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+nr serve
+gst
+nr crate-md-to-pdf-patch
+pnpm remove patch-package
+nr crate-md-to-pdf-patch
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/a39d229d20c1a56dd0dcf5abbee53d03
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/a39d229d20c1a56dd0dcf5abbee53d03
+gst
+nr serve
+code .
+gst
+git cz
+gst
+ggpush
+lgcmr master
+code .
+gst
+gst
+git cz 
+ggpush
+lgcmr master
+code .
+gst
+gst
+git commit --amend -C HEAD
+gst
+ggf
+git reset head^
+gst
+git cz --retry
+gst
+gi tlog
+git log
+gst
+gst
+git cz
+ggpush
+ggf
+gst
+git reset head^
+gst
+git log
+ggf
+gst
+gst
+git add . && git cz && ggpush
+gco master
+ggpull
+git log
+nr serve
+code .
+nr serve
+gco -b fearture/IN-55447
+ggpush
+code .
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+gco -b feature/IN-56010
+ggpush
+gst
+gco -b feature/IN-55447
+ggpush
+gb -d feature/IN-56010
+gst
+gco -b feature/IN-56010
+gb -d feature/IN-54707
+gco -b feature/IN-55447
+gb -d feature/IN-55447
+gst
+ggpush
+git add . && git cz && ggpush
+ggpush
+lgcmr master
+lgcmr dev
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/b29b5b799cd12848d3992d7e70d61b2b
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/b29b5b799cd12848d3992d7e70d61b2b
+gst
+gst
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+chezmoi cd
+vim .git/config
+exit
+cd ~/project/weineel/wenjinnn_config
+ls
+vim .git/config
+gst
+ggpull
+code .
+gst
+git log
+gst
+nr serve
+code .
+git log
+gco master
+gco feature/IN-56009 
+git log
+gst
+git log
+nr serve
+git log
+gco master
+gst
+git stash
+gst
+nr serve
+gco feature/IN-56010
+gst
+git stash pop
+gst
+gst
+nr serve
+gst
+gst
+code .
+gst
+git log
+git commit --amend -aC HEAD
+ggpush
+git log
+ggf
+git log
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+git add . && git cz && ggpush
+gst
+code .
+gst
+gco master
+ggpull
+code .
+gst
+lgsc fix/IN-56283
+code .
+gst
+code .
+gst
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+code .
+nr serve
+gst
+git stash
+gco master
+ggpull
+gco feature/IN-56009 
+gst
+git rebase master
+gst
+git log
+gst
+git stash pop
+gst
+gst
+code .
+nr serve
+gst
+gi tlog
+git log
+gco master
+ggpull
+lgcbf
+nr serve
+code .
+gst
+nr serve
+nr serve
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+git log
+git reset head^
+gst
+git log
+gst
+git log
+gst
+git log
+git add . && git cz && ggpush
+lgcmr master
+gst
+gcogco master
+gco master
+ggpull
+gco -b feature/IN-55476
+ggpush
+code .
+gst
+git add . && git cz && ggpush
+gst
+git log
+ggpush
+lgcmr master
+gst
+lgcmr dev
+gst
+gco fix/IN-56262
+gst
+nr serve
+code .
+gst
+git commit --amend -aC HEAD
+ggf
+gco feature/IN-55476
+gst
+git log
+code .
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+gst
+gco master
+git stash pop
+gst
+code .
+gst
+git stash
+gco master
+ggpull
+git stash pop
+nr serve
+gst
+code .
+git log
+q
+git log feature/IN-56009
+gst
+gco feature/IN-56009
+git stash
+gco feature/IN-56009
 git stash pop
 gst
 nr serve
 gst
-lgcmr ci
-gst
-git add .
-gst
-git add .
-gst
-git add . && git cz && ggpush
-ggpush
-lgcmr ci
-gst
-git commit --amend -aC HEAD
-gst
-ggf
-gst
-gst
-gst
-gco v2
-git fetch origin v2
-git log
-git log
-git tag
-ggpull
-git fetch origin v2
-gco v2
-ni
-gst
-nr test
-nr test
-nr test
-nr test
-nr test
-yarn run test
-yarn run test
-yarn run test
-nr test
-nr test
-nr test
-nr docs:dev
-ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
-nr docs:dev
-ni
-nr docs:build
-nvm ls
-nvm install lts/gallium
-nr docs:dev
-nr test
-gst
-git cz
-gst
-git cz
-git log
-git commit --amend 
-git log
-ggpush
-code .
-exit
-exit
-	gst
-nr serve
-gst
-../github/
-../..
-../github/vue-number-format
-ls
-gst
-git remote -v
-gst
-git log
-nr docs:dev
-nvm use v16.20.2
-nr docs:dev
-vim ~/.gitconfig
-vim ~/.gitconfig
-vim .git/config
-vim ~/.gitconfig
-cat ~/.gitconfig
-vim .git/config
-gco v2
-gst
-gst
-git commit --amend -C HEAD
-gst
-ggpush
-ggf
-gst
-gst
-gst
-gst
-nr docs:dev
-gco master
-gst
-git restore .
-gst
-gst
-gco master
-nr docs:dev
-gst
-gco v2
-gco master
-gst
-gst
-git cz
-gst
-git add . 
-gst
-git cz
-gst
-git log
-gst
-git commit --amend -C HEAD
-gst
-git log
-gst
-git log
-gst
-git commit --amend -C HEAD
-ggpush
-gst
 git stash
-ggpull --rebase
-git log
-ggpush
 gst
-lgcmr ci
+gco master
+ggpull
+gco feature/IN-56009
+git rebase master
+git stash pop
 nr serve
 gst
-git log
 gst
-git add . && git cz && ggpush
-gst
-git commit --amend -aC HEAD
-gst
-ggf
-lgcmr ci
-gst
-gst
-git log
-gst
-gst
-git add . && git cz && ggpush
-ggpush
-gst
-gst
-gco mastert
-gco dev
-ggpull
-code .
-gst
-git add . && git cz && ggpush
-gst
-gco feature/IN-52603
-ggpush
-gb -D dev
-lgcmr ci
-lgcmr dev
-ggpush
-git log
-gco dev
 gst
 gi tlog
 git log
+gco fix/IN-56262
+nr serve
+code .
 gst
-gb -D feature/IN-52603
-gco -b fix/IN-52603
+git log
+git cz
+git add . && git cz && ggpush
+lgcmr master
 gst
+gst
+gst
+git add . && git cz && ggpush
+git log
+git log
+git stash
+gco master
+ggpull
+gco -b feature/IN-56009
+gst
+git log
+gst
+git stash pop
+gst
+git add . && git cz && ggpush
 ggpush
+lgcmr master
+gst
+git log
+git add .
+git commit --amend -a
+ggf
+gst
+../
+ls
+cd 郧��学僩��端\ -\ 惾�它�惷�郷�\ -\ Winter
+ls
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf concat -h
+code .
+gst
+git add . && git cz && ggpush
+exit
+gst
+git add . && git cz && ggpush
+node /Users/lijufeng/project/weineel/md2pdf concat -h
+node /Users/lijufeng/project/weineel/md2pdf concat -h
+node /Users/lijufeng/project/weineel/md2pdf concat -h
+node /Users/lijufeng/project/weineel/md2pdf concat
+../Spring Cloud 微惼��僪��郁�烻�它�惨�� - 惾�它�惷�郷� - 姃�秃�辰
+..
+cd ~/Downloads/Spring Cloud 微惼��僪��郁�烻�它�惨�� - 惾�它�惷�郷� - 姃�秃�辰
+cd ~/Downloads/
+cd Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
+ls
+..
+node /Users/lijufeng/project/weineel/md2pdf convert -s Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
+node /Users/lijufeng/project/weineel/md2pdf concat -s Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
+node /Users/lijufeng/project/weineel/md2pdf concat Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
+node /Users/lijufeng/project/weineel/md2pdf concat 'Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰'
+ls Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
+gst
+node /Users/lijufeng/project/weineel/md2pdf concat Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰/Spring\ Cloud\ 微惼��僪��郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 姃�秃�辰
 gst
 git add . && git cz && ggpush
 gst
+code .
+vim ./src/App.vue
+gst
+nr serve
+gst
+ggpush
 lgcmr dev
-gco master
-ggpull
+lgcmr dev
+gst
+gst
+git cz 
+ggpush
+lgcmr dev
+wgst
 gst
 gst
 code .
 gst
+gi tlog
+git log
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+gst
+git log
+lgcmr master
+gst
+code .
+gst
+gst
+git add . && git cz
+gst
+gst
+gst
+gst
+gst
+git log
+git add .
+git commit --amend
+gst
+git add .
+git commit --amend
+gst
+pnpm install .
+md2pdf -h
+md2pdf -h
+pnpm install -g .
+pnpm install -g ./
+gst
+git log
+gst
+gst
+git log
+gco -b feature/IN-56009-label-status
+gst
+git add .
+git commit --amend -C HEAD
+gst
+git log
+git log
+ggpush
+gco feature/IN-56009
+git log
+git reset head^ --hard
+git log
+gst
+gst
+gst
+git log
+git add . && git cz && ggpush
+lgcmr master
+gst
+gco feature/IN-56009-label-status
+gst
+git log
+git rebase feature/IN-56009
+git log
+gco feature/IN-56009
+gco feature/IN-56009-label-status
+gst
+git log
+git reset head^
+gst
 nr serve
+gst
+git log
+git add .
+gst
+gst
+git cz
+gst
+lgsc feature/IN-56009
+git log
+nr serve
+code .
+code .
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+nr serve
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+gst
+gst
+gco master
+ggpull
+lgcbf
+code .
+gst
+code .
+nr serve
+nr serve
+gst
+lgsc feature/IN-56009
+gst
+code .
+gst
+gst
+nr serve
+nr serve
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+code .
+gst
+gst
+git cz
+ggpush
+lgcmr master
+gst
+gi tlog
+git log
+gco master
 lgcbf
 gst
+c
+code .
+nr serve --mode development
+nr serve --mode development
+gst
+lgsc fix/IN-56300
+gst
+code .
+gst
+git add . 
+gst
+git add . && git cz && ggpush
+gst
+lgcbf
+gst
+git stash
+lgsc feature/IN-56009
+gi tlog
+git log
+gco feature/IN-56009-label-status
+gst
+git rebase feature/IN-56009
+gst
+git log
+code .
+nr serve
+gst
+git stash pop
+g's't
+gst
+git diff
+ll src/main.js
+cd Downloads/Rust\ 缃�稃�第一课\ -\ 惾�它�惷�郷�\ -\ 郹��天
+ls
+node /Users/lijufeng/project/weineel/md2pdf convert
+gst
+ls
+ll
+node /Users/lijufeng/project/weineel/md2pdf concat
+cd ../胧�僪�僬��浃�诃�髃�惩��课\ -\ 惾�它�惷�郷�\ -\ 惿�胣��
+node /Users/lijufeng/project/weineel/md2pdf convert
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+cd ../软件浃�诃�\ 52\ 讲\ -\ 惾�它�惷�郷�\ -\ 胬�炳惹��
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+nr serve --mode qa
+gst
+gi tlog
+git log
+git log
+git log
+git log
+lgsc fix/IN-56282
+gco fix/IN-56282
+git log
+code .
+nr serve
+gst
+code .
+gst
+git log
+gco master
+ggggpull
+ggpull
+git log
+gco fix/IN-56282
+git rebase master
+nr serve
+gst
+code .
+nr serve
+nr serve
+gst
+git cz
+lgcmr master
+ggpusg
+ggpush
+gst
+code .
+gst
+gst
+gst
+gst
+git log
+gst
+git log
+code .
+gst
+git log
+git commit --amend -aC HEAD
+gst
+gst
+ggf
+gst
+gst
+git log
+ggpush
+git log
+ggf
+lgcmr master
+gst
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+git log
+gst
+git log
+gco master
+ggpull
+lgsc hotfix/v7.36.6
+gst
+git cherry-pick eb2832447b947b79c9302e44006fb5d5e18f4ec0
+git cherry-pick a695df8d65bd4fee9db39026a101af845a94185b
+git log
+ggpush
+gst
+gco master
+ggpull
+gst
+lgsc feature/IN-55476
+gst
+git log
+nr serve
+code .
+nr serve
+gco master
+ggpull
+nr serve
+gst
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+gst
+git log
+git reset head^
+gst
+gst
+gst
+git cz --retry
+igst
+gst
+ggpush
+ggf
+gco  feature/IN-56009
+git log
+git log  feature/IN-56009-label-status
+git rebase  feature/IN-56009-label-status
+git log
+ggpush
+lgcmr master
+git log
+gst
+nr serve
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git log
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+lgcmr master
+gst
+git add .
+gst
+git add .
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git add . && git cz && ggpush
+..
+cd ..
+ls
+cd ~/Downloads/
+ls
+cd Spring 缃�稃�常见郴��误 50 侃� - 惾�它�惷�郷� - 傃�健
+cd 'Spring 缃�稃�常见郴��误 50 侃� - 惾�它�惷�郷� - 傃�健'
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+git add . && git cz && ggpush
+gst
+git log
+git commit --amend -aC HEAD
+gst
+ggf
+gst
+git add . && git cz && ggpush
+gst
+gi tlog
+git log
+git reset head^
+gst
+gst
+gst
+gst
+code .
+gst
+git log
+gst
+code .
+gst
+gst
+git cz
+gst
+gst
+git log
+git reset head^
+gst
+gst
+git cz
+gst
+ggf
+lgcmr master
+gst
+git log
+gst
+ggpush
+lgcmr master
+gst
+ggpush
+git log
+ggf
+lgcmr master
+gst
+git stash
+gst
+gst
+git add . && git cz && ggpush
+gst
+git log
+git add .
+git commit --amend -aC HEAD
+ggf
+lgcmr master
+gco master
+ggpull
+git merge feature/IN-56009
+code .
+nr serve
+gst
+git add .
+git merge --continue
+ggpush
+gco feature/IN-56009
+gst
+git stash pop
+git log
+gst
+gst
+git stash pop
+gst
+git stash list
+gst
+nr serve
+gst
+git stash list
+code .
+nr serve
+gco master
+ggpull
+lgcbf
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gco master
+gst
+git stash
+gst
+gco master
+ggpull
+lgcbf
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+nr serve
+code .
+nr serve
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+git commit --amend
+ggf
+git log
+git commit --amend
+ggf
+gst
+lgcmr master
+gst
+git stash list
+git stash
+gst
+git stash pop
+gst
+git stash list
+git restore .
+gst
+git stash list
+git stash pop
+gst
+gst
+git add packages/sdk/services/form/layout-component.ts
+gst
+git cz
+gst
+git log
+cd ~/Downloads
+cd 讃�箃�惼�僿�烁�它�惨��课-惾�它�惷�郷�-彭七�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+gst
+git log
+git add . && git cz && ggpush
+gst
+git cz
+ggpush
+cd ../Spring\ 缃�稃�常见郴��误\ 50\ 侃�\ -\ 惾�它�惷�郷�\ -\ 傃�健
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+git log
+git log
+gco master
+ggpull
+lgcbf
+code .
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+code .
+gst
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+git commit --amend
+git add . && git cz && ggpush
+git reset head^
+gst
+git cz
+gst
+git add . && git cz && ggpush
+git log
+git log
+lgcmr master
+gst
+lgcmr master
+gco master
+ggpull
+lgcbf
+code .
+gst
+git add . && git cz && ggpush
+git log
+gst
+ggpush
+lgcmr master
+gst
+cd ~/Downloads/Go\ 语言惀�心�\ 36\ 讲\ -\ 惾�它�惷�郷�\ -\ 郣��惾��\ \  
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+gst
+gco feature/IN-56009
+git stash list
+git stash pop
+gst
+git log
+gst
+git add . && git cz && ggpush
+gst
+gst
+git add . && git cz && ggpush
+git log
+gst
+git commit --amend -aC HEAD
+ggf
+git log
+lgcmr master
+gst
+git commit --amend -aC HEAD
+ggf
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+gst
+git commit --amend -aC HEAD
+git log
+ggf
+lgcmr master
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+git cz
+git cz
+gst
+gst
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+gst
+git commit --amend -aC HEAD
+gst
+cd ~/Downloads/学逃�\ Spring＃�仃�僥�郷�僨�郁�烻�它�惨��\ -\ 惾�它�惷�郷�\ -\ 丁郻�丰
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+git add . && git cz && ggpush
+gi tlog
+git log
+git add . && git cz && ggpush
+ggf
+lgcmr master
+gco master
+ggpull
+git merge feature/IN-56009
+code .
+gst
+git merge --continue
+ggpush
+gco feature/IN-56009
+nr serve
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+gst
+gi tlog
+git log
+git reset head^
+gst
+git cz --retry
+gst
+git add .
+git cz --retry
+gst
+ggf
+gst
+git commit --amend -aC HEAD
+gst
+ggf
+lgcmr master
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+code .
+gst
+git add . && git cz && ggpush
+lgcmr master
+ggpull
+gco -b feature/IN-55262
+gst
+nr serve
+code .
+gst
+code .
 nr serve
 nr serve
 gst
@@ -724,289 +4274,1326 @@ git add . && git cz && ggpush
 gst
 lgcmr master
 gst
-vim ~/.innolanerc
-git stash pop
+git log
+gco master
+ggpull
 gst
-git add . 
+ggpull
+gco -b feature/IN-55979
+gst
+code .
+nr serve
+code .
+gst
+gst
+gst
+git log
+gco m
+gco master
+gst
+gi tlog
+git log
+code .
+curl 'https://qaall.qa-inno.zhihuiya.com/innoe-webapi/model/expert_patent/do/search_component' \\
+  -H 'Accept: application/json, text/plain, */*' \\
+  -H 'Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7' \\
+  -H 'Authorization: Bearer null' \\
+  -H 'Cache-Control: no-cache' \\
+  -H 'Connection: keep-alive' \\
+  -H 'Content-Type: application/json' \\
+  -H 'Cookie: DEVICE_ID=34096e50-7972-11ee-9d96-c9e8b7d1cd0a; ajs_user_id=e406420dac464c369ba1ca7b2aeaecec; ajs_group_id=5a9fd2bc07ca4b928188d524da8981b8; ajs_anonymous_id=690cdc27-35c6-4827-bfab-e7108a5f988b; ---uniform-setting-locale=en; global_lang=zh-CN; IsBindBackOffice=0; TenantIsBindBackOffice=1; Authorization=Bearer+eyJhbGciOiJIUzI1NiJ9.eyJleHRyYSI6eyJhY2NvdW50IjoiYWRtaW4iLCJuYW1lIjpudWxsLCJ1c2VyX3NpZCI6MTM1ODMxNDkyNTQ1Nzc2MSwiaXNfc3VwZXIiOjEsInN0YXR1cyI6IjAiLCJhZ2VuY3lfc2lkIjpudWxsLCJ1c2VyX3R5cGVfY2xpZW50IjoxLCJ1c2VyX3R5cGUiOiJzdXBlciIsImNvbXBhbnlfc2lkIjoxMDAwMDAwMDAwMDAwMDAxLCJ0ZW5hbnRfc2lkIjozLCJsb2dpbl93YXkiOiJQQVNTV09SRCIsImJhY2tvZmZpY2VfdXNlcl9pZCI6bnVsbCwiYmFja29mZmljZV90ZW5hbnRfaWQiOiIwOTIwZTY1Mjk0YzQ0Mjg0YTdlMmI4YTIzNzkzMWNhZiIsIm9yZ2FuaXphdGlvbl9zaWQiOjEwMDAwMDAwMDAwMDAwMDF9LCJzdWIiOiJpbm5vZSIsImp0aSI6IjJmMGU0OGJkNzM5ZTRkNzZiZjIyZjQzY2VhMzJlNTBiIiwiaXNzIjoiNTM2ZTIwZTY1YTM0NDhlNWI3MzU2NzhjYTY0OTRiY2IiLCJpYXQiOjE3MDYyNDY5OTIsImV4cCI6MTcwNjI1NTcyNn0.Yf-oeoW9u4dym_QpTyySgdJVNlGsSaTtmSBVL2gzva8; INNOE_SECURITY=eyJwYWdlSWQiOiJhNmEwYzEwMzk1MWU0ZWI5YjRjNDY2MWNlMmNlZmRjYSJ9' \\
+  -H 'DNT: 1' \\
+  -H 'Origin: https://qaall.qa-inno.zhihuiya.com' \\
+  -H 'Pragma: no-cache' \\
+  -H 'Referer: https://qaall.qa-inno.zhihuiya.com/innoe-web/patent/cn-detail/1592568336875552?X-Consumer-Sub-Company-Sid=1000000000000001&tab=patent-detail-base' \\
+  -H 'Sec-Fetch-Dest: empty' \\
+  -H 'Sec-Fetch-Mode: cors' \\
+  -H 'Sec-Fetch-Site: same-origin' \\
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \\
+  -H 'X-Consumer-Sub-Company-Sid: 1000000000000001' \\
+  -H 'X-Event-Source: page' \\
+  -H 'X-Language: zh-CN' \\
+  -H 'X-MENU-RESOURCE-CODE: pat_dtl' \\
+  -H 'X-PatSnap-From: innoe-web' \\
+  -H 'X-Request-ID: 9fe8ec27-5896-446e-9ccf-888983ea8ec4' \\
+  -H 'X-Requested-With: XMLHttpRequest' \\
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120"' \\
+  -H 'sec-ch-ua-mobile: ?0' \\
+  -H 'sec-ch-ua-platform: "macOS"' \\
+  --data-raw '{ "rows": 0", iql":"K+6aTEtD9nidbxqgj9KyJCr7UmgeH16/h6JDhASxlRxEa+TeQdywU0Mn6X8YC/EWDgQsxksjYQLnXFrZGvwmJk5D50tRpuIAB1HyKHRrWLSo+DsqzKqIR8tEZcxX5nt9JHceVA/E/y+msvvjAwuinnFl6tLTV8mPO7NciKw7BWA=||Xgku1hZj/O47xSyxd4LMpxs+6gTW83Rp8zGXaJY+mcggEGijf0O8AJtS4WfH2xi9oeVFn3RqRC7fKxeu6Z2qHLxU2jsQBNhBRL502uMrGPX0+cgDM75fgRlqDxr+P96pXbEbRVgrFKFXVchjSNRbkPY4U+fzPESndF2n4Da45Js=||ide79sO7bhvjtx6eYy8A1zScUJCMeuTCBbF5O4MrTwhnpMFxUPmXBNK6CmQzyfChaQ57viS3/5p9M1tPAs1OI7PwGs1MiBqkXzLYSyvoXtPI+bjRkbTlA+YBJW2O4WL5iqMaqK4IyOLIkU5ceLrhGk1gousiNxxugtU1e9L7AFY=||ZzQWd6UxufcF77nW/Et8QWn4JH8sqahJrjLQUrcxnHU/YHCRVdbTzfx8D13AYCNabQWoHtq12cXRHM0PjzQkT2cmoAGzuhRyTxNOtt/n5KwZkuRoAkS3SCqbIBUm3vhjIH+prt75gTUIo4tB0QgugJpWsv4KjT5K5EgK11oCLrw=||bXTG1rcG/tOmWlb9gyv9R3uIafCPybQg459c4zxVAAehHqdHMP/S54T1J7nop6nizY90GD8ZGvNGD7aByPhNiRIaLfnj/vRUNfJhmZdZZWjunZ36BnN3z9h9yHM3cgwBSei6E9TsKhjA1EZgbC9KHm74iUHN7rwckmm6XxtFxD0="}' \\
+  --compressed
+curl 'https://qaall.qa-inno.zhihuiya.com/innoe-webapi/model/expert_patent/do/search_component' \\
+  -H 'Accept: application/json, text/plain, */*' \\
+  -H 'Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7' \\
+  -H 'Authorization: Bearer null' \\
+  -H 'Cache-Control: no-cache' \\
+  -H 'Connection: keep-alive' \\
+  -H 'Content-Type: application/json' \\
+  -H 'Cookie: DEVICE_ID=34096e50-7972-11ee-9d96-c9e8b7d1cd0a; ajs_user_id=e406420dac464c369ba1ca7b2aeaecec; ajs_group_id=5a9fd2bc07ca4b928188d524da8981b8; ajs_anonymous_id=690cdc27-35c6-4827-bfab-e7108a5f988b; ---uniform-setting-locale=en; global_lang=zh-CN; IsBindBackOffice=0; TenantIsBindBackOffice=1; Authorization=Bearer+eyJhbGciOiJIUzI1NiJ9.eyJleHRyYSI6eyJhY2NvdW50IjoiYWRtaW4iLCJuYW1lIjpudWxsLCJ1c2VyX3NpZCI6MTM1ODMxNDkyNTQ1Nzc2MSwiaXNfc3VwZXIiOjEsInN0YXR1cyI6IjAiLCJhZ2VuY3lfc2lkIjpudWxsLCJ1c2VyX3R5cGVfY2xpZW50IjoxLCJ1c2VyX3R5cGUiOiJzdXBlciIsImNvbXBhbnlfc2lkIjoxMDAwMDAwMDAwMDAwMDAxLCJ0ZW5hbnRfc2lkIjozLCJsb2dpbl93YXkiOiJQQVNTV09SRCIsImJhY2tvZmZpY2VfdXNlcl9pZCI6bnVsbCwiYmFja29mZmljZV90ZW5hbnRfaWQiOiIwOTIwZTY1Mjk0YzQ0Mjg0YTdlMmI4YTIzNzkzMWNhZiIsIm9yZ2FuaXphdGlvbl9zaWQiOjEwMDAwMDAwMDAwMDAwMDF9LCJzdWIiOiJpbm5vZSIsImp0aSI6IjJmMGU0OGJkNzM5ZTRkNzZiZjIyZjQzY2VhMzJlNTBiIiwiaXNzIjoiNTM2ZTIwZTY1YTM0NDhlNWI3MzU2NzhjYTY0OTRiY2IiLCJpYXQiOjE3MDYyNDY5OTIsImV4cCI6MTcwNjI1NTcyNn0.Yf-oeoW9u4dym_QpTyySgdJVNlGsSaTtmSBVL2gzva8; INNOE_SECURITY=eyJwYWdlSWQiOiJhNmEwYzEwMzk1MWU0ZWI5YjRjNDY2MWNlMmNlZmRjYSJ9' \\
+  -H 'DNT: 1' \\
+  -H 'Origin: https://qaall.qa-inno.zhihuiya.com' \\
+  -H 'Pragma: no-cache' \\
+  -H 'Referer: https://qaall.qa-inno.zhihuiya.com/innoe-web/patent/cn-detail/1592568336875552?X-Consumer-Sub-Company-Sid=1000000000000001&tab=patent-detail-base' \\
+  -H 'Sec-Fetch-Dest: empty' \\
+  -H 'Sec-Fetch-Mode: cors' \\
+  -H 'Sec-Fetch-Site: same-origin' \\
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \\
+  -H 'X-Consumer-Sub-Company-Sid: 1000000000000001' \\
+  -H 'X-Event-Source: page' \\
+  -H 'X-Language: zh-CN' \\
+  -H 'X-MENU-RESOURCE-CODE: pat_dtl' \\
+  -H 'X-PatSnap-From: innoe-web' \\
+  -H 'X-Request-ID: 9fe8ec27-5896-446e-9ccf-888983ea8ec4' \\
+  -H 'X-Requested-With: XMLHttpRequest' \\
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120"' \\
+  -H 'sec-ch-ua-mobile: ?0' \\
+  -H 'sec-ch-ua-platform: "macOS"' \\
+  --data-raw '{ "rows": 0", iql":"K+6aTEtD9nidbxqgj9KyJCr7UmgeH16/h6JDhASxlRxEa+TeQdywU0Mn6X8YC/EWDgQsxksjYQLnXFrZGvwmJk5D50tRpuIAB1HyKHRrWLSo+DsqzKqIR8tEZcxX5nt9JHceVA/E/y+msvvjAwuinnFl6tLTV8mPO7NciKw7BWA=||Xgku1hZj/O47xSyxd4LMpxs+6gTW83Rp8zGXaJY+mcggEGijf0O8AJtS4WfH2xi9oeVFn3RqRC7fKxeu6Z2qHLxU2jsQBNhBRL502uMrGPX0+cgDM75fgRlqDxr+P96pXbEbRVgrFKFXVchjSNRbkPY4U+fzPESndF2n4Da45Js=||ide79sO7bhvjtx6eYy8A1zScUJCMeuTCBbF5O4MrTwhnpMFxUPmXBNK6CmQzyfChaQ57viS3/5p9M1tPAs1OI7PwGs1MiBqkXzLYSyvoXtPI+bjRkbTlA+YBJW2O4WL5iqMaqK4IyOLIkU5ceLrhGk1gousiNxxugtU1e9L7AFY=||ZzQWd6UxufcF77nW/Et8QWn4JH8sqahJrjLQUrcxnHU/YHCRVdbTzfx8D13AYCNabQWoHtq12cXRHM0PjzQkT2cmoAGzuhRyTxNOtt/n5KwZkuRoAkS3SCqbIBUm3vhjIH+prt75gTUIo4tB0QgugJpWsv4KjT5K5EgK11oCLrw=||bXTG1rcG/tOmWlb9gyv9R3uIafCPybQg459c4zxVAAehHqdHMP/S54T1J7nop6nizY90GD8ZGvNGD7aByPhNiRIaLfnj/vRUNfJhmZdZZWjunZ36BnN3z9h9yHM3cgwBSei6E9TsKhjA1EZgbC9KHm74iUHN7rwckmm6XxtFxD0="}' \\
+  --compressed
+code .
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+git restore .
+gst
+git restore --staged .
+gst
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+code .
+gst
+git log
+nr serve
+gst
+git add . && git cz && ggpush
+gco master
+git stash
+gco master
+ggpull
+gco -b feature/IN-55262
+git stash pop
+git add . && git cz && ggpush
+lgcmr master
+git log
+gco  feature/IN-56009
+git log
+gst
+gi tlog
+git log
+code .
+gst
+nrgst
+gst
+code .
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+git reset head^
+code .
+gst
+git cz --retry
+ggf
+gst
 gst
 git cz
 gst
+git add src/packages/business/patent/components/cpc-convert/invention-patent-request.tsx\
+
+gst
+git cz
+gst
+git log
+gst
+ggpush
+lgcmr master
+gst
+z patsnap
+ls
+git clone git@git.patsnap.com:inno-enterprise/cloud/platform/innoe-platform.git
+cd innoe-platform
+ls
+code .
+cd cloud-admin-vue
+ls
+ni
+gco feature/IN-55979
+ggpull
+git log
+ni
+nr serve
+ni
+nr serve
+nr dev
+gst
+ggpull
+nr dev
+ni @tinymce/tinymce-vue@3.2.8
+cd cloud-admin-vue
+ni @tinymce/tinymce-vue@3.2.8
+gst
+git cz
+ggpush
+pnpm patch md-to-pdf@5.2.4
+npm install highlightjs-line-numbers.js
+ni highlightjs-line-numbers.js
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/5923601f00bbb20ccde678b6634df36f
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/5923601f00bbb20ccde678b6634df36f
+code .
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/592a7315463b0c28ac808e6bf99e52eb
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/592a7315463b0c28ac808e6bf99e52eb
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/592a7315463b0c28ac808e6bf99e52eb
+pnpm patch md-to-pdf@5.2.4
+gst
+git log
+git cz
+ni tinymce/tinymce
+ni tinymce
+nr dev
+ni tinymce@5.10.5
+nr dev
+ni @tinymce/tinymce-vue@4.0.7
+nr dev
+gst
+git add .
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/db4b6aded5f14e9a622b720f3b90c7ac
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/db4b6aded5f14e9a622b720f3b90c7ac
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/db4b6aded5f14e9a622b720f3b90c7ac
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/5ed29de4ba8bd11e606cfb9b14efa998
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/e6a6438861db884466f455d478cca4bb
+cd ~/Downloads
+vim test.html
+open test.html
+vim test.html
+open test.html
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/c72e71ca0045719b8d49034c8fcca775
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/c72e71ca0045719b8d49034c8fcca775
+open test.html
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/c72e71ca0045719b8d49034c8fcca775
+gst
+git add .
+git cz
+nr build
+gst
+git add .
+git cz
+ggpull --rebase
+gst
+git log 
+git add ..
+igst
+gst
+gst
+git log
 git commit --amend -aC HEAD
 gst
+ggpull --rebase
+gst
+git log
+gst
+git restore .
+gst
+gggpush
+ggpush
+lgcmr master
+..
+lgcmr master
+lgcmr dev
+nr build
+cd cloud-admin-vue
+ls
+nr build
+gst
+git add .
+git add ..
+gst
+git cz
+ggpush
+lgcmr dev
+..
+lgcmr dev
+cd cloud-admin-vue
+gst
+pnpm patch md-to-pdf@5.2.4
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/52ee00c571a6c7c9e30035736134b700
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/52ee00c571a6c7c9e30035736134b700
+gst
+gst
+git add .
+gst
+git cz
+gst
+gst
+gst
+gst
+gst
+nr dev
+gst
+git add .
+gst
+git cz
+gst
+git add . && git cz && ggpush
+ggpull --rebase
+ggpush
+nr build
+gst
+git add .
+git add ..
+gst
+git cz
+..
+lgcmr dev
+gst
+nr dev
+ggpush
+gst
+git log
+lgcmr dev
+gst
+git log
+ggpull
+gst
+git diff
+git restore .
+gst
+ggpull
+nr serve
+gst
+code .
+nr dev
+gst
+git add .
+gst
+git cz
+gst
+git cz
+nr build
+cd cloud-admin-vue
+nr build
+igst
+gst
+git add ..
+gst
+git cz
+ggpush
+lgcmr dev
+..
+lgcmr dev
+gst
+gst
+code .
+gst
+gst
+git log
+git restore .
+gst
+gco mastr
+gco master
+ggpull
+nr dev
+nr bi
+gst
+git diff > tt.diff
+gst
+nr serve
+git a
+git apply ../innoe-web2/tt.diff
+gst
+gst
+rm tt.diff
+git restore .
+gst
+nr serve
+code .
+nr serve
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+lgcmr master
+git log
+st
+gst
+lgsc master
+git log
+nr serve
+gst
+code .
+gst
+gst
+gst
+gst
+gco -b feature/IN-55993
+nr serve
+code .
+nr bi
+gst
+git add . && git cz && ggpush
+git commit --amend
+ggf
+code .
 gst
 gst
 gi tlog
 git log
+ggpull
+lgcbf
+code .
+nr serve
 gst
+git add src/packages/business/portal/board-widgets/personal-homepage-component/todos/do-working.tsx
+gst
+git cz
+ggpush
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+git log
+gst
+ggpull
+gco -b feature/IN-56124
+gst
+code .
+nr bi
+gst
+gco master
+ggpull
+gi tlog
+git log
+gco feature/IN-55993
+git log
+lgcmr master
+code .
+nr serve
+gst
+gco master
+ggpull
+gco -b feature/IN-56124
+gst
+gst
+nr serve
+code .
+nr serve
+gst
+gst
+git add . && git cz && ggpush
+git log
+ggpush
+lgcmr master
+gst
+..
+ls
+git clone git@git.patsnap.com:inno-enterprise/cloud/web/innoe-web.git innoe-web4
+cd innoe-web4
+ni
+ni -D @rsdoctor/webpack-plugin
+ni -D -W @rsdoctor/webpack-plugin
+gst
+code .
+nvm ls
+nvm use v18.18.2
+gst
+z patsnap
+cd innoe-web4
+ls
+s
+ni -D -W @rsdoctor/webpack-plugin
+code .
+ni doctor
+nr doctor
+nr doctor
+nr doctor
+gst
+git log
+gco master
+ggpull
+lgsc feature/IN-55953
+code .
+code .
+gst
+gst
+code .
+gst
+inno-lane jira cst -r 7 -p IN-56207 --assignee-email-name shina
+gst
+vim ~/.innolanerc
+code .
+git log
+gco master
+ggpull
+gco -b feature/IN-54708
+gst
+gst
+code .
+vim ~/.innolanerc
+vim ~/.config/nvim/lua/plugin/editor.lua
+cd ~/Downloads/Rust\ 语言仃�僥�郷�僨�它�惨��
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+z config
+ls
+code .
+vim ~/.config/nvim/lua/plugin/editor.lua
+cd ~/Downloads/Rust\ 缃�稃�第一课\ -\ 惾�它�惷�郷�\ -\ 郹��天
+ll
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+vim ~/.config/nvim/lua/plugin/editor.lua
+vim ~/.config/nvim/lua/plugin/editor.lua
+vim ~/.config/nvim/lua/plugin/editor.lua
+cd ~/Downloads/它�烴�寃�烀�学\ -\ 惾�它�惷�郷�\ -\ 胬��学郻�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+cd ~/Downloads/AI\ 练�烴�惀�心�惪�惼�七�它�惨��\ -\ 惾�它�惷�郷�\ -\ 僭��惿�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+git log
+nr serve
+gst
+lgcmr master
+gst
+gco master
+ggpull
+gco -b fix/IN-56303
+gst
+git log
+nr serve
+code .
+gst
+git add . && git cz && ggpush
+lgcmr dev
+gst
+gst
+gst
+git add . && git cz && ggpush
+gst
+git cz
+gst
+git commit --amend
+ggst
+gst
+git add src/sdk/services/form/layout-component.ts
 gst
 git commit --amend -C HEAD
 gst
-git add . 
-git cz
-gst
-ggpush
-git log
-ggpull --rebase
-git log
-ggpush
-gst
-lgcmr ci
-nr serve
-tmux
-gst
-nr serve
-gst
 git log
 gst
-git cz
+git add src/packages/apps/common/form-designer/components/form-event/event-editor.tsx
 gst
-git add . 
-git cz
-gst
-git log
-ggpush
-gst
-lgcmr ci
-gst
-gst
-gst
-gst
-ni @coders-tm/vue-number-format
-ni -W @coders-tm/vue-number-format
-ni -W @coders-tm/vue-number-format@2.20.0
-ni -W @coders-tm/vue-number-format@2.20.0
-ni -W @coders-tm/vue-number-format
-ni -W @coders-tm/vue-number-format@2.20.0
-gst
-git cz
-gst
-git log
-git log
-gst
-git stash
-gco feature/number-and-amount-input
-gst
-git log
-git cherry-pick b69486e381170f91deeaff296e3db3a561999e0b
-git log
-gst
-gst
-git cz
-git commit --amend
-git log
-ggpush
-gco feature/IN-52992
-gst
-git stash pop
-gst
-nr serve
-gst
-cd~
-cd ~
+git commit --amend -C HEAD
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+cd ../LangChain 它�惨��课 - 惾�它�惷�郷� - 黃�佳
+cd ../LangChain\ 它�惨��课\ -\ 惾�它�惷�郷�\ -\ 黃�佳
 ls
-vim ~/.config/lvim/config.lua
-lvim ~/.zshrc
-vim ~/.config/lvim/config.lua
-chezmoi add ~/.zshrc
-vim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-mkdir ~/. config/nvim
-mkdir ~/.config/nvim
-cd ~/.config/nvim
-lvim init.lua
+nodejl
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+..
+cd ~/Downloads
+ls
+npm install -g zx
+zx -v
+ls
+zx -v
+vim md2pdf-zx.mjs
+node md2pdf-zx.mjs
+node md2pdf-zx.mjs
+node md2pdf-zx.mjs
+cd md2pdf
+node md2pdf-zx.mjs
+node md2pdf-zx.mjs
+node /Users/lijufeng/project/weineel/md2pdf convert -h
+node /Users/lijufeng/project/weineel/md2pdf concat -h
+zx md2pdf-zx.mjs
+code .
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+cd ../AI\ 练�烴�惀�心�惪�惼�七�它�惨��\ -\ 惾�它�惷�郷�\ -\ 僭��惿�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
 gst
 gst
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
-gst
-gst
-git cz
-gst
-gst
-git cz
-gst
-ggpush
-gst
-gst
-ggpull --rebase
-git stash
-ggpull --rebase
 git log
+gco master
+lgcbf
+code .
+gst
+git add . && git cz && ggpush
 ggpush
+lgcmr master
 nr serve
-lgcmr ci
+code .
+nr serve
+nr serve
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+gst
+gst
+git stash pop
+code .
+gst
+git stash
+gco master
+ggpull
+git log
+ggpull
+gst
+gco  feature/IN-54708
+git log
 git stash pop
 gst
-git cz
-gst
-git add .
-git cz
-gst
-ggpush
-lgcmr ci
-gst
-git add . 
+git stash
+git rebase master
+git stash pop
 git log
-git cz
+nr serve
+git log
+nr serve
+gst
+git log
+git commit --amend -C HEAD
+ggf
+gst
+git add . && git cz && ggpush
 ggpush
-lgcmr ci
-lvim init.lua
-vim ~/.config/lvim/config.lua
-nvim ~/.config/lvim/config.lua
-gst
-lvim init.lua
-vim ~/.config/lvim/config.lua
-nvim ~/.config/lvim/config.lua
-/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/orbstack-open-terminal_0556D082.sh; exit
-orb update
-vim ~/.config/lvim/config.lua
-nvim ~/.config/lvim/config.lua
-orb update
-gst
-nvim ~/.config/lvim/config.lua
-nvim ~/.config/lvim/config.lua
-nvim ~/.config/lvim/config.lua
-gst
-nvim ~/.config/lvim/config.lua
-nvim ~/.config/lvim/config.lua
-lvim init.lua
-chezmoi add ~/.config/nvim/init.lua
-chezmoi add ~/.config/nvim/lazy-lock.json
-chezmoi add ~/.config/lvim
-chezmoi add ~/.config/lvim
-lvim init.lua
-lvim init.lua
-pnpm remove monaco-editor
-vim
-vim ~/.config/lvim/config.lua
-gst
-tmux attach
-vim ~/.config/lvim/config.lua
-vim ~/.zshrc
-lvim ~/.zshrc
-vim ~/.zshrc
-vim ~/.gitconfig
-git add .
-gst
-chezmoi add ~/.zshrc
+tmux
 tmux kill-serve
 tmux
-nr serve
-vim ~/.config/nvim/init.lua
-lvim ~/.config/nvim/init.lua
-vim ~/.config/nvim/init.lua
-lvim ~/.config/nvim/init.lua
-vim ~/.config/nvim/init.lua
-lvim ~/.config/nvim/init.lua
-lvim ~/.config/nvim/init.lua
-lvim ~/.config/nvim/init.lua
-lvim ~/.config/nvim/init.lua
+ls
 gst
+git log
+code .
+nr serve
+gst
+git log
+gst
+gst
+git log
+git commit --amend -C HEAD
+gst
+git log
+gst
+git stash
+git reset head^
+gst
+gst
+gco feature/IN-55957
+lgsc feature/IN-55957
+gco feature/IN-56009
+git log
+code .
+nr serve
+gst
+code .
+gco feature/IN-54708
+gst
+git log
+code .
+nr serve
+gst
+git add .
+git cz
+git log
+git cz
+git stash pop
+gst
+git log
+git reset head^^
+git log
+git reflog
+gst
+git cz
+gst
+git cz
+ggf
+lgcmr master
+code .
+gst
+gst
+git log
+gst
+git log
+gst
+gst
+git add  src/packages/fundation/components/form-renderer/index.tsx\
+
+gst
+git cz
+gst
+gst
+git add src/styles/_common.scss\
+
+gst
+git cz
+ggpush
+gst
+gst
+gst
+git log
+gco master
+ggpull
+gst
+gco -b feature/IN-54708
+gst
+ggpush
+nr serve
+gst
+gst
+git log
+gst
+git log
+ggpush
+ggf
+gst
+ggpull
+git log
+gst
+git log
+git log
+git reset cdd4f7ec26275a9d7c72e7d941e5bfd577cdfb3c
+gst
+git cz
+gst
+git cz
+git add . && git cz && ggpush
+gco master
+ggpull
+gco feature/IN-54708
+git rebase master
+git rebase --continue
+gst
+nr serve
+ggpush
+ggf
+gst
+lgcmr master
+gst
+gst
+git add . && git cz && ggpush
+gst
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+lgcmr master
+gst
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+ggpull
+code .
+nr serve
+nr serve
+docker-compose -v
+gst
+gco -b feature/IN-55976
+gst
+ggpush
+nr serve
+nr serve
+gst
+git log
+git log
+gst
+git add . && git cz && ggpush
+lgcmr feature/IN-55953
+docker -v
+ls
+../
+ls
+cd github
+ls
+git clone git clone git@github.com:songquanpeng/one-api.git
+git clone git@github.com:songquanpeng/one-api.git
+cd one-api
+ls
+code .
+docker-compose up -d
+docker
+docker-compose up -d
+npx @portkey-ai/gateway
+nvm use v18.18.2
+npx @portkey-ai/gateway
+GST
+gst
+git log
+git add .
+gst
+git commit --amend -C HEAD
+ggf
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr feature/IN-55953
+gst
+git add . && git cz && ggpush
+lgcmr feature/IN-55953
+brew install gvm
+brew install gvm
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+gvm list
+gvm lstall
+gvm lsall
+gvm -h
+gvm
+gvm install go1.18
+vim ~/.zshrc
+vim ~/.zshrc
+gvm install go1.18
+gvm -h
+vim ~/.zshrc
+gvm -h
+gvm implode
+gvm implode
+vim ~/.zshrc
+gvm implode
+rm -rf ~/.gvm
+vim ~/.zshrc
+go -v
+go mod download
+cd web
+ls
+cd berry
+ni
+..
+ls
+cd berry
+ls
+ni
+nr start
+ni
+ni
+nvm use v18.18.2
+ni
+nr serve
+nr start
+gst
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr feature/IN-55953
+gst
+git log
+gco -b feature/IN-56236
+gst
+git add . && git cz && ggpush
+lgcmr feature/IN-55953
+gst
+git cz
+git cz
+ggpush
+lgcmr feature/IN-55953
+gst
+gst
+git add . && git cz && ggpush
+lgcmr feature/IN-55953
+git log
+gco master
+ggpull
+lgcbf
+gst
+nr serve
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+lgcmr master
+gst
+code .
+nr serve
+nr serve
+gst
+git log
+code .
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr feature/IN-55953
+gst
+git cz
+gst
+git add . && git cz && ggpush
+gst
+git cz
+git cz
+git add . && git cz && ggpush
+lgcmr master
+git log
+gst
+gst
+gst
+gst
+code .
 nr serve
 gst
 git add . && git cz && ggpush
-lgcmr ci
+gst
+lgcmr master
+nr serve
+git log
+gst
+gst
+git log
+gco master
+ggpull
+lgcbf
+gb -d fix/IN-56344
+lgcbf
+gst
+nr serve
+ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
+nr serve
+nr serve
+code .
+git log
 gst
 gst
 git add . && git cz && ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+lgcmr feature/IN-55953
+gst
+git add . && git cz && ggpush
+lgcmr master
 gst
 git reset head^
 gst
-ggf
-gst
-git log
-gst
-git add .
+git add . && git cz && ggpush
 git cz --retry
-igst
+ggf
 gst
-ggpush
-git extra
-git ls-files | xargs cat | wc -l
-git ls-files | xargs cat | wc -l
-git ls-files | xargs cat | wc -l
+gst
+git commit --amend -aC HEAD
+ggf
+gst
+gst
+git add . && git cz && ggpush
+git commit --amend
+ggf
+lgcmr master
+code .
+nr serve
+git log
+ps -ef | grep node | grep -v grep | awk '{print $2}' | xargs kill -9
 nr serve
 gst
-git reset head^
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+ggpull
+lgcbf
+gst
+code .
+nr servef
+nr serve
+gst
+git add .
+git cz
+git cz
+ggpush
+gst
+gst
+code .
+gst
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+gst
+gst
+git add . && git cz && ggpush
+gst
+gsst
+gst
+git add . && git cz && ggpush
+gst
+ggpull
+code .
+nr serve
+gst
+git add . && git cz && ggpush
+lgcmr feature/IN-55953
+gst
+gco dev
+git stash
+gco dev
+ggpull
+git stash pop
+git add . && git cz && ggpush
+gst
+ggpush
+gco feature/IN-56236
+gst
+nr serve
+gst
+git add . && git cz && ggpush
+gst
+gst
+code .
+gst
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+git add . && git cz && ggpush
+gst
+git commit --amend
+ggf
+lgcmr feature/IN-55953
 gst
 git log
-ggf
-ni npm i monaco-editor
-ni monaco-editor
-nr serve
-nr serve
-nr serve
-nr serve
+ggpush
+lgcmr master
+gst
+gst
+git add . && git cz && ggpush
+ggpush
+ls
+cd ../
+ls
+mkdir inno-web-devbug
+cd tampermonkey-inno-web-devbug
+mkdir tampermonkey-inno-web-devbug
+ls
+rm -rf inno-web-devbug
+cd tampermonkey-inno-web-devbug
+code .
+code .
+nr bi
+code .
+git init
+git remote add origin git@git.patsnap.com:jufeng.li/tampermonkey-inno-web-devbug.git
+gst
 git add .
 gst
-git cz
-git reflog
-git reflog
+git add .
 git cz
 ggpush
+gst
+git commit --amend -aC HEAD
+ggpush
+gst
+gst
+git add .
+git cz
+ggpush
+gst
+git add . && git cz && ggpush
+gst
+git add . && git cz && ggpush
+ggpush
+ggpull
+code .
+ls
+cd web
+ls
+cd berry
+ls
+nr start
+gst
+code .
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+cd Downloads/md2pdf
+node md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+gst
+git add . && git cz && ggpush
+git commit --amend -aC HEAD
+ggf
+ggf
+zx md2pdf-zx.mjs
+code .
+ggf
+zx md2pdf-zx.mjs
+gst
+git add . && git cz
+gst
+ggpush
+gst
+code .
+cd ../AI\ 练�烴�惀�心�惪�惼�七�它�惨��\ -\ 惾�它�惷�郷�\ -\ 僭��惿�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+code .
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+lgcbf
+git log
 nr serve
-lvim ~/.config/nvim/init.lual
-lvim ~/.config/nvim/init.lua
+code .
 gst
-vim ~/.config/chezmoi/chezmoi.toml
-lvim ~/.config/chezmoi/chezmoi.toml
+git add . && git cz && ggpush
+lgcmr master
+cd ../md2pdf
+g'gpu'shggpush
+ggpush
 gst
-lvim ~/.config/chezmoi/chezmoi.toml
-lvim ~/.config/chezmoi/chezmoi.toml
-lvim ~/.zshrc
-tmux kill-serve
-tmux
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/lvim/config.lua
-lvim ~/.config/nvim/share.lua
-lvim ~/.config/nvim/share-config.lua
+git log
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+code .
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
 gst
-chezmoi add ~/.config/lvim
-inno-lane jira cst -h
-inno-lane jira cst -p IN-53463 -r 3
-inno-lane jira cst -p IN-53371 -r 3
-inno-lane jira cst -p IN-53465 -r 3
-inno-lane jira cst -p IN-53465 -r 5
+zx md2pdf-zx.mjs
+code .
+sips -v
+chezmoi diff
+chezmoi cd
+vim ~/.zshrc
+code .
+chezmoi diff
+chezmoi show
+chezmoi diff -h
+lsg
+ls
+git remote -v
+tmux detach
+tmux new-session -t innoe-platform(bo)
+tmux new-session -t innoe-platform_bo
+z patsnap
+ls
+exit
+tmux attach
+ls
+gco master
+ggpull
 gst
+gst
+git log
+lgcmr master
+code .
+gst
+git add . && git cz
+ggpush
+gst
+code .
+gst
+ls
+gst
+gst
+code .
+gst
+git add . && git cz
+ggpush
+git fetch origin\
+git checkout -b 3-code origin/3-code
+gst
+gst
+git add . && git cz
+ggpush
+git fetch origin\
+git checkout -b 4-404-business-404 origin/4-404-business-404
+gst
+git add . && git cz
+git add . && git cz
+ggpush
+zx md2pdf-zx.mjs
+gst
+git log
+code .
+ni
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+pnpm patch md-to-pdf@5.2.4
+zx md2pdf-zx.mjs
+pnpm patch-commit /private/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/f31540d28d0a159822b80600ad07d4b1
+gst
+git add . && git cz
+gst
+git add . && git cz
+gst
+git add . && git cz
+gco master
+ggpull
+gst
+git log
+lgcbf
+gst
+git add . && git cz && ggpush
+gst
+nr serv e
+nr serve
+gst
+gst
+exit
+gst
+gst
+git add . && git cz && ggpush
+gst
+ggpush
+lgcmr master
+inno-lane jira cst -r 3 -p IN-56577
+ssh 47.100.245.193
+ssh 47.100.245.193
+ssh root@47.100.245.193
+cat ~/.ssh/id_rsa.pub
+ssh root@47.100.245.193
+ssh root@47.100.245.193
+inno-lane jira cst -r 8 -p IN-56576
+inno-lane jira cst -r 2 -p IN-56576
+code .
+lgsc feature/IN-55953
+gco -b feature/IN-56207
+nr serve
+code .
+gst
+git add . && git cz
+ggpush
+lgcmr feature/IN-55953
+gst
+code .
+cd ../AI\ 练�烴�惀�心�惪�惼�七�它�惨��\ -\ 惾�它�惷�郷�\ -\ 僭��惿�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+code .
+..
+ls
+code .
+cd AI\ 练�烴�惀�心�惪�惼�七�它�惨��\ -\ 惾�它�惷�郷�\ -\ 僭��惿�
+code .
+cd ../md2pdf
+code .
+../AI\ 练�烴�惀�心�惪�惼�七�它�惨��\ -\ 惾�它�惷�郷�\ -\ 僭��惿�
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+code .
+code .
+code .
+node /Users/lijufeng/project/weineel/md2pdf convert && node /Users/lijufeng/project/weineel/md2pdf concat
+gst
+git add . && git cz
+ggpush
+ssh root@47.100.245.193
+ls
+git remote -v
+../md2pdf
+zx md2pdf-zx.mjs
+ssh root@47.100.245.193
+ping host.weineel.top
+code .
+gst
+ll
+zx md2pdf-zx.mjs
+zx md2pdf-zx.mjs
+zsh --version
+zsh --version
+chezmoi -v
+chezmoi --version
+gst
+gst
+git log
+code .
+code .
+gst
+t
 gst
 gco master
 ggpull
 gst
-gco dev
-gco -b feature/low-code-backup
+gb feature/IN-56370
+gco feature/IN-56370
 ggpush
-gco master
-ni
 nr serve
-gst
+code .
+code .
 git log
-nr serve
-lvim ~/.config/nvim/share-config.lua
-lvim ~/.config/nvim/share-config.lua
-nvim ~/.config/lvim/config.lua
-lvim ~/.config/nvim/share-config.lua
-ils
-ls
+gst
+gst
+gst
+git cz
+gst
+gst
+gst
+git cz
+gst
+git add . && git cz && ggpush
+lgcmr master
+gst
+chezmoi cd 
+chezmoi cd
 exit
 exit
-eixt
-exit
-exti
-exit
-: 1694083422:0;lvim ~/.config/lvim/config.lua
-: 1694083441:0;lvim ~/.config/nvim/init.lua
-: 1694083651:0;lvim ~/.config/lvim/config.lua
-: 1694083679:0;lvim ~/.config/nvim/init.lua
-: 1694083783:0;lvim ~/.config/nvim/init.lua
-: 1694135960:0;lvim ~/.config/nvim/init.lua
-: 1694136238:0;lvim ~/.config/nvim/init.lua
-: 1694137960:0;gst
-: 1694137980:0;chezmoi diff
-: 1694138093:0;chezmoi add ~/.zshrc
-: 1694138104:0;chezmoi diff
-: 1694138123:0;chezmoi add ~/.zsh_history
+: 1709798017:0;chezmoi cd
+: 1709798022:0;code .
+: 1709798087:0;age -v
+: 1709798940:0;chezmoi data
+: 1709800372:0;echo $FORMAT
+: 1709800815:0;/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/orbstack-open-terminal_2B30D56E.sh; exit
+: 1709801029:0;/var/folders/bt/2c_zj4fn4bg2k_qy5y0j3xk40000gq/T/orbstack-open-terminal_3F45CA60.sh; exit
+: 1709801654:0;chezmoi init
+: 1709801684:0;ls ~/.config
+: 1709801690:0;ls ~/.config/chezmoi
+: 1709801712:0;rm -rf ~/.config/chezmoi
+: 1709801981:0;chezmoi init
+: 1709802037:0;cat ~/.gitconfig
+: 1709802059:0;cat ~/.config/chezmoi/chezmoi.yaml
+: 1709802090:0;chezmoi init
+: 1709802361:0;chezmoi data
+: 1709802400:0;chezmoi chattr +template ~/.gitconfig
+: 1709802471:0;chezmoi edit ~/.gitconfig
+: 1709802489:0;chezmoi apply ~/.gitconfig
+: 1709802503:0;cat ~/.gitconfig
+: 1709802521:0;cat ~/.gitconfig
+: 1709802525:0;chezmoi apply ~/.gitconfig
+: 1709802529:0;cat ~/.gitconfig
+: 1709802544:0;chezmoi apply ~/.gitconfig
+: 1709802547:0;cat ~/.gitconfig
+: 1709802587:0;chezmoi data
+: 1709802635:0;chezmoi chattr +template ~/.zshrc
+: 1709806359:0;chezmoi init
+: 1709806382:0;chezmoi init
+: 1709806613:0;chezmoi cd
+: 1709806632:0;ls
+: 1709806645:0;chezmoi execute-template < dot_zshrc.tmpl
+: 1709806691:0;chezmoi execute-template < dot_zshrc.tmpl
+: 1709806982:0;chezmoi add ~/.zsh_history
