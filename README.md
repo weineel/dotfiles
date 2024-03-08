@@ -7,6 +7,7 @@ weineel's dotfiles, power by [chezmoi](https://github.com/twpayne/chezmoi).
 - [ ] 自动安装软件（setup 时先检查是否已经安装过了）
 
   - zsh，并设置为默认(chsh -s /bin/zsh)
+  - git
   - chezmoi 使用对应系统的包管理器安装(ubuntu `snap install chezmoi --classic`)。[安装文档](https://www.chezmoi.io/install/)
   - brew？
   - unzip
