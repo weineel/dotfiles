@@ -1,7 +1,7 @@
 {{ $username := promptString "username(weineel)" -}}
 {{ $email := promptString "email(LiJF_wn@163.com)" -}}
 
-{{ $hosttag := promptString "主机标签[ps、home、ali_server...etc]" -}}
+{{ $hosttag := promptString "主机标签(使用场景)[ps、home、server...etc]" -}}
 
 data:
   username: {{ default $username "weineel" | quote }}
