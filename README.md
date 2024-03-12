@@ -9,6 +9,7 @@ weineel's dotfiles, power by [chezmoi](https://github.com/twpayne/chezmoi).
   - zsh，并设置为默认(chsh -s /bin/zsh)
   - git
   - chezmoi 使用对应系统的包管理器安装(ubuntu `snap install chezmoi --classic`)。[安装文档](https://www.chezmoi.io/install/)
+  - [age](https://github.com/FiloSottile/age) 加解密，不一定需要安装 chezmoi 内置了（仅支持 identity/recipient 方式）
   - brew？
   - unzip
   - neovim

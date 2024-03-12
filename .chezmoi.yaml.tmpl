@@ -2,8 +2,16 @@
 {{ $email := promptString "email(LiJF_wn@163.com)" -}}
 
 {{ $hosttag := promptString "主机标签(使用场景)[ps、home、server...etc]" -}}
+{{ $ageIdentity := promptString "age 私钥文件(~/.config/age_key.txt)" -}}
+{{ $ageRecipient := promptString "age 公钥" -}}
 
 data:
   username: {{ default $username "weineel" | quote }}
   email: {{ default $email "LiJF_wn@163.com" | quote }}
   hosttag: {{ $hosttag | quote }}
+
+encryption: "age"
+age:
+    identity: {{ default $ageIdentity "~/.config/age_key.txt" | quote }}
+    recipient: {{ $ageRecipient | quote }}
+
