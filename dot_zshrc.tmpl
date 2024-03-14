@@ -90,14 +90,15 @@ zinit light agkozak/zsh-z
 zi snippet OMZP::git
 
 # zsh-history-substring-search - https://github.com/zsh-users/zsh-history-substring-search
-zinit wait lucid atload"bindkey '^[[A' history-substring-search-up;
-  bindkey '^[[B' history-substring-search-down;
-  bindkey '^P' history-substring-search-up;
+zinit wait lucid atload"bindkey '^P' history-substring-search-up;
   bindkey '^N' history-substring-search-down" for \
   zsh-users/zsh-history-substring-search
 
 # 自定义, 维护在 github https://github.com/weineel/zsh-weineel
 zinit light weineel/zsh-weineel
+
+# atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
+zvm_after_init_commands+=(eval "$(atuin init zsh)")
 
 ### zinit custom end
 
