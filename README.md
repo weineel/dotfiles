@@ -2,16 +2,31 @@
 
 weineel's dotfiles, power by [chezmoi](https://github.com/twpayne/chezmoi).
 
+## Utils
+
+### chezmoi
+
+- 使用对应系统的包管理器安装(ubuntu `snap install chezmoi --classic`)。
+- [安装文档](https://www.chezmoi.io/install/)
+- 一次性执行
+
+### [Atuin](https://docs.atuin.sh/) 管理命令行历史纪录
+
+```shell
+# 同步命令行历史纪录（需要账号密码，数据也是加密的）
+atuin login -u weineel
+atuin sync
+```
+
 ## TODO
 
 - [ ] 自动安装软件（setup 时先检查是否已经安装过了）
 
   - zsh，并设置为默认(chsh -s /bin/zsh)
   - git
-  - chezmoi 使用对应系统的包管理器安装(ubuntu `snap install chezmoi --classic`)。[安装文档](https://www.chezmoi.io/install/)
-  - [age](https://github.com/FiloSottile/age) 加解密，不一定需要安装 chezmoi 内置了（仅支持 identity/recipient 方式）
   - brew？
   - unzip
+  - atuin (命令行历史管理)
   - neovim
 
     - 目前的实现是 在 Ubuntu 上使用 vim
