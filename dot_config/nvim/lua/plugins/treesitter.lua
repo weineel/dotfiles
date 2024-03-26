@@ -1,0 +1,9 @@
+-- builtin
+return {
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "vue",
+    },
+  },
+}
