@@ -4,7 +4,9 @@ return {
   dependencies = { "nvim-telescope/telescope.nvim" },
   config = function()
     require("textcase").setup()
-    require("telescope").load_extension("textcase")
+    if not vim.g.vscode then
+      require("telescope").load_extension("textcase")
+    end
   end,
   keys = {
     { "ga.", "<cmd>TextCaseOpenTelescope<CR>", mode = { "n", "x" }, desc = "Telescope" },

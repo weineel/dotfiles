@@ -3,6 +3,7 @@ return {
   -- motion
   {
     'folke/flash.nvim',
+    vscode = true,
     opts = function()
       local opts = {
         label = {
