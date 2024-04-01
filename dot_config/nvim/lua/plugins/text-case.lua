@@ -1,3 +1,4 @@
+-- https://github.com/johmsalas/text-case.nvim#example-for-lazyvim
 return {
   "johmsalas/text-case.nvim",
   vscode = true,
