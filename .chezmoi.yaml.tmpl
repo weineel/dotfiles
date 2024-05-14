@@ -12,6 +12,6 @@ data:
 
 encryption: "age"
 age:
-    identity: {{ default $ageIdentity "~/.config/age_key.txt" | quote }}
-    recipient: {{ $ageRecipient | quote }}
+  identity: {{ default $ageIdentity "~/.config/age_key.txt" | quote }}
+  recipient: {{ $ageRecipient | quote }}
 
