@@ -124,6 +124,37 @@ export NVM_DIR="$HOME/.nvm"
 # nvm node 镜像源
 export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/
 
+##
+#### 切换目录，自动加载目录下的 .nvmrc, 实现每个目录有自己的 node 环境。start
+##
+autoload -U add-zsh-hook
+
+load-nvmrc() {
+  local nvmrc_path
+  nvmrc_path="$(nvm_find_nvmrc)"
+
+  if [ -n "$nvmrc_path" ]; then
+    local nvmrc_node_version
+    nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+      nvm install
+    elif [ "$nvmrc_node_version" != "$(nvm version)" ]; then
+      nvm use
+    fi
+  elif [ -n "$(PWD=$OLDPWD nvm_find_nvmrc)" ] && [ "$(nvm version)" != "$(nvm version default)" ]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
+
+##
+#### load-nvmrc end
+##
+
 # n node 版本管理工具的镜像源
 # export NODE_MIRROR=https://mirrors.ustc.edu.cn/node/
 # export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
@@ -156,6 +187,13 @@ setopt appendhistory
   # cut 类似 spilt 函数
 #   zellij attach "$(zellij ls | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | fzf | cut -d ' ' -f 1 | xargs)"
 # }
+
+
+# sdkman 初始化
+# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+
 
 ###
 # 不同主机类型（或使用场景的配置）
@@ -199,3 +237,4 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 # other operating system
 
 {{- end }}
+
