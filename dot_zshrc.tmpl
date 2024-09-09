@@ -65,6 +65,15 @@ zinit ice as"command" from"gh-r" \
   atpull"%atclone" pick"bin/exa"
 zi light ogham/exa
 
+# volta
+zinit ice as"program" pick"volta" \
+  atclone"curl https://get.volta.sh | bash" \
+  atpull"curl https://get.volta.sh | bash -s -- --skip-setup" \
+  run-atpull \
+  atload'export VOLTA_HOME="$HOME/.volta" && export PATH="$VOLTA_HOME/bin:$PATH"'
+zinit light weineel/zinit-volta
+
+
 # 像 ls 一样使用 exa, https://github.com/weineel/zsh-exa
 # zi ice has"exa" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
 zi light weineel/zsh-exa
@@ -116,56 +125,8 @@ export PATH=~/.local/bin:$PATH
 # generate gitignore
 function gi() { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;}
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# nvm node 镜像源
-export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/
-
-##
-#### 切换目录，自动加载目录下的 .nvmrc, 实现每个目录有自己的 node 环境。start
-##
-autoload -U add-zsh-hook
-
-load-nvmrc() {
-  local nvmrc_path
-  nvmrc_path="$(nvm_find_nvmrc)"
-
-  if [ -n "$nvmrc_path" ]; then
-    local nvmrc_node_version
-    nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-    if [ "$nvmrc_node_version" = "N/A" ]; then
-      nvm install
-    elif [ "$nvmrc_node_version" != "$(nvm version)" ]; then
-      nvm use
-    fi
-  elif [ -n "$(PWD=$OLDPWD nvm_find_nvmrc)" ] && [ "$(nvm version)" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
-}
-
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
-
-##
-#### load-nvmrc end
-##
-
-# n node 版本管理工具的镜像源
-# export NODE_MIRROR=https://mirrors.ustc.edu.cn/node/
-# export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
-
 # pipenv
 export PIPENV_VENV_IN_PROJECT=1
-
-# pnpm
-export PNPM_HOME="/Users/lijufeng/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
 
 # rust
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
