@@ -35,6 +35,8 @@ atuin sync
 
   - tmux
   - exa 使用 rust cargo 安装 https://github.com/ogham/exa/issues/978#issuecomment-1508621417
+  - starship
+  - volta
 
 ## Other dotfiles manager.
 
