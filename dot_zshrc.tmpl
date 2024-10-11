@@ -66,12 +66,13 @@ zinit ice as"command" from"gh-r" \
 zi light ogham/exa
 
 # volta: node、yarn、pnpm 等的版本管理
-zinit ice as"program" pick"volta" \
+zinit wait lucid \
+  as"program" pick"volta" \
   atclone"curl https://get.volta.sh | bash" \
   atpull"curl https://get.volta.sh | bash -s -- --skip-setup" \
   run-atpull \
-  atload'export VOLTA_HOME="$HOME/.volta" && export PATH="$VOLTA_HOME/bin:$PATH"'
-zinit light weineel/zinit-volta
+  atload'export VOLTA_HOME="$HOME/.volta" && export PATH="$VOLTA_HOME/bin:$PATH" && eval "$(volta completions zsh)"' \
+  for weineel/zinit-volta
 
 
 # 像 ls 一样使用 exa, https://github.com/weineel/zsh-exa
