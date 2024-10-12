@@ -41,12 +41,13 @@ zinit ice as"command" from"gh-r" \
 zinit light starship/starship
 # eval "$(starship init zsh)"
 
-# install and enable fzf
-zi for \
+# install and enable fzf.
+# 'completion.zsh -> _fzf;' is not needed, as fzf will be loaded by fzf-tab
+zi wait lucid \
+  for \
   as'command' \
-  dl="$(print -c https://raw.githubusercontent.com/junegunn/fzf/master/{shell/{'key-bindings.zsh;','completion.zsh -> _fzf;'},man/{'man1/fzf.1 -> $ZPFX/share/man/man1/fzf.1;','man1/fzf-tmux.1 -> $ZPFX/share/man/man1/fzf-tmux.1;'}})" \
+  dl="$(print -c https://raw.githubusercontent.com/junegunn/fzf/master/{shell/'key-bindings.zsh;',man/{'man1/fzf.1 -> $ZPFX/share/man/man1/fzf.1;','man1/fzf-tmux.1 -> $ZPFX/share/man/man1/fzf-tmux.1;'}})" \
   from'gh-r' \
-  null \
   pick'fzf' \
   src'key-bindings.zsh' \
 @junegunn/fzf
