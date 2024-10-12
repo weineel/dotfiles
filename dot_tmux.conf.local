@@ -416,6 +416,11 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @continuum-restore 'on'
 
+set -g @plugin 'junegunn/tmux-fzf-url'
+set -g @fzf-url-bind 'C-u'
+set -g @plugin 'sainnhe/tmux-fzf'
+TMUX_FZF_LAUNCH_KEY="C-f"
+
 
 # -- custom variables ----------------------------------------------------------
 
