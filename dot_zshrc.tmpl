@@ -59,6 +59,17 @@ zi for \
   atclone'ln -s -f $PWD/.tmux.conf ~/.tmux.conf' \
 @gpakosz/.tmux
 
+# zellij is an alternative to tmux. https://github.com/zellij-org/zellij
+# install zellij
+# zinit wait lucid \
+#   as"command" from"gh-r" \
+#   atclone"./zellij setup --generate-completion zsh > ./_zellij" \
+#   atpull"%atclone" \
+#   atload"zicompinit; zicdreplay" \
+#   bpick"*x86_64-apple-darwin.tar.gz" \
+#   pick"zellij" \
+#   for zellij-org/zellij
+
 # install exa
 # mac 的 arm cpu 下仍然需要使用 brew 手动安装 exa
 zinit ice as"command" from"gh-r" \
@@ -143,15 +154,6 @@ HISTSIZE=1000000
 # 会保存到历史文件中的命令条数
 SAVEHIST=1000000
 setopt appendhistory
-
-# zellij is an alternative to tmux. https://github.com/zellij-org/zellij
-# zellij setup --generate-completion zsh > "$ZINIT[COMPLETIONS_DIR]/_zellij"
-# function open_zellij_session {
-  # sed 命令是为了去除 zellij ls 输出中的特殊字符（用于标识标准输出的字体颜色等）
-  # xargs 规范化参数，去除前后的空白符等
-  # cut 类似 spilt 函数
-#   zellij attach "$(zellij ls | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | fzf | cut -d ' ' -f 1 | xargs)"
-# }
 
 
 # sdkman 初始化
