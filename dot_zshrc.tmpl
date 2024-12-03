@@ -26,12 +26,12 @@ zinit light-mode for \
 
 # 迁移 oh-my-zsh lib 相当于oh-my-zsh 默认加载的插件
 # lib 目录: https://github.com/ohmyzsh/ohmyzsh/tree/master/lib
-zi snippet OMZL::clipboard.zsh
-# zi snippet OMZL::termsupport.zsh
-# zi snippet OMZL::history.zsh
-# zi snippet OMZL::key-bindings.zsh
-# zi snippet OMZL::completion.zsh
-zi snippet OMZL::git.zsh
+zinit snippet OMZL::clipboard.zsh
+# zinit snippet OMZL::termsupport.zsh
+# zinit snippet OMZL::history.zsh
+# zinit snippet OMZL::key-bindings.zsh
+# zinit snippet OMZL::completion.zsh
+zinit snippet OMZL::git.zsh
 
 # Load starship theme
 # `starship` binary as command, from github release
@@ -43,7 +43,7 @@ zinit light starship/starship
 
 # install and enable fzf.
 # 'completion.zsh -> _fzf;' is not needed, as fzf will be loaded by fzf-tab
-zi wait lucid \
+zinit wait lucid \
   for \
   as'command' \
   dl="$(print -c https://raw.githubusercontent.com/junegunn/fzf/master/{shell/'key-bindings.zsh;',man/{'man1/fzf.1 -> $ZPFX/share/man/man1/fzf.1;','man1/fzf-tmux.1 -> $ZPFX/share/man/man1/fzf-tmux.1;'}})" \
@@ -53,7 +53,7 @@ zi wait lucid \
 @junegunn/fzf
 
 # install oh my tmux, ~/.tmux.conf.local 会通过 chezmoi 创建
-zi for \
+zinit for \
   as"null" \
   from'github' \
   atclone'ln -s -f $PWD/.tmux.conf ~/.tmux.conf' \
@@ -75,7 +75,7 @@ zi for \
 zinit ice as"command" from"gh-r" \
   atclone"cp -vf ./man/exa.1 $ZPFX/share/man/man1; cp -vf completions/exa.zsh _exa" \
   atpull"%atclone" pick"bin/exa"
-zi light ogham/exa
+zinit light ogham/exa
 
 # volta: node、yarn、pnpm 等的版本管理
 zinit wait lucid \
@@ -88,8 +88,8 @@ zinit wait lucid \
 
 
 # 像 ls 一样使用 exa, https://github.com/weineel/zsh-exa
-# zi ice has"exa" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
-zi light weineel/zsh-exa
+# zinit ice has"exa" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
+zinit light weineel/zsh-exa
 
 # NOTE: fzf-tab needs to be loaded after compinit, but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
 zinit light Aloxaf/fzf-tab
@@ -107,11 +107,11 @@ ZVM_VI_INSERT_ESCAPE_BINDKEY=jj
 zinit light agkozak/zsh-z
 
 # docker 简写: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
-# zi ice as"completion"
-# zi snippet OMZP::docker/_docker
+# zinit ice as"completion"
+# zinit snippet OMZP::docker/_docker
 
 # oh-my-zsh 插件
-zi snippet OMZP::git
+zinit snippet OMZP::git
 
 # zsh-history-substring-search - https://github.com/zsh-users/zsh-history-substring-search
 zinit wait lucid atload"bindkey '^P' history-substring-search-up;
