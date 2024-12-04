@@ -20,6 +20,7 @@ atuin sync
 
 ## TODO
 
+- zdharma-continuum/zinit-annex-rust（zinit 插件）： 安装 rustup、cargo 等
 - [ ] 自动安装软件（setup 时先检查是否已经安装过了）
 
   - zsh，并设置为默认(chsh -s /bin/zsh)
