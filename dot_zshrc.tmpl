@@ -79,7 +79,7 @@ zinit light ogham/exa
 
 # volta: node、yarn、pnpm 等的版本管理
 # completion 文件（比如 _volta）只有放在 atclone 中生成才会被安装，更新后需要手动重新安装 `zinit creinstall weineel/zinit-volta`
-# !!! turbo 模式，可能会导致 starship 获取版本号等信息失败。
+# !!! turbo 模式(使用了 wait 关键字，会在提示符出现后再按 wait 设置的顺序加载插件)，可能会导致 starship 获取版本号等信息失败，因为 starship 获取依赖数据是在提示符出现前。
 export VOLTA_HOME="$HOME/.volta" && export PATH="$VOLTA_HOME/bin:$PATH"
 zinit as"program" pick"volta" \
   atclone"curl https://get.volta.sh | bash && volta completions zsh > _volta" \
