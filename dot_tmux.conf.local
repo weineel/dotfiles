@@ -374,6 +374,8 @@ set -sg repeat-time        1000   # 最大重复限制时间间隔
 
 bind | split-window -h
 bind - split-window -v
+# 开启和关闭同一窗口下的 pane 同步执行命令
+bind 8 if-shell -F "#{pane_synchronized}" "setw synchronize-panes off" "setw synchronize-panes on"
 
 # -- tpm -----------------------------------------------------------------------
 
