@@ -35,7 +35,6 @@ atuin sync
     - 不同 场景下（hosttag）使用的插件不同，毕竟不会在 server 上开发
 
   - tmux
-  - exa 使用 rust cargo 安装 https://github.com/ogham/exa/issues/978#issuecomment-1508621417
   - starship
   - volta
 
