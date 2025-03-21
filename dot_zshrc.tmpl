@@ -174,6 +174,10 @@ setopt appendhistory
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
+# 使用 neovim
+export EDITOR="nvim"
+alias vim="nvim"
+ZVM_VI_EDITOR="nvim" # zsh-vi-mode 插件, vv 使用的编辑器改为 nvim
 
 ###
 # 不同主机类型（或使用场景的配置）
@@ -192,13 +196,13 @@ zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane
 
 {{- if (and (not (empty .chezmoi.osRelease)) (eq .chezmoi.osRelease.id "ubuntu")) }}
 # Ubuntu 暂时使用 vim，因为 nvim 暂时不方便安装 0.8 以上版本
-export EDITOR="vim"
-ZVM_VI_EDITOR="vim" # zsh-vi-mode 插件, vv 使用的编辑器改为 vim
+# export EDITOR="vim"
+# ZVM_VI_EDITOR="vim" # zsh-vi-mode 插件, vv 使用的编辑器改为 vim
 {{- else }}
 # 使用 neovim
-export EDITOR="nvim"
-alias vim="nvim"
-ZVM_VI_EDITOR="nvim" # zsh-vi-mode 插件, vv 使用的编辑器改为 nvim
+# export EDITOR="nvim"
+# alias vim="nvim"
+#ZVM_VI_EDITOR="nvim" # zsh-vi-mode 插件, vv 使用的编辑器改为 nvim
 {{- end }}
 
 {{- if eq .chezmoi.os "darwin" }}
