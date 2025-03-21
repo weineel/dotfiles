@@ -70,12 +70,12 @@ zinit for \
 #   pick"zellij" \
 #   for zellij-org/zellij
 
-# install exa
-# mac 的 arm cpu 下仍然需要使用 brew 手动安装 exa
+# install eza
+# mac 的 arm cpu 下仍然需要使用 brew 手动安装 eza
 zinit ice as"command" from"gh-r" \
-  atclone"cp -vf ./man/exa.1 $ZPFX/share/man/man1; cp -vf completions/exa.zsh _exa" \
-  atpull"%atclone" pick"bin/exa"
-zinit light ogham/exa
+  atclone"cp -vf ./man/eza.1 $ZPFX/share/man/man1; cp -vf completions/eza.zsh _eza" \
+  atpull"%atclone" pick"bin/eza"
+zinit light ogham/eza
 
 # volta: node、yarn、pnpm 等的版本管理
 # completion 文件（比如 _volta）只有放在 atclone 中生成才会被安装，更新后需要手动重新安装 `zinit creinstall weineel/zinit-volta`
@@ -87,9 +87,9 @@ zinit as"program" pick"volta" \
   run-atpull \
   for weineel/zinit-volta
 
-# 像 ls 一样使用 exa, https://github.com/weineel/zsh-exa
-# zinit ice has"exa" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
-zinit light weineel/zsh-exa
+# 像 ls 一样使用 eza, https://github.com/weineel/zsh-eza
+# zinit ice has"eza" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
+zinit light weineel/zsh-eza
 
 # NOTE: fzf-tab needs to be loaded after compinit, but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
 zinit light Aloxaf/fzf-tab
