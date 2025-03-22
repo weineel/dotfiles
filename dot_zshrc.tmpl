@@ -195,6 +195,8 @@ zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane
 ###
 
 {{- if (and (not (empty .chezmoi.osRelease)) (eq .chezmoi.osRelease.id "ubuntu")) }}
+export PATH="$PATH:/snap/bin"
+
 # Ubuntu 暂时使用 vim，因为 nvim 暂时不方便安装 0.8 以上版本
 # export EDITOR="vim"
 # ZVM_VI_EDITOR="vim" # zsh-vi-mode 插件, vv 使用的编辑器改为 vim
