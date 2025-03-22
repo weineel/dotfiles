@@ -1,0 +1,18 @@
+###
+# 不同操作系统的配置
+###
+{{- if eq .chezmoi.os "darwin" }}
+# darwin (macOS)
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+
+{{- else if eq .chezmoi.os "linux" }}
+# linux
+
+{{- else }}
+# other operating system
+
+{{- end }}
