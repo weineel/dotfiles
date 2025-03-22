@@ -71,11 +71,11 @@ zinit for \
 #   for zellij-org/zellij
 
 # install eza
-# mac 的 arm cpu 下仍然需要使用 brew 手动安装 eza
-zinit ice as"command" from"gh-r" \
-  atclone"cp -vf ./man/eza.1 $ZPFX/share/man/man1; cp -vf completions/eza.zsh _eza" \
-  atpull"%atclone" pick"bin/eza"
-zinit light eza-community/eza
+zi ice from'gh-r' as'program' pick'eza'
+zi light eza-community/eza
+
+zi ice wait lucid has'eza' atinit'AUTOCD=1'
+zi light z-shell/zsh-eza
 
 # volta: node、yarn、pnpm 等的版本管理
 # completion 文件（比如 _volta）只有放在 atclone 中生成才会被安装，更新后需要手动重新安装 `zinit creinstall weineel/zinit-volta`
@@ -86,10 +86,6 @@ zinit as"program" pick"volta" \
   atpull"curl https://get.volta.sh | bash -s -- --skip-setup && volta completions zsh > _volta" \
   run-atpull \
   for weineel/zinit-volta
-
-# 像 ls 一样使用 eza, https://github.com/weineel/zsh-eza
-# zinit ice has"eza" atinit"AUTOCD=1" # 启用 AUTOCD 不知道其作用,暂不开启
-zinit light weineel/zsh-eza
 
 # NOTE: fzf-tab needs to be loaded after compinit, but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
 zinit light Aloxaf/fzf-tab
@@ -121,6 +117,14 @@ zinit wait lucid atload"bindkey '^P' history-substring-search-up;
 # 自定义, 维护在 github https://github.com/weineel/zsh-weineel
 zinit light weineel/zsh-weineel
 
+# install atuin
+export ATUIN_NO_MODIFY_PATH=1
+zinit as"program" pick"atuin" \
+  atclone"curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh" \
+  atpull"%atclone" \
+  run-atpull \
+  atload='source "$HOME/.atuin/bin/env"' \
+  for weineel/zinit-atuin
 # atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
 
