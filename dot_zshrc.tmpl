@@ -118,7 +118,6 @@ zinit wait lucid atload"bindkey '^P' history-substring-search-up;
 zinit light weineel/zsh-weineel
 
 # install atuin
-export ATUIN_NO_MODIFY_PATH=1
 zinit as"program" pick"atuin" \
   atclone"curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh" \
   atpull"%atclone" \
