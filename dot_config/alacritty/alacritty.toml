@@ -1,0 +1,11 @@
+[general]
+import = [
+  # https://github.com/alacritty/alacritty-theme/tree/master/themes
+  # curl 下载指定 raw 文件, 在这里 import
+  "~/.config/alacritty/themes/tokyo-night.toml"
+]
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+size = 12
+
