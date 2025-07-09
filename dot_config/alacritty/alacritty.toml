@@ -5,7 +5,42 @@ import = [
   "~/.config/alacritty/themes/tokyo-night.toml"
 ]
 
+# 设置字体
+# 字体下载: https://www.nerdfonts.com/font-downloads
+# 图标符号搜索: https://www.nerdfonts.com/cheat-sheet
+# 推荐备选字体: SauceCodePro Nerd Font Mono, JetBrains Mono Regular Nerd Font Complete Mono
 [font]
 normal = { family = "FiraCode Nerd Font", style = "Regular" }
+bold = { family = "FiraCode Nerd Font", style = "Regular" }
+italic = { family = "FiraCode Nerd Font", style = "Italic" }
+bold_italic = { family = "FiraCode Nerd Font", style = "Italic" }
+
 size = 12
+
+[env]
+# 不指定 TERM 会导致一些旧机器通过 ssh 连接时无法正常工作
+TERM = "xterm-256color"
+
+[window]
+# 窗口透明度 (0 全透明, 1 不透明)
+opacity = 0.9
+padding = { x = 0, y = 0 }
+# decorations = "None"
+startup_mode = "Maximized"
+decorations_theme_variant = "Dark"
+option_as_alt = "OnlyLeft"
+
+[scrolling]
+# 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
+history = 50000
+# 滚动行数
+multiplier = 4
+
+[cursor.style]
+shape = "Block"
+# blinking = "Always"
+
+[selection]
+semantic_escape_chars = "',│`|:\"' ()[]{}<>\t"
+save_to_clipboard = true
 
