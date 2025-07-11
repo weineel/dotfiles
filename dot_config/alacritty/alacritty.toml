@@ -23,7 +23,7 @@ TERM = "xterm-256color"
 
 [window]
 # 窗口透明度 (0 全透明, 1 不透明)
-opacity = 0.9
+opacity = 0.95
 padding = { x = 0, y = 0 }
 # decorations = "None"
 startup_mode = "Maximized"
