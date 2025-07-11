@@ -1,6 +1,4 @@
-This outlines the development practices and principles we require you to follow. Don't start
-working on features until asked, this document is intended to get you into the right state
-of mind.
+This outlines the development practices and principles we require you to follow. Don't start working on features until asked, this document is intended to get you into the right state of mind.
 
 1. Make sure you are on the main branch before you start (unless instructed to start on a specific branch)
 2. Understand the code that is there before you begin to change it.
