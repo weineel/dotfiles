@@ -63,10 +63,11 @@ zinit for \
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 zinit as"program" pick"rustup" \
-  atclone"curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && source \"$HOME/.cargo/env\"" \
+  atclone"curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh" \
   atpull"rustup update" \
   run-atpull \
   for weineel/zinit-rustup
+source "$HOME/.cargo/env"
 
 # 基于 rustup 安装 zellij
 zinit as"program" pick"zellij" \
