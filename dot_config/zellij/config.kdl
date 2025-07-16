@@ -29,12 +29,19 @@ keybinds clear-defaults=true {
         bind "d" { Detach; }
         bind "Space" { NextSwapLayout; }
         bind "x" { CloseFocus; SwitchToMode "Locked"; }
-        bind "w" {
+        bind "s" {
             LaunchOrFocusPlugin "zellij:session-manager" {
                 floating true
                 move_to_focused_tab true
             };
             SwitchToMode "Locked"
+        }
+        bind "w" {
+            LaunchOrFocusPlugin "room" {
+                floating true
+                ignore_case true
+                quick_jump true
+            }
         }
     }
     pane {
@@ -268,6 +275,7 @@ plugins {
     welcome-screen location="zellij:session-manager" {
         welcome_screen true
     }
+    room location="file:~/.config/zellij/plugins/room.wasm"
 }
 
 // Plugins to load in the background when a new session starts
