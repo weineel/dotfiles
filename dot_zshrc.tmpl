@@ -90,13 +90,18 @@ alias ze="zellij"
 #   pick"zellij" \
 #   for zellij-org/zellij
 
-# install eza
-# mac 的 arm cpu 下仍然需要使用 brew 手动安装 eza(预编译版本运行时报错)
-zi ice from'gh-r' as'program' pick'eza'
-zi light eza-community/eza
+# eza: Cargo will build the eza binary and place it in $HOME/.cargo/bin/eza or $HOME/.local/share/cargo/bin/eza.
+zinit as"program" pick"eza" \
+  atclone"cargo install --locked eza" \
+  atpull"cargo install --force eza" \
+  run-atpull \
+  for weineel/zinit-eza
 
-zi ice wait lucid has'eza' atinit'AUTOCD=1'
-zi light z-shell/zsh-eza
+zinit ice from"gh" as"completion" pick"completions/zsh/_eza"
+zinit light eza-community/eza
+
+zinit ice wait lucid has'eza' atinit'AUTOCD=1'
+zinit light z-shell/zsh-eza
 
 # volta: node、yarn、pnpm 等的版本管理
 # completion 文件（比如 _volta）只有放在 atclone 中生成才会被安装，更新后需要手动重新安装 `zinit creinstall weineel/zinit-volta`
