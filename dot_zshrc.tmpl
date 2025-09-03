@@ -69,7 +69,7 @@ zinit as"program" pick"rustup" \
   for weineel/zinit-rustup
 source "$HOME/.cargo/env"
 
-# 基于 rustup 安装 zellij
+# zellij
 zinit as"program" pick"zellij" \
   atclone"cargo install --locked zellij && zellij setup --generate-completion zsh > ./_zellij" \
   atpull"cargo install --force zellij && zellij setup --generate-completion zsh > ./_zellij" \
