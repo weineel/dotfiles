@@ -149,7 +149,6 @@ zinit as"program" pick"atuin" \
   atclone"curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh" \
   atpull"%atclone" \
   run-atpull \
-  atload='source "$HOME/.atuin/bin/env"' \
   for weineel/zinit-atuin
 # atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
