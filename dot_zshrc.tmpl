@@ -215,6 +215,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 {{- if eq .hosttag "ps" }}
 
 # inno-lane, 这种简单处理，会导致 shell 启动变慢
+alias inno-lane="~/project/patsnap/inno-lane/.venv/bin/inno-lane"
 eval "$(_INNO_LANE_COMPLETE=zsh_source inno-lane)"
 zinit snippet /Users/lijufeng/project/patsnap/inno-lane/zsh-plugin/zsh-inno-lane.plugin.zsh
 
