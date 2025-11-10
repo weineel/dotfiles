@@ -112,6 +112,8 @@ zinit as"program" pick"volta" \
   atpull"curl https://get.volta.sh | bash -s -- --skip-setup && volta completions zsh > _volta" \
   run-atpull \
   for weineel/zinit-volta
+# 防止 pnpm link 报错
+export PNPM_HOME="$HOME/.volta/bin"
 
 # NOTE: fzf-tab needs to be loaded after compinit, but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
 zinit light Aloxaf/fzf-tab
