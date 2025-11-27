@@ -85,8 +85,8 @@ ZVM_VI_INSERT_ESCAPE_BINDKEY=jj
 zinit light agkozak/zsh-z
 
 # docker 简写: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
-zi ice as"completion"
-zi snippet OMZP::docker/_docker
+# zi ice as"completion"
+# zi snippet OMZP::docker/_docker
 
 # oh-my-zsh 插件
 zi snippet OMZP::git
