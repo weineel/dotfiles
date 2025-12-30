@@ -162,6 +162,14 @@ zinit as"program" pick"direnv" \
   for weineel/zinit-direnv
 eval "$(direnv hook zsh)"
 
+# install uv
+zinit ice \
+  atclone"curl -LsSf https://astral.sh/uv/install.sh | sh" \
+  atpull"curl -LsSf https://astral.sh/uv/install.sh | sh" \
+  run-atpull
+zinit light weineel/zinit-uv
+source $HOME/.local/bin/env
+
 ### zinit custom end
 
 # https://github.com/zdharma-continuum/zinit#completions-2
