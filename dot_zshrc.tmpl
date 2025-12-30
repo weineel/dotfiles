@@ -155,6 +155,13 @@ zinit as"program" pick"atuin" \
 # atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
 
+zinit as"program" pick"direnv" \
+  atclone"curl -sfL https://direnv.net/install.sh | bash" \
+  atpull"curl -sfL https://direnv.net/install.sh | bash" \
+  run-atpull \
+  for weineel/zinit-direnv
+eval "$(direnv hook zsh)"
+
 ### zinit custom end
 
 # https://github.com/zdharma-continuum/zinit#completions-2
