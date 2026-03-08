@@ -271,6 +271,8 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 {{- else if eq .chezmoi.os "linux" }}
 # linux
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+
 {{- else }}
 # other operating system
 
