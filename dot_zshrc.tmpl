@@ -44,13 +44,12 @@ zinit light starship/starship
 # install and enable fzf.
 # 'completion.zsh -> _fzf;' is not needed, as fzf will be loaded by fzf-tab
 zinit wait lucid \
-  for \
   as'command' \
   dl="$(print -c https://raw.githubusercontent.com/junegunn/fzf/master/{shell/'key-bindings.zsh;',man/{'man1/fzf.1 -> $ZPFX/share/man/man1/fzf.1;','man1/fzf-tmux.1 -> $ZPFX/share/man/man1/fzf-tmux.1;'}})" \
   from'gh-r' \
   pick'fzf' \
   src'key-bindings.zsh' \
-@junegunn/fzf
+  for @junegunn/fzf
 
 # install oh my tmux, ~/.tmux.conf.local 会通过 chezmoi 创建
 zinit for \
@@ -147,17 +146,18 @@ zinit light weineel/zsh-weineel
 
 # install atuin
 export ATUIN_NO_MODIFY_PATH=1
-zinit as"program" pick"atuin" \
+zinit as"program" \
   atclone"curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh" \
   atpull"%atclone" \
   run-atpull \
+  atload"export PATH=$HOME/.atuin/bin:$PATH" \
   for weineel/zinit-atuin
 # atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
 
 zinit as"program" pick"direnv" \
-  atclone"curl -sfL https://direnv.net/install.sh | bash" \
-  atpull"curl -sfL https://direnv.net/install.sh | bash" \
+  atclone"export bin_path=${ZINIT[PLUGINS_DIR]}/weineel---zinit-direnv && curl -sfL https://direnv.net/install.sh | bash && unset bin_path" \
+  atpull"%atclone" \
   run-atpull \
   for weineel/zinit-direnv
 eval "$(direnv hook zsh)"
