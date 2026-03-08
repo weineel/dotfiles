@@ -5,7 +5,7 @@ weineel's dotfiles, power by [chezmoi](https://github.com/twpayne/chezmoi).
 ```shell
 
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply weineel
-```
+
 ```
 
 ## Utils
