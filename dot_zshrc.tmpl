@@ -156,13 +156,6 @@ zinit as"program" \
 # atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
 
-zinit as"program" pick"direnv" \
-  atclone"export bin_path=${ZINIT[PLUGINS_DIR]}/weineel---zinit-direnv && curl -sfL https://direnv.net/install.sh | bash && unset bin_path" \
-  atpull"%atclone" \
-  run-atpull \
-  for weineel/zinit-direnv
-eval "$(direnv hook zsh)"
-
 # install uv
 zinit ice \
   atclone"curl -LsSf https://astral.sh/uv/install.sh | sh" \
