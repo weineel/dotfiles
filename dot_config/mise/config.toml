@@ -1,0 +1,6 @@
+[tools]
+node = "24"
+"npm:@antfu/ni" = "latest"
+"npm:commitizen" = "latest"
+"npm:pnpm" = "latest"
+"npm:yarn" = "1"
