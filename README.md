@@ -42,7 +42,8 @@ atuin sync
 
   - tmux
   - starship
-  - volta
+  - <s>volta</s> -> mise
+  - [witr](https://github.com/pranshuparmar/witr)
 
 ## Other dotfiles manager.
 
