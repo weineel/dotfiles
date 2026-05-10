@@ -1,8 +1,10 @@
 [tools]
 codex = "latest"
 lazygit = "latest"
+gh = "latest"
 node = "24"
 "npm:@antfu/ni" = "latest"
 "npm:commitizen" = "latest"
 "npm:yarn" = "1"
 pnpm = "latest"
+
