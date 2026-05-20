@@ -1,0 +1,7 @@
+agent_cli = 'cc_brainstorming'
+
+[agent_cli_alias]
+cc = "claude --dangerously-skip-permissions -- $prompt"
+cc_brainstorming = 'claude --dangerously-skip-permissions -- "/superpowers:brainstorming $prompt"'
+codex = "codex --ask-for-approval never -- $prompt"
+codex_brainstorming = 'codex --ask-for-approval never -- "$superpowers:brainstorming $prompt"'
