@@ -2,7 +2,6 @@
 "cargo:zootree" = "latest"
 codex = "latest"
 lazygit = "latest"
-gh = "latest"
 node = "24"
 "npm:@nubjs/nub" = "latest"
 "npm:commitizen" = "latest"
