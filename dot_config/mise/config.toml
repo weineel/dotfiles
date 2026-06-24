@@ -1,4 +1,5 @@
 [tools]
+"cargo:zootree" = "latest"
 codex = "latest"
 lazygit = "latest"
 gh = "latest"
