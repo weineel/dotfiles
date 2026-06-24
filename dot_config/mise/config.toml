@@ -13,3 +13,8 @@ trusted_config_paths = [
   "~/zootree-workspaces"
 ]
 
+experimental = true
+
+[bootstrap.packages]
+"brew:mole" = "latest"
+
