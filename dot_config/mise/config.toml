@@ -1,6 +1,7 @@
 [tools]
 "cargo:zootree" = "latest"
 codex = "latest"
+gh = "latest"
 lazygit = "latest"
 node = "24"
 "npm:@nubjs/nub" = "latest"
@@ -17,4 +18,3 @@ experimental = true
 
 [bootstrap.packages]
 "brew:mole" = "latest"
-
