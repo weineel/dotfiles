@@ -146,12 +146,13 @@ zinit wait lucid atload"bindkey '^P' history-substring-search-up;
 zinit light weineel/zsh-weineel
 
 # install atuin
+# 不能用 双引号展开 $PATH, 会导致 vscode 等引用注入带空格的路径被展开导致阶段, 最终解析报错
 export ATUIN_NO_MODIFY_PATH=1
 zinit as"program" \
   atclone"curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh" \
   atpull"%atclone" \
   run-atpull \
-  atload"export PATH=$HOME/.atuin/bin:$PATH" \
+  atload'export PATH=$HOME/.atuin/bin:$PATH' \
   for weineel/zinit-atuin
 # atuin 放在 fzf、zsh-vi-mode 下面，需要覆盖 ctrl-r 快捷键
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
