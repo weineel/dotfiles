@@ -13,8 +13,10 @@ pnpm = "latest"
 trusted_config_paths = [
   "~/zootree-workspaces"
 ]
-
 experimental = true
+minimum_release_age_excludes = [
+  "cargo:zootree"
+]
 
 [bootstrap.packages]
 "brew:mole" = "latest"
