@@ -1,7 +1,8 @@
 [tools]
 "cargo:zootree" = "latest"
-codex = "latest"
 gh = "latest"
+go = "latest"
+herdr = "latest"
 lazygit = "latest"
 node = "24"
 "npm:@nubjs/nub" = "latest"
