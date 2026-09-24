@@ -1,7 +1,11 @@
 agent_cli = 'cc_brainstorming'
 
 [multiplexer]
-kind = "cmux"
+#kind = "cmux"
+kind = "herdr"
+
+[multiplexer.herdr]
+session = "default"
 
 [multiplexer.zellij]
 layout = "default"
@@ -16,3 +20,6 @@ codex = "codex --ask-for-approval never -- $prompt"
 codexd = "codex --dangerously-bypass-approvals-and-sandbox -- $prompt"
 codex_brainstorming = 'codex --ask-for-approval never -- "$superpowers:brainstorming $prompt"'
 codexd_brainstorming = 'codex --dangerously-bypass-approvals-and-sandbox -- "$superpowers:brainstorming $prompt"'
+codexd_grill_me = 'codex --dangerously-bypass-approvals-and-sandbox -- "$mattpocock-skills:grill-with-docs $prompt"'
+codexd_grill_agent = 'codex --dangerously-bypass-approvals-and-sandbox -- "$mattpocock-skills:grill-agent-with-docs $prompt"'
+
