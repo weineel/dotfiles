@@ -1,0 +1,11 @@
+; ~/.nirc - @antfu/ni 配置
+; 文档: https://github.com/antfu-collective/ni#config
+
+; 未找到 lock 文件时回退使用的包管理器
+defaultAgent=pnpm
+
+; 全局安装（ni -g）使用的包管理器
+globalAgent=pnpm
+
+; 检测到 catalog 时启用 catalog 模式
+catalog=true
